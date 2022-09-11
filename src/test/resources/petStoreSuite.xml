@@ -1,0 +1,25 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="PetStoreSuite" verbose="0">
+    <test name="PetStoreTest" preserve-order="true" thread-count="10" parallel="methods" >
+        <classes>
+                <class name="com.petStore.test.fuctional.CreatePetFunctionalTest"/>  
+                <class name="com.petStore.test.fuctional.CreateUserWithArrayFunctionalTest"/> 
+                <class name="com.petStore.test.fuctional.GetPetBasedOnStatusFuctionalTest"/>   
+                <class name="com.petStore.test.fuctional.GetUserByNameFunctionalTest"/>   
+                <class name="com.petStore.test.fuctional.UpdatePetFunctionalTest"/>   
+                <class name="com.petStore.test.fuctional.UpdateUserFunctionalTest"/>    
+     
+               <class name="com.petStore.test.nonfuctional.CreatePetNonFunctional"/>             
+                <class name="com.petStore.test.nonfuctional.CreateUserWithArrayNonFunctinal"/>   
+               <class name="com.petStore.test.nonfuctional.GetPetBasedOnStatusNonFunctional"/>
+               <class name="com.petStore.test.nonfuctional.GetUserByNameNonFucntional"/> 
+                <class name="com.petStore.test.nonfuctional.UpdatePetStatusNonFunctional"/>   
+                <class name="com.petStore.test.nonfuctional.UpdateUserNonFunctional"/>           
+
+
+
+
+                
+        </classes>
+    </test>
+</suite>

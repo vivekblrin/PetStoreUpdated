@@ -1,0 +1,1043 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="25" total="36" passed="11">
+  <reporter-output>
+  </reporter-output>
+  <suite name="PetStoreSuite" duration-ms="4529" started-at="2022-09-11T20:38:18Z" finished-at="2022-09-11T20:38:22Z">
+    <groups>
+    </groups>
+    <test name="PetStoreTest" duration-ms="4529" started-at="2022-09-11T20:38:18Z" finished-at="2022-09-11T20:38:22Z">
+      <class name="com.petStore.test.fuctional.CreatePetFunctionalTest">
+        <test-method status="PASS" signature="loadProperties()[pri:0, instance:com.petStore.test.fuctional.CreatePetFunctionalTest@1507a04]" name="loadProperties" is-config="true" duration-ms="758" started-at="2022-09-12T02:08:17Z" finished-at="2022-09-12T02:08:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadProperties -->
+        <test-method status="PASS" signature="loadProperties()[pri:0, instance:com.petStore.test.nonfuctional.CreatePetNonFunctional@12f2cc1]" name="loadProperties" is-config="true" duration-ms="1" started-at="2022-09-12T02:08:18Z" finished-at="2022-09-12T02:08:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadProperties -->
+        <test-method status="PASS" signature="loadProperties()[pri:0, instance:com.petStore.test.fuctional.CreateUserWithArrayFunctionalTest@3640d5]" name="loadProperties" is-config="true" duration-ms="0" started-at="2022-09-12T02:08:18Z" finished-at="2022-09-12T02:08:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadProperties -->
+        <test-method status="PASS" signature="loadProperties()[pri:0, instance:com.petStore.test.nonfuctional.CreateUserWithArrayNonFunctinal@79870]" name="loadProperties" is-config="true" duration-ms="0" started-at="2022-09-12T02:08:18Z" finished-at="2022-09-12T02:08:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadProperties -->
+        <test-method status="PASS" signature="loadProperties()[pri:0, instance:com.petStore.test.fuctional.GetPetBasedOnStatusFuctionalTest@95d394]" name="loadProperties" is-config="true" duration-ms="1" started-at="2022-09-12T02:08:18Z" finished-at="2022-09-12T02:08:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadProperties -->
+        <test-method status="PASS" signature="loadProperties()[pri:0, instance:com.petStore.test.fuctional.GetUserByNameFunctionalTest@15e586c]" name="loadProperties" is-config="true" duration-ms="1" started-at="2022-09-12T02:08:18Z" finished-at="2022-09-12T02:08:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadProperties -->
+        <test-method status="PASS" signature="loadProperties()[pri:0, instance:com.petStore.test.nonfuctional.GetPetBasedOnStatusNonFunctional@12cf7ab]" name="loadProperties" is-config="true" duration-ms="0" started-at="2022-09-12T02:08:18Z" finished-at="2022-09-12T02:08:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadProperties -->
+        <test-method status="PASS" signature="loadProperties()[pri:0, instance:com.petStore.test.nonfuctional.GetUserByNameNonFucntional@a5fe93]" name="loadProperties" is-config="true" duration-ms="1" started-at="2022-09-12T02:08:18Z" finished-at="2022-09-12T02:08:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadProperties -->
+        <test-method status="PASS" signature="loadProperties()[pri:0, instance:com.petStore.test.fuctional.UpdatePetFunctionalTest@17c8ad9]" name="loadProperties" is-config="true" duration-ms="1" started-at="2022-09-12T02:08:18Z" finished-at="2022-09-12T02:08:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadProperties -->
+        <test-method status="PASS" signature="loadProperties()[pri:0, instance:com.petStore.test.nonfuctional.UpdateUserNonFunctional@d851c9]" name="loadProperties" is-config="true" duration-ms="1" started-at="2022-09-12T02:08:18Z" finished-at="2022-09-12T02:08:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadProperties -->
+        <test-method status="PASS" signature="loadProperties()[pri:0, instance:com.petStore.test.fuctional.UpdateUserFunctionalTest@16a4e4b]" name="loadProperties" is-config="true" duration-ms="0" started-at="2022-09-12T02:08:18Z" finished-at="2022-09-12T02:08:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadProperties -->
+        <test-method status="PASS" signature="loadProperties()[pri:0, instance:com.petStore.test.nonfuctional.UpdatePetStatusNonFunctional@1a8622]" name="loadProperties" is-config="true" duration-ms="0" started-at="2022-09-12T02:08:18Z" finished-at="2022-09-12T02:08:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadProperties -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.petStore.test.fuctional.CreatePetFunctionalTest@1507a04]" name="beforeTest" is-config="true" duration-ms="50" started-at="2022-09-12T02:08:18Z" finished-at="2022-09-12T02:08:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.petStore.test.nonfuctional.CreatePetNonFunctional@12f2cc1]" name="beforeTest" is-config="true" duration-ms="2" started-at="2022-09-12T02:08:18Z" finished-at="2022-09-12T02:08:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.petStore.test.fuctional.CreateUserWithArrayFunctionalTest@3640d5]" name="beforeTest" is-config="true" duration-ms="1" started-at="2022-09-12T02:08:18Z" finished-at="2022-09-12T02:08:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.petStore.test.nonfuctional.CreateUserWithArrayNonFunctinal@79870]" name="beforeTest" is-config="true" duration-ms="1" started-at="2022-09-12T02:08:18Z" finished-at="2022-09-12T02:08:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.petStore.test.fuctional.GetPetBasedOnStatusFuctionalTest@95d394]" name="beforeTest" is-config="true" duration-ms="2" started-at="2022-09-12T02:08:18Z" finished-at="2022-09-12T02:08:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.petStore.test.nonfuctional.GetPetBasedOnStatusNonFunctional@12cf7ab]" name="beforeTest" is-config="true" duration-ms="2" started-at="2022-09-12T02:08:18Z" finished-at="2022-09-12T02:08:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.petStore.test.fuctional.GetUserByNameFunctionalTest@15e586c]" name="beforeTest" is-config="true" duration-ms="2" started-at="2022-09-12T02:08:18Z" finished-at="2022-09-12T02:08:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="createDuplicateUserRecord()[pri:0, instance:com.petStore.test.fuctional.GetUserByNameFunctionalTest@15e586c]" name="createDuplicateUserRecord" is-config="true" duration-ms="1354" started-at="2022-09-12T02:08:18Z" finished-at="2022-09-12T02:08:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDuplicateUserRecord -->
+        <test-method status="PASS" signature="createUser()[pri:0, instance:com.petStore.test.fuctional.GetUserByNameFunctionalTest@15e586c]" name="createUser" is-config="true" duration-ms="264" started-at="2022-09-12T02:08:19Z" finished-at="2022-09-12T02:08:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.petStore.test.nonfuctional.GetUserByNameNonFucntional@a5fe93]" name="beforeTest" is-config="true" duration-ms="33" started-at="2022-09-12T02:08:20Z" finished-at="2022-09-12T02:08:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.petStore.test.fuctional.UpdatePetFunctionalTest@17c8ad9]" name="beforeTest" is-config="true" duration-ms="2" started-at="2022-09-12T02:08:20Z" finished-at="2022-09-12T02:08:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="createPet()[pri:0, instance:com.petStore.test.fuctional.UpdatePetFunctionalTest@17c8ad9]" name="createPet" is-config="true" duration-ms="267" started-at="2022-09-12T02:08:20Z" finished-at="2022-09-12T02:08:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPet -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.petStore.test.nonfuctional.UpdatePetStatusNonFunctional@1a8622]" name="beforeTest" is-config="true" duration-ms="4" started-at="2022-09-12T02:08:20Z" finished-at="2022-09-12T02:08:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.petStore.test.fuctional.UpdateUserFunctionalTest@16a4e4b]" name="beforeTest" is-config="true" duration-ms="3" started-at="2022-09-12T02:08:20Z" finished-at="2022-09-12T02:08:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.petStore.test.nonfuctional.UpdateUserNonFunctional@d851c9]" name="beforeTest" is-config="true" duration-ms="2" started-at="2022-09-12T02:08:20Z" finished-at="2022-09-12T02:08:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="test_creatPetWithValidFields()[pri:0, instance:com.petStore.test.fuctional.CreatePetFunctionalTest@1507a04]" name="test_creatPetWithValidFields" duration-ms="808" started-at="2022-09-12T02:08:20Z" finished-at="2022-09-12T02:08:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_creatPetWithValidFields -->
+        <test-method status="PASS" signature="test_creatPetWithInvalidPetIdPattern()[pri:0, instance:com.petStore.test.fuctional.CreatePetFunctionalTest@1507a04]" name="test_creatPetWithInvalidPetIdPattern" duration-ms="796" started-at="2022-09-12T02:08:20Z" finished-at="2022-09-12T02:08:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_creatPetWithInvalidPetIdPattern -->
+        <test-method status="FAIL" signature="test_creatPetWithInValidStatus()[pri:0, instance:com.petStore.test.fuctional.CreatePetFunctionalTest@1507a04]" name="test_creatPetWithInValidStatus" duration-ms="1760" started-at="2022-09-12T02:08:20Z" finished-at="2022-09-12T02:08:22Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The processing should fail with actual Response Code 400 as payload has invlid status enum values and is client error:  expected [400] but found [200]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The processing should fail with actual Response Code 400 as payload has invlid status enum values and is client error:  expected [400] but found [200]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:372)
+	at com.petStore.test.fuctional.CreatePetFunctionalTest.test_creatPetWithInValidStatus(CreatePetFunctionalTest.java:269)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_creatPetWithInValidStatus -->
+        <test-method status="FAIL" signature="test_creatPetWithInValidPhotoUrls()[pri:0, instance:com.petStore.test.fuctional.CreatePetFunctionalTest@1507a04]" name="test_creatPetWithInValidPhotoUrls" duration-ms="760" started-at="2022-09-12T02:08:20Z" finished-at="2022-09-12T02:08:21Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The processing should fail with actual Response Code 400 as payload has invlid photourls and is client error:  expected [400] but found [200]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The processing should fail with actual Response Code 400 as payload has invlid photourls and is client error:  expected [400] but found [200]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:372)
+	at com.petStore.test.fuctional.CreatePetFunctionalTest.test_creatPetWithInValidPhotoUrls(CreatePetFunctionalTest.java:135)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_creatPetWithInValidPhotoUrls -->
+        <test-method status="FAIL" signature="test_creatPetWithLongFieldNames()[pri:0, instance:com.petStore.test.fuctional.CreatePetFunctionalTest@1507a04]" name="test_creatPetWithLongFieldNames" duration-ms="802" started-at="2022-09-12T02:08:20Z" finished-at="2022-09-12T02:08:21Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The processing should fail with actual Response Code 400 as payload has long field values and is client error:  expected [400] but found [200]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The processing should fail with actual Response Code 400 as payload has long field values and is client error:  expected [400] but found [200]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:372)
+	at com.petStore.test.fuctional.CreatePetFunctionalTest.test_creatPetWithLongFieldNames(CreatePetFunctionalTest.java:177)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_creatPetWithLongFieldNames -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.petStore.test.fuctional.CreatePetFunctionalTest@1507a04]" name="afterTest" is-config="true" duration-ms="1" started-at="2022-09-12T02:08:22Z" finished-at="2022-09-12T02:08:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.petStore.test.fuctional.CreateUserWithArrayFunctionalTest@3640d5]" name="afterTest" is-config="true" duration-ms="1" started-at="2022-09-12T02:08:22Z" finished-at="2022-09-12T02:08:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.petStore.test.nonfuctional.CreatePetNonFunctional@12f2cc1]" name="afterTest" is-config="true" duration-ms="0" started-at="2022-09-12T02:08:22Z" finished-at="2022-09-12T02:08:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.petStore.test.fuctional.GetPetBasedOnStatusFuctionalTest@95d394]" name="afterTest" is-config="true" duration-ms="1" started-at="2022-09-12T02:08:22Z" finished-at="2022-09-12T02:08:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.petStore.test.nonfuctional.CreateUserWithArrayNonFunctinal@79870]" name="afterTest" is-config="true" duration-ms="0" started-at="2022-09-12T02:08:22Z" finished-at="2022-09-12T02:08:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.petStore.test.nonfuctional.GetPetBasedOnStatusNonFunctional@12cf7ab]" name="afterTest" is-config="true" duration-ms="0" started-at="2022-09-12T02:08:22Z" finished-at="2022-09-12T02:08:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.petStore.test.fuctional.GetUserByNameFunctionalTest@15e586c]" name="afterTest" is-config="true" duration-ms="1" started-at="2022-09-12T02:08:22Z" finished-at="2022-09-12T02:08:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.petStore.test.nonfuctional.GetUserByNameNonFucntional@a5fe93]" name="afterTest" is-config="true" duration-ms="0" started-at="2022-09-12T02:08:22Z" finished-at="2022-09-12T02:08:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.petStore.test.fuctional.UpdatePetFunctionalTest@17c8ad9]" name="afterTest" is-config="true" duration-ms="1" started-at="2022-09-12T02:08:22Z" finished-at="2022-09-12T02:08:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.petStore.test.nonfuctional.UpdatePetStatusNonFunctional@1a8622]" name="afterTest" is-config="true" duration-ms="1" started-at="2022-09-12T02:08:22Z" finished-at="2022-09-12T02:08:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.petStore.test.fuctional.UpdateUserFunctionalTest@16a4e4b]" name="afterTest" is-config="true" duration-ms="1" started-at="2022-09-12T02:08:22Z" finished-at="2022-09-12T02:08:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.petStore.test.nonfuctional.UpdateUserNonFunctional@d851c9]" name="afterTest" is-config="true" duration-ms="1" started-at="2022-09-12T02:08:22Z" finished-at="2022-09-12T02:08:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.petStore.test.fuctional.CreatePetFunctionalTest -->
+      <class name="com.petStore.test.nonfuctional.UpdatePetStatusNonFunctional">
+        <test-method status="FAIL" signature="test_updateNonExistencePet()[pri:0, instance:com.petStore.test.nonfuctional.UpdatePetStatusNonFunctional@1a8622]" name="test_updateNonExistencePet" duration-ms="494" started-at="2022-09-12T02:08:22Z" finished-at="2022-09-12T02:08:22Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Processing should fail with Error Code 404 as Payload has an non existent object : expected [404] but found [200]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Processing should fail with Error Code 404 as Payload has an non existent object : expected [404] but found [200]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:372)
+	at com.petStore.test.nonfuctional.UpdatePetStatusNonFunctional.test_updateNonExistencePet(UpdatePetStatusNonFunctional.java:107)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_updateNonExistencePet -->
+      </class> <!-- com.petStore.test.nonfuctional.UpdatePetStatusNonFunctional -->
+      <class name="com.petStore.test.fuctional.UpdateUserFunctionalTest">
+        <test-method status="PASS" signature="createUser()[pri:0, instance:com.petStore.test.fuctional.UpdateUserFunctionalTest@16a4e4b]" name="createUser" is-config="true" duration-ms="271" started-at="2022-09-12T02:08:21Z" finished-at="2022-09-12T02:08:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method status="FAIL" signature="test_updateUseWithinvalidUserStatus()[pri:0, instance:com.petStore.test.fuctional.UpdateUserFunctionalTest@16a4e4b]" name="test_updateUseWithinvalidUserStatus" duration-ms="276" started-at="2022-09-12T02:08:21Z" finished-at="2022-09-12T02:08:22Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Actual Response Code should be 400 as payload has invaldUserStatus Pattern and is client error: expected [400] but found [200]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Actual Response Code should be 400 as payload has invaldUserStatus Pattern and is client error: expected [400] but found [200]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:372)
+	at com.petStore.test.fuctional.UpdateUserFunctionalTest.test_updateUseWithinvalidUserStatus(UpdateUserFunctionalTest.java:282)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_updateUseWithinvalidUserStatus -->
+        <test-method status="FAIL" signature="test_updateUserWithinvalidPhonePattern()[pri:0, instance:com.petStore.test.fuctional.UpdateUserFunctionalTest@16a4e4b]" name="test_updateUserWithinvalidPhonePattern" duration-ms="275" started-at="2022-09-12T02:08:21Z" finished-at="2022-09-12T02:08:22Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Actual Response Code should be 400 as payload has invaldPhone Pattern and is client error: expected [400] but found [200]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Actual Response Code should be 400 as payload has invaldPhone Pattern and is client error: expected [400] but found [200]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:372)
+	at com.petStore.test.fuctional.UpdateUserFunctionalTest.test_updateUserWithinvalidPhonePattern(UpdateUserFunctionalTest.java:248)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_updateUserWithinvalidPhonePattern -->
+        <test-method status="FAIL" signature="test_updateUserWithLongfieldNames()[pri:0, instance:com.petStore.test.fuctional.UpdateUserFunctionalTest@16a4e4b]" name="test_updateUserWithLongfieldNames" duration-ms="273" started-at="2022-09-12T02:08:21Z" finished-at="2022-09-12T02:08:22Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Actual Response Code should be 400 as payload has verylong usernameupdate and is client error: expected [400] but found [200]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Actual Response Code should be 400 as payload has verylong usernameupdate and is client error: expected [400] but found [200]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:372)
+	at com.petStore.test.fuctional.UpdateUserFunctionalTest.test_updateUserWithLongfieldNames(UpdateUserFunctionalTest.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_updateUserWithLongfieldNames -->
+        <test-method status="FAIL" signature="test_updateUserWithinvalidEmailPattern()[pri:0, instance:com.petStore.test.fuctional.UpdateUserFunctionalTest@16a4e4b]" name="test_updateUserWithinvalidEmailPattern" duration-ms="731" started-at="2022-09-12T02:08:21Z" finished-at="2022-09-12T02:08:22Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Actual Response Code should be 400 as payload has invaldemail Pattern and is client error: expected [400] but found [200]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Actual Response Code should be 400 as payload has invaldemail Pattern and is client error: expected [400] but found [200]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:372)
+	at com.petStore.test.fuctional.UpdateUserFunctionalTest.test_updateUserWithinvalidEmailPattern(UpdateUserFunctionalTest.java:214)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_updateUserWithinvalidEmailPattern -->
+        <test-method status="PASS" signature="test_updateUsewithValidValues()[pri:0, instance:com.petStore.test.fuctional.UpdateUserFunctionalTest@16a4e4b]" name="test_updateUsewithValidValues" duration-ms="492" started-at="2022-09-12T02:08:22Z" finished-at="2022-09-12T02:08:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_updateUsewithValidValues -->
+      </class> <!-- com.petStore.test.fuctional.UpdateUserFunctionalTest -->
+      <class name="com.petStore.test.nonfuctional.CreatePetNonFunctional">
+        <test-method status="FAIL" signature="test_creatPetWithImproperJsonFormat()[pri:0, instance:com.petStore.test.nonfuctional.CreatePetNonFunctional@12f2cc1]" name="test_creatPetWithImproperJsonFormat" duration-ms="258" started-at="2022-09-12T02:08:22Z" finished-at="2022-09-12T02:08:22Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Processing should fail with Error Code 400 as Payload has as invalid comma in tag array : expected [400] but found [500]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Processing should fail with Error Code 400 as Payload has as invalid comma in tag array : expected [400] but found [500]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:372)
+	at com.petStore.test.nonfuctional.CreatePetNonFunctional.test_creatPetWithImproperJsonFormat(CreatePetNonFunctional.java:141)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_creatPetWithImproperJsonFormat -->
+        <test-method status="FAIL" signature="test_creatPetWithNonExixtentFieldNameandValue()[pri:0, instance:com.petStore.test.nonfuctional.CreatePetNonFunctional@12f2cc1]" name="test_creatPetWithNonExixtentFieldNameandValue" duration-ms="269" started-at="2022-09-12T02:08:22Z" finished-at="2022-09-12T02:08:22Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Processing should fail with Error Code 400 rather than success as invalid field shoudld throw schema validation error : expected [400] but found [200]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Processing should fail with Error Code 400 rather than success as invalid field shoudld throw schema validation error : expected [400] but found [200]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:372)
+	at com.petStore.test.nonfuctional.CreatePetNonFunctional.test_creatPetWithNonExixtentFieldNameandValue(CreatePetNonFunctional.java:94)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_creatPetWithNonExixtentFieldNameandValue -->
+      </class> <!-- com.petStore.test.nonfuctional.CreatePetNonFunctional -->
+      <class name="com.petStore.test.fuctional.GetUserByNameFunctionalTest">
+        <test-method status="PASS" signature="test_getUserByUpdatedName()[pri:0, instance:com.petStore.test.fuctional.GetUserByNameFunctionalTest@15e586c]" name="test_getUserByUpdatedName" duration-ms="537" started-at="2022-09-12T02:08:21Z" finished-at="2022-09-12T02:08:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_getUserByUpdatedName -->
+        <test-method status="FAIL" signature="test_getUserforDuplicateRecords()[pri:0, instance:com.petStore.test.fuctional.GetUserByNameFunctionalTest@15e586c]" name="test_getUserforDuplicateRecords" duration-ms="263" started-at="2022-09-12T02:08:21Z" finished-at="2022-09-12T02:08:21Z">
+          <exception class="org.springframework.web.client.HttpClientErrorException$NotFound">
+            <message>
+              <![CDATA[404 Not Found]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.springframework.web.client.HttpClientErrorException$NotFound: 404 Not Found
+	at org.springframework.web.client.HttpClientErrorException.create(HttpClientErrorException.java:85)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:122)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:102)
+	at org.springframework.web.client.ResponseErrorHandler.handleError(ResponseErrorHandler.java:63)
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:778)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:736)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:670)
+	at org.springframework.web.client.RestTemplate.getForEntity(RestTemplate.java:338)
+	at com.petStore.test.fuctional.GetUserByNameFunctionalTest.test_getUserforDuplicateRecords(GetUserByNameFunctionalTest.java:198)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.springframework.web.client.HttpClientErrorException$NotFound -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_getUserforDuplicateRecords -->
+      </class> <!-- com.petStore.test.fuctional.GetUserByNameFunctionalTest -->
+      <class name="com.petStore.test.fuctional.GetPetBasedOnStatusFuctionalTest">
+        <test-method status="PASS" signature="creatPetWithDifferentStatus()[pri:0, instance:com.petStore.test.fuctional.GetPetBasedOnStatusFuctionalTest@95d394]" name="creatPetWithDifferentStatus" is-config="true" duration-ms="763" started-at="2022-09-12T02:08:21Z" finished-at="2022-09-12T02:08:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- creatPetWithDifferentStatus -->
+        <test-method status="PASS" signature="test_getPetsBasedOnFieldStatusAvailable()[pri:0, instance:com.petStore.test.fuctional.GetPetBasedOnStatusFuctionalTest@95d394]" name="test_getPetsBasedOnFieldStatusAvailable" duration-ms="825" started-at="2022-09-12T02:08:21Z" finished-at="2022-09-12T02:08:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_getPetsBasedOnFieldStatusAvailable -->
+        <test-method status="PASS" signature="test_getPetsBasedOnFieldStatusPending()[pri:0, instance:com.petStore.test.fuctional.GetPetBasedOnStatusFuctionalTest@95d394]" name="test_getPetsBasedOnFieldStatusPending" duration-ms="259" started-at="2022-09-12T02:08:21Z" finished-at="2022-09-12T02:08:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_getPetsBasedOnFieldStatusPending -->
+        <test-method status="PASS" signature="test_getPetsBasedOnFieldStatusSold()[pri:0, instance:com.petStore.test.fuctional.GetPetBasedOnStatusFuctionalTest@95d394]" name="test_getPetsBasedOnFieldStatusSold" duration-ms="744" started-at="2022-09-12T02:08:21Z" finished-at="2022-09-12T02:08:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_getPetsBasedOnFieldStatusSold -->
+      </class> <!-- com.petStore.test.fuctional.GetPetBasedOnStatusFuctionalTest -->
+      <class name="com.petStore.test.nonfuctional.CreateUserWithArrayNonFunctinal">
+        <test-method status="FAIL" signature="test_createSingleUserWithInvalidPayloadFormat()[pri:0, instance:com.petStore.test.nonfuctional.CreateUserWithArrayNonFunctinal@79870]" name="test_createSingleUserWithInvalidPayloadFormat" duration-ms="267" started-at="2022-09-12T02:08:22Z" finished-at="2022-09-12T02:08:22Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Actual Response Code should be 400 with schema validation error as it has comma after array: expected [400] but found [500]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Actual Response Code should be 400 with schema validation error as it has comma after array: expected [400] but found [500]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:372)
+	at com.petStore.test.nonfuctional.CreateUserWithArrayNonFunctinal.test_createSingleUserWithInvalidPayloadFormat(CreateUserWithArrayNonFunctinal.java:137)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_createSingleUserWithInvalidPayloadFormat -->
+        <test-method status="FAIL" signature="test_createSingleUserWithMoreThanMaxIdSuported()[pri:0, instance:com.petStore.test.nonfuctional.CreateUserWithArrayNonFunctinal@79870]" name="test_createSingleUserWithMoreThanMaxIdSuported" duration-ms="257" started-at="2022-09-12T02:08:22Z" finished-at="2022-09-12T02:08:22Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Actual Response Code should be 400 as payload has invalid Id more than Integer.Max and is client error: expected [400] but found [500]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Actual Response Code should be 400 as payload has invalid Id more than Integer.Max and is client error: expected [400] but found [500]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:372)
+	at com.petStore.test.nonfuctional.CreateUserWithArrayNonFunctinal.test_createSingleUserWithMoreThanMaxIdSuported(CreateUserWithArrayNonFunctinal.java:94)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_createSingleUserWithMoreThanMaxIdSuported -->
+      </class> <!-- com.petStore.test.nonfuctional.CreateUserWithArrayNonFunctinal -->
+      <class name="com.petStore.test.nonfuctional.UpdateUserNonFunctional">
+        <test-method status="FAIL" signature="test_updateUserWithNonExistingUserName()[pri:0, instance:com.petStore.test.nonfuctional.UpdateUserNonFunctional@d851c9]" name="test_updateUserWithNonExistingUserName" duration-ms="283" started-at="2022-09-12T02:08:22Z" finished-at="2022-09-12T02:08:22Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Processing should fail with 404 instead of success as we are trying to update nonexistent object  : expected [404] but found [200]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Processing should fail with 404 instead of success as we are trying to update nonexistent object  : expected [404] but found [200]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:372)
+	at com.petStore.test.nonfuctional.UpdateUserNonFunctional.test_updateUserWithNonExistingUserName(UpdateUserNonFunctional.java:82)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_updateUserWithNonExistingUserName -->
+      </class> <!-- com.petStore.test.nonfuctional.UpdateUserNonFunctional -->
+      <class name="com.petStore.test.fuctional.CreateUserWithArrayFunctionalTest">
+        <test-method status="PASS" signature="test_addMultipleUser()[pri:0, instance:com.petStore.test.fuctional.CreateUserWithArrayFunctionalTest@3640d5]" name="test_addMultipleUser" duration-ms="766" started-at="2022-09-12T02:08:20Z" finished-at="2022-09-12T02:08:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_addMultipleUser -->
+        <test-method status="FAIL" signature="test_addSingleUserWithInValidEmailPattern()[pri:0, instance:com.petStore.test.fuctional.CreateUserWithArrayFunctionalTest@3640d5]" name="test_addSingleUserWithInValidEmailPattern" duration-ms="743" started-at="2022-09-12T02:08:20Z" finished-at="2022-09-12T02:08:21Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Actual Response Code should be 400 as payload has invalid emailpattern and is client error: expected [400] but found [200]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Actual Response Code should be 400 as payload has invalid emailpattern and is client error: expected [400] but found [200]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:372)
+	at com.petStore.test.fuctional.CreateUserWithArrayFunctionalTest.test_addSingleUserWithInValidEmailPattern(CreateUserWithArrayFunctionalTest.java:190)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_addSingleUserWithInValidEmailPattern -->
+        <test-method status="FAIL" signature="test_BulkUserCreation()[pri:0, instance:com.petStore.test.fuctional.CreateUserWithArrayFunctionalTest@3640d5]" name="test_BulkUserCreation" duration-ms="2008" started-at="2022-09-12T02:08:20Z" finished-at="2022-09-12T02:08:22Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Actual Response Code should be 413 as payload is too large and is client error : expected [413] but found [500]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Actual Response Code should be 413 as payload is too large and is client error : expected [413] but found [500]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:372)
+	at com.petStore.test.fuctional.CreateUserWithArrayFunctionalTest.test_BulkUserCreation(CreateUserWithArrayFunctionalTest.java:484)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_BulkUserCreation -->
+        <test-method status="PASS" signature="test_addOneUser()[pri:0, instance:com.petStore.test.fuctional.CreateUserWithArrayFunctionalTest@3640d5]" name="test_addOneUser" duration-ms="1753" started-at="2022-09-12T02:08:20Z" finished-at="2022-09-12T02:08:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_addOneUser -->
+        <test-method status="FAIL" signature="test_AddUserWithLongFieldValues()[pri:0, instance:com.petStore.test.fuctional.CreateUserWithArrayFunctionalTest@3640d5]" name="test_AddUserWithLongFieldValues" duration-ms="280" started-at="2022-09-12T02:08:20Z" finished-at="2022-09-12T02:08:20Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Actual Response Code should be 400 instead od success as payload has long field names and is client error: expected [400] but found [200]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Actual Response Code should be 400 instead od success as payload has long field names and is client error: expected [400] but found [200]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:372)
+	at com.petStore.test.fuctional.CreateUserWithArrayFunctionalTest.test_AddUserWithLongFieldValues(CreateUserWithArrayFunctionalTest.java:158)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_AddUserWithLongFieldValues -->
+        <test-method status="FAIL" signature="test_addSingleUserWithInvalidPhoneNo()[pri:0, instance:com.petStore.test.fuctional.CreateUserWithArrayFunctionalTest@3640d5]" name="test_addSingleUserWithInvalidPhoneNo" duration-ms="266" started-at="2022-09-12T02:08:20Z" finished-at="2022-09-12T02:08:20Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Actual Response Code should be 400 as payload has invalid phone and is client error :  expected [400] but found [200]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Actual Response Code should be 400 as payload has invalid phone and is client error :  expected [400] but found [200]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:372)
+	at com.petStore.test.fuctional.CreateUserWithArrayFunctionalTest.test_addSingleUserWithInvalidPhoneNo(CreateUserWithArrayFunctionalTest.java:517)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_addSingleUserWithInvalidPhoneNo -->
+        <test-method status="FAIL" signature="test_addSingleUserWithinvalidId()[pri:0, instance:com.petStore.test.fuctional.CreateUserWithArrayFunctionalTest@3640d5]" name="test_addSingleUserWithinvalidId" duration-ms="270" started-at="2022-09-12T02:08:20Z" finished-at="2022-09-12T02:08:21Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Actual Response Code should be 400 as payload has invalid userId and is client error: expected [400] but found [500]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Actual Response Code should be 400 as payload has invalid userId and is client error: expected [400] but found [500]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:372)
+	at com.petStore.test.fuctional.CreateUserWithArrayFunctionalTest.test_addSingleUserWithinvalidId(CreateUserWithArrayFunctionalTest.java:561)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_addSingleUserWithinvalidId -->
+        <test-method status="FAIL" signature="test_addSinglleuserWihtInvalidUserStatus()[pri:0, instance:com.petStore.test.fuctional.CreateUserWithArrayFunctionalTest@3640d5]" name="test_addSinglleuserWihtInvalidUserStatus" duration-ms="260" started-at="2022-09-12T02:08:21Z" finished-at="2022-09-12T02:08:21Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The processing should fail with actual Response Code 400 as payload has invalid userstatus and is client error expected [400] but found [200]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The processing should fail with actual Response Code 400 as payload has invalid userstatus and is client error expected [400] but found [200]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:372)
+	at com.petStore.test.fuctional.CreateUserWithArrayFunctionalTest.test_addSinglleuserWihtInvalidUserStatus(CreateUserWithArrayFunctionalTest.java:594)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_addSinglleuserWihtInvalidUserStatus -->
+      </class> <!-- com.petStore.test.fuctional.CreateUserWithArrayFunctionalTest -->
+      <class name="com.petStore.test.fuctional.UpdatePetFunctionalTest">
+        <test-method status="FAIL" signature="test_updatePetWithInValidStatus()[pri:0, instance:com.petStore.test.fuctional.UpdatePetFunctionalTest@17c8ad9]" name="test_updatePetWithInValidStatus" duration-ms="266" started-at="2022-09-12T02:08:21Z" finished-at="2022-09-12T02:08:21Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The processing should fail with actual Response Code 400 instead of success as payload has invalid status and is client error:  expected [400] but found [200]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The processing should fail with actual Response Code 400 instead of success as payload has invalid status and is client error:  expected [400] but found [200]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:372)
+	at com.petStore.test.fuctional.UpdatePetFunctionalTest.test_updatePetWithInValidStatus(UpdatePetFunctionalTest.java:182)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_updatePetWithInValidStatus -->
+        <test-method status="FAIL" signature="test_updatePetWithInvalidIdsPattern()[pri:0, instance:com.petStore.test.fuctional.UpdatePetFunctionalTest@17c8ad9]" name="test_updatePetWithInvalidIdsPattern" duration-ms="245" started-at="2022-09-12T02:08:21Z" finished-at="2022-09-12T02:08:21Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The processing  failure  Response Code should be 400 as payload has invalidIds and is client error:  expected [400] but found [500]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The processing  failure  Response Code should be 400 as payload has invalidIds and is client error:  expected [400] but found [500]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:372)
+	at com.petStore.test.fuctional.UpdatePetFunctionalTest.test_updatePetWithInvalidIdsPattern(UpdatePetFunctionalTest.java:231)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_updatePetWithInvalidIdsPattern -->
+        <test-method status="FAIL" signature="test_updatePetWithLongFieldNames()[pri:0, instance:com.petStore.test.fuctional.UpdatePetFunctionalTest@17c8ad9]" name="test_updatePetWithLongFieldNames" duration-ms="284" started-at="2022-09-12T02:08:21Z" finished-at="2022-09-12T02:08:21Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Actual Response Code should be 400 as payload has long Field  names and is client error: expected [400] but found [200]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Actual Response Code should be 400 as payload has long Field  names and is client error: expected [400] but found [200]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:372)
+	at com.petStore.test.fuctional.UpdatePetFunctionalTest.test_updatePetWithLongFieldNames(UpdatePetFunctionalTest.java:275)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_updatePetWithLongFieldNames -->
+        <test-method status="PASS" signature="test_updatePetWithValidFields()[pri:0, instance:com.petStore.test.fuctional.UpdatePetFunctionalTest@17c8ad9]" name="test_updatePetWithValidFields" duration-ms="257" started-at="2022-09-12T02:08:21Z" finished-at="2022-09-12T02:08:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_updatePetWithValidFields -->
+      </class> <!-- com.petStore.test.fuctional.UpdatePetFunctionalTest -->
+      <class name="com.petStore.test.nonfuctional.GetPetBasedOnStatusNonFunctional">
+        <test-method status="FAIL" signature="test_getPetsBasedOnFieldStatusAvailableWithsqlInjection()[pri:0, instance:com.petStore.test.nonfuctional.GetPetBasedOnStatusNonFunctional@12cf7ab]" name="test_getPetsBasedOnFieldStatusAvailableWithsqlInjection" duration-ms="81" started-at="2022-09-12T02:08:22Z" finished-at="2022-09-12T02:08:22Z">
+          <exception class="org.springframework.web.client.ResourceAccessException">
+            <message>
+              <![CDATA[I/O error on GET request for "https://petstore.swagger.iov2/pet/findByStatus": petstore.swagger.iov2; nested exception is java.net.UnknownHostException: petstore.swagger.iov2]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.springframework.web.client.ResourceAccessException: I/O error on GET request for "https://petstore.swagger.iov2/pet/findByStatus": petstore.swagger.iov2; nested exception is java.net.UnknownHostException: petstore.swagger.iov2
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:744)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:670)
+	at org.springframework.web.client.RestTemplate.getForEntity(RestTemplate.java:338)
+	at com.petStore.test.nonfuctional.GetPetBasedOnStatusNonFunctional.test_getPetsBasedOnFieldStatusAvailableWithsqlInjection(GetPetBasedOnStatusNonFunctional.java:66)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.net.UnknownHostException: petstore.swagger.iov2
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:196)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:298)
+	at sun.security.ssl.BaseSSLSocketImpl.connect(BaseSSLSocketImpl.java:173)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:292)
+	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:395)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:203)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1167)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1061)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:189)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.connect(HttpsURLConnectionImpl.java:167)
+	at org.springframework.http.client.SimpleBufferingClientHttpRequest.executeInternal(SimpleBufferingClientHttpRequest.java:76)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:53)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:735)
+	... 16 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.springframework.web.client.ResourceAccessException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_getPetsBasedOnFieldStatusAvailableWithsqlInjection -->
+      </class> <!-- com.petStore.test.nonfuctional.GetPetBasedOnStatusNonFunctional -->
+      <class name="com.petStore.test.nonfuctional.GetUserByNameNonFucntional">
+        <test-method status="PASS" signature="test_getUserForNonExistentUserName()[pri:0, instance:com.petStore.test.nonfuctional.GetUserByNameNonFucntional@a5fe93]" name="test_getUserForNonExistentUserName" duration-ms="266" started-at="2022-09-12T02:08:22Z" finished-at="2022-09-12T02:08:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_getUserForNonExistentUserName -->
+        <test-method status="FAIL" signature="test_getUserForNonExistentUserNameWithSqlInjection()[pri:0, instance:com.petStore.test.nonfuctional.GetUserByNameNonFucntional@a5fe93]" name="test_getUserForNonExistentUserNameWithSqlInjection" duration-ms="246" started-at="2022-09-12T02:08:22Z" finished-at="2022-09-12T02:08:22Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Processing should fail with Error Code 400 as Payload rather than processing giving 404 not found search result as we had sql injection in query paramaters : expected [400] but found [404]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Processing should fail with Error Code 400 as Payload rather than processing giving 404 not found search result as we had sql injection in query paramaters : expected [400] but found [404]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:372)
+	at com.petStore.test.nonfuctional.GetUserByNameNonFucntional.test_getUserForNonExistentUserNameWithSqlInjection(GetUserByNameNonFucntional.java:95)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_getUserForNonExistentUserNameWithSqlInjection -->
+      </class> <!-- com.petStore.test.nonfuctional.GetUserByNameNonFucntional -->
+    </test> <!-- PetStoreTest -->
+  </suite> <!-- PetStoreSuite -->
+</testng-results>

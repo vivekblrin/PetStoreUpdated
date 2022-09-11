@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [PetStoreSuite]" parallel="none">
+  <test name="PetStoreTest(failed)" parallel="methods">
+    <classes>
+      <class name="com.petStore.test.fuctional.UpdatePetFunctionalTest">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="createPet"/>
+          <include name="afterTest"/>
+          <include name="loadProperties"/>
+          <include name="test_updatePetWithInValidStatus"/>
+          <include name="test_updatePetWithInvalidIdsPattern"/>
+          <include name="test_updatePetWithLongFieldNames"/>
+        </methods>
+      </class> <!-- com.petStore.test.fuctional.UpdatePetFunctionalTest -->
+      <class name="com.petStore.test.fuctional.GetPetBasedOnStatusFuctionalTest">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="creatPetWithDifferentStatus"/>
+          <include name="loadProperties"/>
+        </methods>
+      </class> <!-- com.petStore.test.fuctional.GetPetBasedOnStatusFuctionalTest -->
+      <class name="com.petStore.test.fuctional.GetUserByNameFunctionalTest">
+        <methods>
+          <include name="createDuplicateUserRecord"/>
+          <include name="createUser"/>
+          <include name="test_getUserforDuplicateRecords"/>
+          <include name="loadProperties"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- com.petStore.test.fuctional.GetUserByNameFunctionalTest -->
+      <class name="com.petStore.test.nonfuctional.UpdateUserNonFunctional">
+        <methods>
+          <include name="test_updateUserWithNonExistingUserName"/>
+          <include name="afterTest"/>
+          <include name="loadProperties"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- com.petStore.test.nonfuctional.UpdateUserNonFunctional -->
+      <class name="com.petStore.test.nonfuctional.CreateUserWithArrayNonFunctinal">
+        <methods>
+          <include name="test_createSingleUserWithMoreThanMaxIdSuported"/>
+          <include name="afterTest"/>
+          <include name="loadProperties"/>
+          <include name="test_createSingleUserWithInvalidPayloadFormat"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- com.petStore.test.nonfuctional.CreateUserWithArrayNonFunctinal -->
+      <class name="com.petStore.test.fuctional.CreatePetFunctionalTest">
+        <methods>
+          <include name="test_creatPetWithInValidPhotoUrls"/>
+          <include name="test_creatPetWithInValidStatus"/>
+          <include name="beforeTest"/>
+          <include name="test_creatPetWithLongFieldNames"/>
+          <include name="afterTest"/>
+          <include name="loadProperties"/>
+        </methods>
+      </class> <!-- com.petStore.test.fuctional.CreatePetFunctionalTest -->
+      <class name="com.petStore.test.fuctional.CreateUserWithArrayFunctionalTest">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="test_AddUserWithLongFieldValues"/>
+          <include name="test_addSingleUserWithInValidEmailPattern"/>
+          <include name="test_BulkUserCreation"/>
+          <include name="test_addSingleUserWithinvalidId"/>
+          <include name="loadProperties"/>
+          <include name="test_addSingleUserWithInvalidPhoneNo"/>
+          <include name="afterTest"/>
+          <include name="test_addSinglleuserWihtInvalidUserStatus"/>
+        </methods>
+      </class> <!-- com.petStore.test.fuctional.CreateUserWithArrayFunctionalTest -->
+      <class name="com.petStore.test.nonfuctional.UpdatePetStatusNonFunctional">
+        <methods>
+          <include name="test_updateNonExistencePet"/>
+          <include name="beforeTest"/>
+          <include name="loadProperties"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.petStore.test.nonfuctional.UpdatePetStatusNonFunctional -->
+      <class name="com.petStore.test.nonfuctional.CreatePetNonFunctional">
+        <methods>
+          <include name="test_creatPetWithNonExixtentFieldNameandValue"/>
+          <include name="beforeTest"/>
+          <include name="loadProperties"/>
+          <include name="afterTest"/>
+          <include name="test_creatPetWithImproperJsonFormat"/>
+        </methods>
+      </class> <!-- com.petStore.test.nonfuctional.CreatePetNonFunctional -->
+      <class name="com.petStore.test.fuctional.UpdateUserFunctionalTest">
+        <methods>
+          <include name="test_updateUseWithinvalidUserStatus"/>
+          <include name="test_updateUserWithLongfieldNames"/>
+          <include name="afterTest"/>
+          <include name="test_updateUserWithinvalidEmailPattern"/>
+          <include name="test_updateUserWithinvalidPhonePattern"/>
+          <include name="createUser"/>
+          <include name="beforeTest"/>
+          <include name="loadProperties"/>
+        </methods>
+      </class> <!-- com.petStore.test.fuctional.UpdateUserFunctionalTest -->
+      <class name="com.petStore.test.nonfuctional.GetUserByNameNonFucntional">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="test_getUserForNonExistentUserNameWithSqlInjection"/>
+          <include name="loadProperties"/>
+        </methods>
+      </class> <!-- com.petStore.test.nonfuctional.GetUserByNameNonFucntional -->
+      <class name="com.petStore.test.nonfuctional.GetPetBasedOnStatusNonFunctional">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="loadProperties"/>
+          <include name="test_getPetsBasedOnFieldStatusAvailableWithsqlInjection"/>
+        </methods>
+      </class> <!-- com.petStore.test.nonfuctional.GetPetBasedOnStatusNonFunctional -->
+    </classes>
+  </test> <!-- PetStoreTest(failed) -->
+</suite> <!-- Failed suite [PetStoreSuite] -->

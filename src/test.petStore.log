@@ -1,0 +1,1711 @@
+[RemoteTestNG] detected TestNG version 6.9.9
+[RemoteTestNG] revisions:
+	git.commit.id=bd89e41
+	git.build.version=1.4.0
+	git.branch=bd89e41e24abcef9744ecb0bcc85e3262ee54589
+[RemoteTestNG] loaded class org.testng.internal.Version at file:/C:/Users/vivek%20swarup/.m2/repository/org/testng/testng/6.9.9/testng-6.9.9.jar
+[RemoteTestNG] detected TestNG version 6.9.9
+[RemoteTestNG] revisions:
+	git.commit.id=bd89e41
+	git.build.version=1.4.0
+	git.branch=bd89e41e24abcef9744ecb0bcc85e3262ee54589
+[RemoteTestNG] loaded class org.testng.internal.Version at file:/C:/Users/vivek%20swarup/.m2/repository/org/testng/testng/6.9.9/testng-6.9.9.jar
+[RemoteTestNG] detected TestNG version 6.9.9
+[RemoteTestNG] Invoked with -serport 51690 -protocol json -d D:\mindtickleIntvWS\org.petstore.net\test-output C:\Users\VIVEKS~1\AppData\Local\Temp\testng-eclipse-1393850432\testng-customsuite.xml 
+[BaseMessageSender] Waiting for Eclipse client on localhost:51690
+[BaseMessageSender] Received a connection from Eclipse on localhost:51690
+[BaseMessageSender] Connection established, starting reader thread
+[BaseMessageSender] ReaderThread waiting for an admin message
+[JsonMessageSender] Sending message [GenericMessage ==> suiteCount:1, testCount:1]
+[BaseMessageSender] ReaderThread received admin message:>ACK
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+[TestRunner] Running the tests in 'Default test' with parallel mode:none
+[RunInfo] Adding method selector: org.testng.internal.XmlMethodSelector@463fd068 priority: 10
+[TestClass] Creating TestClass for [ClassImpl class=com.petStore.test.fuctional.CreatePetFunctionalTest]
+[TestClass] Adding method CreatePetFunctionalTest.test_creatPetWithInValidPhotoUrls()[pri:0, instance:null] on TestClass class com.petStore.test.fuctional.CreatePetFunctionalTest
+[TestClass] Adding method CreatePetFunctionalTest.test_creatPetWithInValidStatus()[pri:0, instance:null] on TestClass class com.petStore.test.fuctional.CreatePetFunctionalTest
+[TestClass] Adding method CreatePetFunctionalTest.test_creatPetWithInvalidPetIdPattern()[pri:0, instance:null] on TestClass class com.petStore.test.fuctional.CreatePetFunctionalTest
+[TestClass] Adding method CreatePetFunctionalTest.test_creatPetWithLongFieldNames()[pri:0, instance:null] on TestClass class com.petStore.test.fuctional.CreatePetFunctionalTest
+[TestClass] Adding method CreatePetFunctionalTest.test_creatPetWithValidFields()[pri:0, instance:null] on TestClass class com.petStore.test.fuctional.CreatePetFunctionalTest
+[XmlMethodSelector] Including method com.petStore.test.fuctional.setUp()
+[XmlMethodSelector] Including method com.petStore.test.fuctional.beforeTest()
+[XmlMethodSelector] Including method com.petStore.test.fuctional.afterTest()
+[XmlMethodSelector] Including method com.petStore.test.fuctional.test_creatPetWithInValidPhotoUrls()
+[XmlMethodSelector] Including method com.petStore.test.fuctional.test_creatPetWithInValidStatus()
+[XmlMethodSelector] Including method com.petStore.test.fuctional.test_creatPetWithInvalidPetIdPattern()
+[XmlMethodSelector] Including method com.petStore.test.fuctional.test_creatPetWithLongFieldNames()
+[XmlMethodSelector] Including method com.petStore.test.fuctional.test_creatPetWithValidFields()
+[TestNG] Running:
+  C:\Users\vivek swarup\AppData\Local\Temp\testng-eclipse-1393850432\testng-customsuite.xml
+
+[JsonMessageSender] Sending message [SuiteMessage ==> suite:Default suite, starting, methodCount:0]
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+[Invoker 807328355] Keeping method CreatePetFunctionalTest.setUp()[pri:0, instance:com.petStore.test.fuctional.CreatePetFunctionalTest@10f7f7de] for class null
+[Invoker 807328355] Invoking @BeforeSuite CreatePetFunctionalTest.setUp()[pri:0, instance:com.petStore.test.fuctional.CreatePetFunctionalTest@10f7f7de]
+Executing Test class : com.petStore.test.fuctional.CreatePetFunctionalTest
+[SuiteRunner] Created 1 TestRunners
+[TestRunner] Running test Default test on 1  classes,  included groups:[] excluded groups:[]
+===== Test class
+com.petStore.test.fuctional.CreatePetFunctionalTest
+    @Test CreatePetFunctionalTest.test_creatPetWithInValidPhotoUrls()[pri:0, instance:com.petStore.test.fuctional.CreatePetFunctionalTest@10f7f7de]
+    @Test CreatePetFunctionalTest.test_creatPetWithInValidStatus()[pri:0, instance:com.petStore.test.fuctional.CreatePetFunctionalTest@10f7f7de]
+    @Test CreatePetFunctionalTest.test_creatPetWithInvalidPetIdPattern()[pri:0, instance:com.petStore.test.fuctional.CreatePetFunctionalTest@10f7f7de]
+    @Test CreatePetFunctionalTest.test_creatPetWithLongFieldNames()[pri:0, instance:com.petStore.test.fuctional.CreatePetFunctionalTest@10f7f7de]
+    @Test CreatePetFunctionalTest.test_creatPetWithValidFields()[pri:0, instance:com.petStore.test.fuctional.CreatePetFunctionalTest@10f7f7de]
+======
+[JsonMessageSender] Sending message [TestMessage ==> suite:Default suite, testName:Default test, passed:0, failed:0]
+[Invoker 807328355] Keeping method CreatePetFunctionalTest.beforeTest()[pri:0, instance:com.petStore.test.fuctional.CreatePetFunctionalTest@10f7f7de] for class null
+[Invoker 807328355] Invoking @BeforeTest CreatePetFunctionalTest.beforeTest()[pri:0, instance:com.petStore.test.fuctional.CreatePetFunctionalTest@10f7f7de]
+logger.isInfoEnabled() --> false
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+Calling  CreatePetFunctionalTest.beforeTest()
+Creating RestTemplate object before tests
+[JsonMessageSender] Sending message [TestResultMessage ==> suite:Default suite, test:Default test, class:com.petStore.test.fuctional.CreatePetFunctionalTest, method:test_creatPetWithInValidPhotoUrls, parameters:]
+[Invoker 807328355] Invoking com.petStore.test.fuctional.CreatePetFunctionalTest.test_creatPetWithInValidPhotoUrls
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+[RemoteTestNG] revisions:
+	git.commit.id=bd89e41
+	git.build.version=1.4.0
+	git.branch=bd89e41e24abcef9744ecb0bcc85e3262ee54589
+[RemoteTestNG] loaded class org.testng.internal.Version at file:/C:/Users/vivek%20swarup/.m2/repository/org/testng/testng/6.9.9/testng-6.9.9.jar
+[RemoteTestNG] detected TestNG version 6.9.9
+[RemoteTestNG] Invoked with -serport 51812 -protocol json -d D:\mindtickleIntvWS\org.petstore.net\test-output C:\Users\VIVEKS~1\AppData\Local\Temp\testng-eclipse-1780341354\testng-customsuite.xml 
+[BaseMessageSender] Waiting for Eclipse client on localhost:51812
+[BaseMessageSender] Received a connection from Eclipse on localhost:51812
+[BaseMessageSender] Connection established, starting reader thread
+[BaseMessageSender] ReaderThread waiting for an admin message
+[JsonMessageSender] Sending message [GenericMessage ==> suiteCount:1, testCount:1]
+[BaseMessageSender] ReaderThread received admin message:>ACK
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+[TestRunner] Running the tests in 'Default test' with parallel mode:none
+[RunInfo] Adding method selector: org.testng.internal.XmlMethodSelector@1130520d priority: 10
+[TestClass] Creating TestClass for [ClassImpl class=com.petStore.test.fuctional.CreatePetFunctionalTest]
+[TestClass] Adding method CreatePetFunctionalTest.test_creatPetWithInValidPhotoUrls()[pri:0, instance:null] on TestClass class com.petStore.test.fuctional.CreatePetFunctionalTest
+[TestClass] Adding method CreatePetFunctionalTest.test_creatPetWithInValidStatus()[pri:0, instance:null] on TestClass class com.petStore.test.fuctional.CreatePetFunctionalTest
+[TestClass] Adding method CreatePetFunctionalTest.test_creatPetWithInvalidPetIdPattern()[pri:0, instance:null] on TestClass class com.petStore.test.fuctional.CreatePetFunctionalTest
+[TestClass] Adding method CreatePetFunctionalTest.test_creatPetWithLongFieldNames()[pri:0, instance:null] on TestClass class com.petStore.test.fuctional.CreatePetFunctionalTest
+[TestClass] Adding method CreatePetFunctionalTest.test_creatPetWithValidFields()[pri:0, instance:null] on TestClass class com.petStore.test.fuctional.CreatePetFunctionalTest
+[XmlMethodSelector] Including method com.petStore.test.fuctional.beforeTest()
+[XmlMethodSelector] Including method com.petStore.test.fuctional.afterTest()
+[XmlMethodSelector] Including method com.petStore.test.fuctional.test_creatPetWithInValidPhotoUrls()
+[XmlMethodSelector] Including method com.petStore.test.fuctional.test_creatPetWithInValidStatus()
+[XmlMethodSelector] Including method com.petStore.test.fuctional.test_creatPetWithInvalidPetIdPattern()
+[XmlMethodSelector] Including method com.petStore.test.fuctional.test_creatPetWithLongFieldNames()
+[XmlMethodSelector] Including method com.petStore.test.fuctional.test_creatPetWithValidFields()
+[TestNG] Running:
+  C:\Users\vivek swarup\AppData\Local\Temp\testng-eclipse-1780341354\testng-customsuite.xml
+
+[JsonMessageSender] Sending message [SuiteMessage ==> suite:Default suite, starting, methodCount:0]
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+[SuiteRunner] Created 1 TestRunners
+[TestRunner] Running test Default test on 1  classes,  included groups:[] excluded groups:[]
+===== Test class
+com.petStore.test.fuctional.CreatePetFunctionalTest
+    @Test CreatePetFunctionalTest.test_creatPetWithInValidPhotoUrls()[pri:0, instance:com.petStore.test.fuctional.CreatePetFunctionalTest@5026735c]
+    @Test CreatePetFunctionalTest.test_creatPetWithInValidStatus()[pri:0, instance:com.petStore.test.fuctional.CreatePetFunctionalTest@5026735c]
+    @Test CreatePetFunctionalTest.test_creatPetWithInvalidPetIdPattern()[pri:0, instance:com.petStore.test.fuctional.CreatePetFunctionalTest@5026735c]
+    @Test CreatePetFunctionalTest.test_creatPetWithLongFieldNames()[pri:0, instance:com.petStore.test.fuctional.CreatePetFunctionalTest@5026735c]
+    @Test CreatePetFunctionalTest.test_creatPetWithValidFields()[pri:0, instance:com.petStore.test.fuctional.CreatePetFunctionalTest@5026735c]
+======
+[JsonMessageSender] Sending message [TestMessage ==> suite:Default suite, testName:Default test, passed:0, failed:0]
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+[Invoker 807328355] Keeping method CreatePetFunctionalTest.beforeTest()[pri:0, instance:com.petStore.test.fuctional.CreatePetFunctionalTest@5026735c] for class null
+[Invoker 807328355] Invoking @BeforeTest CreatePetFunctionalTest.beforeTest()[pri:0, instance:com.petStore.test.fuctional.CreatePetFunctionalTest@5026735c]
+Calling  log("Calling  CreatePetFunctionalTest.beforeTest()");
+Creating RestTemplate object before tests
+[JsonMessageSender] Sending message [TestResultMessage ==> suite:Default suite, test:Default test, class:com.petStore.test.fuctional.CreatePetFunctionalTest, method:test_creatPetWithInValidPhotoUrls, parameters:]
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+[Invoker 807328355] Invoking com.petStore.test.fuctional.CreatePetFunctionalTest.test_creatPetWithInValidPhotoUrls
+executing test_creatPetWithInValidPhotoUrls
+calling URL :https://petstore.swagger.io/v2/pet
+rest api call type :POST
+body :
+{
+  "id": 1,
+  "category": {
+    "id": 21,
+    "name": "testCategory"
+  },
+  "name": "doggie",
+  "photoUrls": [
+    "wert_7343248_8347&^%$@"
+  ],
+  "tags": [
+    {
+      "id": 31,
+      "name": "testTags1"
+    }
+  ],
+  "status": "available"
+}
+responseBody --->;{"id":1,"category":{"id":21,"name":"testCategory"},"name":"doggie","photoUrls":["wert_7343248_8347&^%$@"],"tags":[{"id":31,"name":"testTags1"}],"status":"available"}
+Assert start
+[JsonMessageSender] Sending message [TestResultMessage ==> suite:Default suite, test:Default test, class:com.petStore.test.fuctional.CreatePetFunctionalTest, method:test_creatPetWithInValidPhotoUrls, parameters:]
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+[JsonMessageSender] Sending message [TestResultMessage ==> suite:Default suite, test:Default test, class:com.petStore.test.fuctional.CreatePetFunctionalTest, method:test_creatPetWithInValidStatus, parameters:]
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+[Invoker 807328355] Invoking com.petStore.test.fuctional.CreatePetFunctionalTest.test_creatPetWithInValidStatus
+executing test_creatPetWithInValidStatus
+calling URL :https://petstore.swagger.io/v2/pet
+rest api call type :POST
+body :
+{
+  "id": 1,
+  "category": {
+    "id": 21,
+    "name": "testCategory"
+  },
+  "name": "doggie",
+  "photoUrls": [
+    "www.test.url/image"
+  ],
+  "tags": [
+    {
+      "id": 31,
+      "name": "testTags1"
+    }
+  ],
+  "status": "available1"
+}
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+responseBody --->;{"id":1,"category":{"id":21,"name":"testCategory"},"name":"doggie","photoUrls":["www.test.url/image"],"tags":[{"id":31,"name":"testTags1"}],"status":"available1"}
+Assert start
+[JsonMessageSender] Sending message [TestResultMessage ==> suite:Default suite, test:Default test, class:com.petStore.test.fuctional.CreatePetFunctionalTest, method:test_creatPetWithInValidStatus, parameters:]
+[JsonMessageSender] Sending message [TestResultMessage ==> suite:Default suite, test:Default test, class:com.petStore.test.fuctional.CreatePetFunctionalTest, method:test_creatPetWithInvalidPetIdPattern, parameters:]
+[Invoker 807328355] Invoking com.petStore.test.fuctional.CreatePetFunctionalTest.test_creatPetWithInvalidPetIdPattern
+executing test_creatPetWithInvalidPetIdPattern
+calling URL :https://petstore.swagger.io/v2/pet
+rest api call type :POST
+body :
+{
+  "id": 1@12&845_!@34,
+  "category": {
+    "id": 1@12&845_!@34,
+    "name": "TestCategory"
+  },
+  "name": "doggie",
+  "photoUrls": [
+    "www.testurl.com/image1"
+  ],
+  "tags": [
+    {
+      "id": 1@12&845_!@34,
+      "name": "testTag1"
+    }
+  ],
+  "status": "available"
+}
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+HTTP response code400
+responseBody --->;{"id":1,"category":{"id":21,"name":"testCategory"},"name":"doggie","photoUrls":["www.test.url/image"],"tags":[{"id":31,"name":"testTags1"}],"status":"available1"}
+Assert start
+Assert completed
+[JsonMessageSender] Sending message [TestResultMessage ==> suite:Default suite, test:Default test, class:com.petStore.test.fuctional.CreatePetFunctionalTest, method:test_creatPetWithInvalidPetIdPattern, parameters:]
+[JsonMessageSender] Sending message [TestResultMessage ==> suite:Default suite, test:Default test, class:com.petStore.test.fuctional.CreatePetFunctionalTest, method:test_creatPetWithLongFieldNames, parameters:]
+[Invoker 807328355] Invoking com.petStore.test.fuctional.CreatePetFunctionalTest.test_creatPetWithLongFieldNames
+executing test_creatPetWithLongFieldNames
+calling URL :https://petstore.swagger.io/v2/pet
+rest api call type :POST
+body :
+{
+  "id": 1,
+  "category": {
+    "id": 21,
+    "name": "TestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategory"
+  },
+  "name": "doggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggie",
+  "photoUrls": [
+    "www.testurltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltes.com/image1"
+  ],
+  "tags": [
+    {
+      "id": 31,
+      "name": "testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1"
+    }
+  ],
+  "status": "availableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailable"
+}
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+responseBody --->;{"id":1,"category":{"id":21,"name":"TestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategory"},"name":"doggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggie","photoUrls":["www.testurltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltes.com/image1"],"tags":[{"id":31,"name":"testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1"}],"status":"availableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailable"}
+Assert start
+[JsonMessageSender] Sending message [TestResultMessage ==> suite:Default suite, test:Default test, class:com.petStore.test.fuctional.CreatePetFunctionalTest, method:test_creatPetWithLongFieldNames, parameters:]
+[JsonMessageSender] Sending message [TestResultMessage ==> suite:Default suite, test:Default test, class:com.petStore.test.fuctional.CreatePetFunctionalTest, method:test_creatPetWithValidFields, parameters:]
+[Invoker 807328355] Invoking com.petStore.test.fuctional.CreatePetFunctionalTest.test_creatPetWithValidFields
+executing test_creatPetWithValidFields
+calling URL :https://petstore.swagger.io/v2/pet
+rest api call type :POST
+body :
+{
+  "id": 1,
+  "category": {
+    "id": 21,
+    "name": "TestCategory"
+  },
+  "name": "doggie",
+  "photoUrls": [
+    "www.testurl.com/image1"
+  ],
+  "tags": [
+    {
+      "id": 31,
+      "name": "testTag1"
+    }
+  ],
+  "status": "available"
+}
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+responseBody --->;{"id":1,"category":{"id":21,"name":"TestCategory"},"name":"doggie","photoUrls":["www.testurl.com/image1"],"tags":[{"id":31,"name":"testTag1"}],"status":"available"}
+Assert start
+Assert completed
+[JsonMessageSender] Sending message [TestResultMessage ==> suite:Default suite, test:Default test, class:com.petStore.test.fuctional.CreatePetFunctionalTest, method:test_creatPetWithValidFields, parameters:]
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+[Invoker 807328355] Keeping method CreatePetFunctionalTest.afterTest()[pri:0, instance:com.petStore.test.fuctional.CreatePetFunctionalTest@5026735c] for class null
+[Invoker 807328355] Invoking @AfterTest CreatePetFunctionalTest.afterTest()[pri:0, instance:com.petStore.test.fuctional.CreatePetFunctionalTest@5026735c]
+Calling  CreatePetFunctionalTest.afterTest()
+Resetting response and responseBodyPOST object
+===== Invoked methods
+  CreatePetFunctionalTest.beforeTest()[pri:0, instance:com.petStore.test.fuctional.CreatePetFunctionalTest@5026735c] 1344697180
+    CreatePetFunctionalTest.test_creatPetWithInValidPhotoUrls()[pri:0, instance:com.petStore.test.fuctional.CreatePetFunctionalTest@5026735c] 1344697180
+    CreatePetFunctionalTest.test_creatPetWithInValidStatus()[pri:0, instance:com.petStore.test.fuctional.CreatePetFunctionalTest@5026735c] 1344697180
+    CreatePetFunctionalTest.test_creatPetWithInvalidPetIdPattern()[pri:0, instance:com.petStore.test.fuctional.CreatePetFunctionalTest@5026735c] 1344697180
+    CreatePetFunctionalTest.test_creatPetWithLongFieldNames()[pri:0, instance:com.petStore.test.fuctional.CreatePetFunctionalTest@5026735c] 1344697180
+    CreatePetFunctionalTest.test_creatPetWithValidFields()[pri:0, instance:com.petStore.test.fuctional.CreatePetFunctionalTest@5026735c] 1344697180
+  CreatePetFunctionalTest.afterTest()[pri:0, instance:com.petStore.test.fuctional.CreatePetFunctionalTest@5026735c] 1344697180
+=====
+Creating D:\mindtickleIntvWS\org.petstore.net\test-output\Default suite\Default test.html
+Creating D:\mindtickleIntvWS\org.petstore.net\test-output\Default suite\Default test.xml
+[JsonMessageSender] Sending message [TestMessage ==> suite:Default suite, testName:Default test, passed:2, failed:3]
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+PASSED: test_creatPetWithInvalidPetIdPattern
+PASSED: test_creatPetWithValidFields
+FAILED: test_creatPetWithInValidPhotoUrls
+java.lang.AssertionError: The processing should fail with actual Response Code 400 as payload has invlid photourls and is client error:  expected [400] but found [200]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:372)
+	at com.petStore.test.fuctional.CreatePetFunctionalTest.test_creatPetWithInValidPhotoUrls(CreatePetFunctionalTest.java:159)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+FAILED: test_creatPetWithInValidStatus
+java.lang.AssertionError: The processing should fail with actual Response Code 400 as payload has invlid status enum values and is client error:  expected [400] but found [200]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:372)
+	at com.petStore.test.fuctional.CreatePetFunctionalTest.test_creatPetWithInValidStatus(CreatePetFunctionalTest.java:296)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+FAILED: test_creatPetWithLongFieldNames
+java.lang.AssertionError: The processing should fail with actual Response Code 400 as payload has long field values and is client error:  expected [400] but found [200]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:372)
+	at com.petStore.test.fuctional.CreatePetFunctionalTest.test_creatPetWithLongFieldNames(CreatePetFunctionalTest.java:202)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+
+===============================================
+    Default test
+    Tests run: 5, Failures: 3, Skips: 0
+===============================================
+
+[JsonMessageSender] Sending message [SuiteMessage ==> suite:Default suite, ending, methodCount:7]
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+
+===============================================
+Default suite
+Total tests run: 5, Failures: 3, Skips: 0
+===============================================
+
+[BaseMessageSender] Admin message:>STOP
+Creating D:\mindtickleIntvWS\org.petstore.net\test-output\testng-failed.xml
+Creating D:\mindtickleIntvWS\org.petstore.net\test-output\Default suite\testng-failed.xml
+[TestNG] Time taken by [FailedReporter passed=0 failed=0 skipped=0]: 38 ms
+[TestNG] Time taken by org.testng.reporters.XMLReporter@2ca26d77: 18 ms
+Creating D:\mindtickleIntvWS\org.petstore.net\test-output\old\Default suite\toc.html
+Creating D:\mindtickleIntvWS\org.petstore.net\test-output\old\Default suite\Default test.properties
+Creating D:\mindtickleIntvWS\org.petstore.net\test-output\old\Default suite\index.html
+Creating D:\mindtickleIntvWS\org.petstore.net\test-output\old\Default suite\main.html
+Creating D:\mindtickleIntvWS\org.petstore.net\test-output\old\Default suite\groups.html
+Creating D:\mindtickleIntvWS\org.petstore.net\test-output\old\Default suite\classes.html
+Creating D:\mindtickleIntvWS\org.petstore.net\test-output\old\Default suite\reporter-output.html
+Creating D:\mindtickleIntvWS\org.petstore.net\test-output\old\Default suite\methods-not-run.html
+Creating D:\mindtickleIntvWS\org.petstore.net\test-output\old\Default suite\testng.xml.html
+Creating D:\mindtickleIntvWS\org.petstore.net\test-output\old\index.html
+[TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@4ef74c30: 35 ms
+[TestNG] Time taken by org.testng.reporters.EmailableReporter2@1787f2a0: 26 ms
+Creating D:\mindtickleIntvWS\org.petstore.net\test-output\junitreports\TEST-com.petStore.test.fuctional.CreatePetFunctionalTest.xml
+[TestNG] Time taken by org.testng.reporters.JUnitReportReporter@7905a0b8: 27 ms
+[TestNG] Time taken by org.testng.reporters.jq.Main@3f1d2e23: 67 ms
+[RemoteTestNG] revisions:
+	git.commit.id=bd89e41
+	git.build.version=1.4.0
+	git.branch=bd89e41e24abcef9744ecb0bcc85e3262ee54589
+[RemoteTestNG] loaded class org.testng.internal.Version at file:/C:/Users/vivek%20swarup/.m2/repository/org/testng/testng/6.9.9/testng-6.9.9.jar
+[RemoteTestNG] detected TestNG version 6.9.9
+[RemoteTestNG] Invoked with -serport 51825 -protocol json -d D:\mindtickleIntvWS\org.petstore.net\test-output C:\Users\VIVEKS~1\AppData\Local\Temp\testng-eclipse--691191990\testng-customsuite.xml 
+[BaseMessageSender] Waiting for Eclipse client on localhost:51825
+[BaseMessageSender] Received a connection from Eclipse on localhost:51825
+[BaseMessageSender] Connection established, starting reader thread
+[BaseMessageSender] ReaderThread waiting for an admin message
+[JsonMessageSender] Sending message [GenericMessage ==> suiteCount:1, testCount:1]
+[BaseMessageSender] ReaderThread received admin message:>ACK
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+[TestRunner] Running the tests in 'Default test' with parallel mode:none
+[RunInfo] Adding method selector: org.testng.internal.XmlMethodSelector@5f77d0f9 priority: 10
+[TestClass] Creating TestClass for [ClassImpl class=com.petStore.test.fuctional.CreatePetFunctionalTest]
+[TestClass] Adding method CreatePetFunctionalTest.test_creatPetWithInValidPhotoUrls()[pri:0, instance:null] on TestClass class com.petStore.test.fuctional.CreatePetFunctionalTest
+[TestClass] Adding method CreatePetFunctionalTest.test_creatPetWithInValidStatus()[pri:0, instance:null] on TestClass class com.petStore.test.fuctional.CreatePetFunctionalTest
+[TestClass] Adding method CreatePetFunctionalTest.test_creatPetWithInvalidPetIdPattern()[pri:0, instance:null] on TestClass class com.petStore.test.fuctional.CreatePetFunctionalTest
+[TestClass] Adding method CreatePetFunctionalTest.test_creatPetWithLongFieldNames()[pri:0, instance:null] on TestClass class com.petStore.test.fuctional.CreatePetFunctionalTest
+[TestClass] Adding method CreatePetFunctionalTest.test_creatPetWithValidFields()[pri:0, instance:null] on TestClass class com.petStore.test.fuctional.CreatePetFunctionalTest
+[XmlMethodSelector] Including method com.petStore.test.fuctional.beforeTest()
+[XmlMethodSelector] Including method com.petStore.test.fuctional.afterTest()
+[XmlMethodSelector] Including method com.petStore.test.fuctional.test_creatPetWithInValidPhotoUrls()
+[XmlMethodSelector] Including method com.petStore.test.fuctional.test_creatPetWithInValidStatus()
+[XmlMethodSelector] Including method com.petStore.test.fuctional.test_creatPetWithInvalidPetIdPattern()
+[XmlMethodSelector] Including method com.petStore.test.fuctional.test_creatPetWithLongFieldNames()
+[XmlMethodSelector] Including method com.petStore.test.fuctional.test_creatPetWithValidFields()
+[TestNG] Running:
+  C:\Users\vivek swarup\AppData\Local\Temp\testng-eclipse--691191990\testng-customsuite.xml
+
+[JsonMessageSender] Sending message [SuiteMessage ==> suite:Default suite, starting, methodCount:0]
+[SuiteRunner] Created 1 TestRunners
+[TestRunner] Running test Default test on 1  classes,  included groups:[] excluded groups:[]
+===== Test class
+com.petStore.test.fuctional.CreatePetFunctionalTest
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+    @Test CreatePetFunctionalTest.test_creatPetWithInValidPhotoUrls()[pri:0, instance:com.petStore.test.fuctional.CreatePetFunctionalTest@1b45c0e]
+    @Test CreatePetFunctionalTest.test_creatPetWithInValidStatus()[pri:0, instance:com.petStore.test.fuctional.CreatePetFunctionalTest@1b45c0e]
+    @Test CreatePetFunctionalTest.test_creatPetWithInvalidPetIdPattern()[pri:0, instance:com.petStore.test.fuctional.CreatePetFunctionalTest@1b45c0e]
+    @Test CreatePetFunctionalTest.test_creatPetWithLongFieldNames()[pri:0, instance:com.petStore.test.fuctional.CreatePetFunctionalTest@1b45c0e]
+    @Test CreatePetFunctionalTest.test_creatPetWithValidFields()[pri:0, instance:com.petStore.test.fuctional.CreatePetFunctionalTest@1b45c0e]
+======
+[JsonMessageSender] Sending message [TestMessage ==> suite:Default suite, testName:Default test, passed:0, failed:0]
+[Invoker 1025797795] Keeping method CreatePetFunctionalTest.beforeTest()[pri:0, instance:com.petStore.test.fuctional.CreatePetFunctionalTest@1b45c0e] for class null
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+[Invoker 1025797795] Invoking @BeforeTest CreatePetFunctionalTest.beforeTest()[pri:0, instance:com.petStore.test.fuctional.CreatePetFunctionalTest@1b45c0e]
+Calling  log("Calling  CreatePetFunctionalTest.beforeTest()");
+Creating RestTemplate object before tests
+[JsonMessageSender] Sending message [TestResultMessage ==> suite:Default suite, test:Default test, class:com.petStore.test.fuctional.CreatePetFunctionalTest, method:test_creatPetWithInValidPhotoUrls, parameters:]
+[Invoker 1025797795] Invoking com.petStore.test.fuctional.CreatePetFunctionalTest.test_creatPetWithInValidPhotoUrls
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+executing test_creatPetWithInValidPhotoUrls
+[RemoteTestNG] revisions:
+	git.commit.id=bd89e41
+	git.build.version=1.4.0
+	git.branch=bd89e41e24abcef9744ecb0bcc85e3262ee54589
+[RemoteTestNG] loaded class org.testng.internal.Version at file:/C:/Users/vivek%20swarup/.m2/repository/org/testng/testng/6.9.9/testng-6.9.9.jar
+[RemoteTestNG] detected TestNG version 6.9.9
+[RemoteTestNG] Invoked with -serport 51830 -protocol json -d D:\mindtickleIntvWS\org.petstore.net\test-output C:\Users\VIVEKS~1\AppData\Local\Temp\testng-eclipse-1352609491\testng-customsuite.xml 
+[BaseMessageSender] Waiting for Eclipse client on localhost:51830
+[BaseMessageSender] Received a connection from Eclipse on localhost:51830
+[BaseMessageSender] Connection established, starting reader thread
+[BaseMessageSender] ReaderThread waiting for an admin message
+[JsonMessageSender] Sending message [GenericMessage ==> suiteCount:1, testCount:1]
+[BaseMessageSender] ReaderThread received admin message:>ACK
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+[TestRunner] Running the tests in 'Default test' with parallel mode:none
+[RunInfo] Adding method selector: org.testng.internal.XmlMethodSelector@1130520d priority: 10
+[TestClass] Creating TestClass for [ClassImpl class=com.petStore.test.fuctional.CreatePetFunctionalTest]
+[TestClass] Adding method CreatePetFunctionalTest.test_creatPetWithInValidPhotoUrls()[pri:0, instance:null] on TestClass class com.petStore.test.fuctional.CreatePetFunctionalTest
+[TestClass] Adding method CreatePetFunctionalTest.test_creatPetWithInValidStatus()[pri:0, instance:null] on TestClass class com.petStore.test.fuctional.CreatePetFunctionalTest
+[TestClass] Adding method CreatePetFunctionalTest.test_creatPetWithInvalidPetIdPattern()[pri:0, instance:null] on TestClass class com.petStore.test.fuctional.CreatePetFunctionalTest
+[TestClass] Adding method CreatePetFunctionalTest.test_creatPetWithLongFieldNames()[pri:0, instance:null] on TestClass class com.petStore.test.fuctional.CreatePetFunctionalTest
+[TestClass] Adding method CreatePetFunctionalTest.test_creatPetWithValidFields()[pri:0, instance:null] on TestClass class com.petStore.test.fuctional.CreatePetFunctionalTest
+[XmlMethodSelector] Including method com.petStore.test.fuctional.beforeTest()
+[XmlMethodSelector] Including method com.petStore.test.fuctional.afterTest()
+[XmlMethodSelector] Including method com.petStore.test.fuctional.test_creatPetWithInValidPhotoUrls()
+[XmlMethodSelector] Including method com.petStore.test.fuctional.test_creatPetWithInValidStatus()
+[XmlMethodSelector] Including method com.petStore.test.fuctional.test_creatPetWithInvalidPetIdPattern()
+[XmlMethodSelector] Including method com.petStore.test.fuctional.test_creatPetWithLongFieldNames()
+[XmlMethodSelector] Including method com.petStore.test.fuctional.test_creatPetWithValidFields()
+[TestNG] Running:
+  C:\Users\vivek swarup\AppData\Local\Temp\testng-eclipse-1352609491\testng-customsuite.xml
+
+[JsonMessageSender] Sending message [SuiteMessage ==> suite:Default suite, starting, methodCount:0]
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+[SuiteRunner] Created 1 TestRunners
+[TestRunner] Running test Default test on 1  classes,  included groups:[] excluded groups:[]
+===== Test class
+com.petStore.test.fuctional.CreatePetFunctionalTest
+    @Test CreatePetFunctionalTest.test_creatPetWithInValidPhotoUrls()[pri:0, instance:com.petStore.test.fuctional.CreatePetFunctionalTest@5026735c]
+    @Test CreatePetFunctionalTest.test_creatPetWithInValidStatus()[pri:0, instance:com.petStore.test.fuctional.CreatePetFunctionalTest@5026735c]
+    @Test CreatePetFunctionalTest.test_creatPetWithInvalidPetIdPattern()[pri:0, instance:com.petStore.test.fuctional.CreatePetFunctionalTest@5026735c]
+    @Test CreatePetFunctionalTest.test_creatPetWithLongFieldNames()[pri:0, instance:com.petStore.test.fuctional.CreatePetFunctionalTest@5026735c]
+    @Test CreatePetFunctionalTest.test_creatPetWithValidFields()[pri:0, instance:com.petStore.test.fuctional.CreatePetFunctionalTest@5026735c]
+======
+[JsonMessageSender] Sending message [TestMessage ==> suite:Default suite, testName:Default test, passed:0, failed:0]
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+[Invoker 807328355] Keeping method CreatePetFunctionalTest.beforeTest()[pri:0, instance:com.petStore.test.fuctional.CreatePetFunctionalTest@5026735c] for class null
+[Invoker 807328355] Invoking @BeforeTest CreatePetFunctionalTest.beforeTest()[pri:0, instance:com.petStore.test.fuctional.CreatePetFunctionalTest@5026735c]
+Calling  log("Calling  CreatePetFunctionalTest.beforeTest()");
+Creating RestTemplate object before tests
+[JsonMessageSender] Sending message [TestResultMessage ==> suite:Default suite, test:Default test, class:com.petStore.test.fuctional.CreatePetFunctionalTest, method:test_creatPetWithInValidPhotoUrls, parameters:]
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+[Invoker 807328355] Invoking com.petStore.test.fuctional.CreatePetFunctionalTest.test_creatPetWithInValidPhotoUrls
+executing test_creatPetWithInValidPhotoUrls
+calling URL :https://petstore.swagger.io/v2/pet
+rest api call type :POST
+body :
+{
+  "id": 1,
+  "category": {
+    "id": 21,
+    "name": "testCategory"
+  },
+  "name": "doggie",
+  "photoUrls": [
+    "wert_7343248_8347&^%$@"
+  ],
+  "tags": [
+    {
+      "id": 31,
+      "name": "testTags1"
+    }
+  ],
+  "status": "available"
+}
+responseBody --->;{"id":1,"category":{"id":21,"name":"testCategory"},"name":"doggie","photoUrls":["wert_7343248_8347&^%$@"],"tags":[{"id":31,"name":"testTags1"}],"status":"available"}
+Assert start
+[JsonMessageSender] Sending message [TestResultMessage ==> suite:Default suite, test:Default test, class:com.petStore.test.fuctional.CreatePetFunctionalTest, method:test_creatPetWithInValidPhotoUrls, parameters:]
+[JsonMessageSender] Sending message [TestResultMessage ==> suite:Default suite, test:Default test, class:com.petStore.test.fuctional.CreatePetFunctionalTest, method:test_creatPetWithInValidStatus, parameters:]
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+[Invoker 807328355] Invoking com.petStore.test.fuctional.CreatePetFunctionalTest.test_creatPetWithInValidStatus
+executing test_creatPetWithInValidStatus
+calling URL :https://petstore.swagger.io/v2/pet
+rest api call type :POST
+body :
+{
+  "id": 1,
+  "category": {
+    "id": 21,
+    "name": "testCategory"
+  },
+  "name": "doggie",
+  "photoUrls": [
+    "www.test.url/image"
+  ],
+  "tags": [
+    {
+      "id": 31,
+      "name": "testTags1"
+    }
+  ],
+  "status": "available1"
+}
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+responseBody --->;{"id":1,"category":{"id":21,"name":"testCategory"},"name":"doggie","photoUrls":["www.test.url/image"],"tags":[{"id":31,"name":"testTags1"}],"status":"available1"}
+Assert start
+[JsonMessageSender] Sending message [TestResultMessage ==> suite:Default suite, test:Default test, class:com.petStore.test.fuctional.CreatePetFunctionalTest, method:test_creatPetWithInValidStatus, parameters:]
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+[JsonMessageSender] Sending message [TestResultMessage ==> suite:Default suite, test:Default test, class:com.petStore.test.fuctional.CreatePetFunctionalTest, method:test_creatPetWithInvalidPetIdPattern, parameters:]
+[Invoker 807328355] Invoking com.petStore.test.fuctional.CreatePetFunctionalTest.test_creatPetWithInvalidPetIdPattern
+executing test_creatPetWithInvalidPetIdPattern
+calling URL :https://petstore.swagger.io/v2/pet
+rest api call type :POST
+body :
+{
+  "id": 1@12&845_!@34,
+  "category": {
+    "id": 1@12&845_!@34,
+    "name": "TestCategory"
+  },
+  "name": "doggie",
+  "photoUrls": [
+    "www.testurl.com/image1"
+  ],
+  "tags": [
+    {
+      "id": 1@12&845_!@34,
+      "name": "testTag1"
+    }
+  ],
+  "status": "available"
+}
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+HTTP response code400
+responseBody --->;{"id":1,"category":{"id":21,"name":"testCategory"},"name":"doggie","photoUrls":["www.test.url/image"],"tags":[{"id":31,"name":"testTags1"}],"status":"available1"}
+Assert start
+Assert completed
+[JsonMessageSender] Sending message [TestResultMessage ==> suite:Default suite, test:Default test, class:com.petStore.test.fuctional.CreatePetFunctionalTest, method:test_creatPetWithInvalidPetIdPattern, parameters:]
+[JsonMessageSender] Sending message [TestResultMessage ==> suite:Default suite, test:Default test, class:com.petStore.test.fuctional.CreatePetFunctionalTest, method:test_creatPetWithLongFieldNames, parameters:]
+[Invoker 807328355] Invoking com.petStore.test.fuctional.CreatePetFunctionalTest.test_creatPetWithLongFieldNames
+executing test_creatPetWithLongFieldNames
+calling URL :https://petstore.swagger.io/v2/pet
+rest api call type :POST
+body :
+{
+  "id": 1,
+  "category": {
+    "id": 21,
+    "name": "TestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategory"
+  },
+  "name": "doggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggie",
+  "photoUrls": [
+    "www.testurltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltes.com/image1"
+  ],
+  "tags": [
+    {
+      "id": 31,
+      "name": "testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1"
+    }
+  ],
+  "status": "availableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailable"
+}
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+responseBody --->;{"id":1,"category":{"id":21,"name":"TestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategory"},"name":"doggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggie","photoUrls":["www.testurltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltes.com/image1"],"tags":[{"id":31,"name":"testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1"}],"status":"availableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailable"}
+Assert start
+[JsonMessageSender] Sending message [TestResultMessage ==> suite:Default suite, test:Default test, class:com.petStore.test.fuctional.CreatePetFunctionalTest, method:test_creatPetWithLongFieldNames, parameters:]
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+[JsonMessageSender] Sending message [TestResultMessage ==> suite:Default suite, test:Default test, class:com.petStore.test.fuctional.CreatePetFunctionalTest, method:test_creatPetWithValidFields, parameters:]
+[Invoker 807328355] Invoking com.petStore.test.fuctional.CreatePetFunctionalTest.test_creatPetWithValidFields
+executing test_creatPetWithValidFields
+calling URL :https://petstore.swagger.io/v2/pet
+rest api call type :POST
+body :
+{
+  "id": 1,
+  "category": {
+    "id": 21,
+    "name": "TestCategory"
+  },
+  "name": "doggie",
+  "photoUrls": [
+    "www.testurl.com/image1"
+  ],
+  "tags": [
+    {
+      "id": 31,
+      "name": "testTag1"
+    }
+  ],
+  "status": "available"
+}
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+responseBody --->;{"id":1,"category":{"id":21,"name":"TestCategory"},"name":"doggie","photoUrls":["www.testurl.com/image1"],"tags":[{"id":31,"name":"testTag1"}],"status":"available"}
+Assert start
+Assert completed
+[JsonMessageSender] Sending message [TestResultMessage ==> suite:Default suite, test:Default test, class:com.petStore.test.fuctional.CreatePetFunctionalTest, method:test_creatPetWithValidFields, parameters:]
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+[Invoker 807328355] Keeping method CreatePetFunctionalTest.afterTest()[pri:0, instance:com.petStore.test.fuctional.CreatePetFunctionalTest@5026735c] for class null
+[Invoker 807328355] Invoking @AfterTest CreatePetFunctionalTest.afterTest()[pri:0, instance:com.petStore.test.fuctional.CreatePetFunctionalTest@5026735c]
+Calling  CreatePetFunctionalTest.afterTest()
+Resetting response and responseBodyPOST object
+===== Invoked methods
+  CreatePetFunctionalTest.beforeTest()[pri:0, instance:com.petStore.test.fuctional.CreatePetFunctionalTest@5026735c] 1344697180
+    CreatePetFunctionalTest.test_creatPetWithInValidPhotoUrls()[pri:0, instance:com.petStore.test.fuctional.CreatePetFunctionalTest@5026735c] 1344697180
+    CreatePetFunctionalTest.test_creatPetWithInValidStatus()[pri:0, instance:com.petStore.test.fuctional.CreatePetFunctionalTest@5026735c] 1344697180
+    CreatePetFunctionalTest.test_creatPetWithInvalidPetIdPattern()[pri:0, instance:com.petStore.test.fuctional.CreatePetFunctionalTest@5026735c] 1344697180
+    CreatePetFunctionalTest.test_creatPetWithLongFieldNames()[pri:0, instance:com.petStore.test.fuctional.CreatePetFunctionalTest@5026735c] 1344697180
+    CreatePetFunctionalTest.test_creatPetWithValidFields()[pri:0, instance:com.petStore.test.fuctional.CreatePetFunctionalTest@5026735c] 1344697180
+  CreatePetFunctionalTest.afterTest()[pri:0, instance:com.petStore.test.fuctional.CreatePetFunctionalTest@5026735c] 1344697180
+=====
+Creating D:\mindtickleIntvWS\org.petstore.net\test-output\Default suite\Default test.html
+Creating D:\mindtickleIntvWS\org.petstore.net\test-output\Default suite\Default test.xml
+[JsonMessageSender] Sending message [TestMessage ==> suite:Default suite, testName:Default test, passed:2, failed:3]
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+PASSED: test_creatPetWithInvalidPetIdPattern
+PASSED: test_creatPetWithValidFields
+FAILED: test_creatPetWithInValidPhotoUrls
+java.lang.AssertionError: The processing should fail with actual Response Code 400 as payload has invlid photourls and is client error:  expected [400] but found [200]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:372)
+	at com.petStore.test.fuctional.CreatePetFunctionalTest.test_creatPetWithInValidPhotoUrls(CreatePetFunctionalTest.java:149)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+FAILED: test_creatPetWithInValidStatus
+java.lang.AssertionError: The processing should fail with actual Response Code 400 as payload has invlid status enum values and is client error:  expected [400] but found [200]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:372)
+	at com.petStore.test.fuctional.CreatePetFunctionalTest.test_creatPetWithInValidStatus(CreatePetFunctionalTest.java:286)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+FAILED: test_creatPetWithLongFieldNames
+java.lang.AssertionError: The processing should fail with actual Response Code 400 as payload has long field values and is client error:  expected [400] but found [200]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:372)
+	at com.petStore.test.fuctional.CreatePetFunctionalTest.test_creatPetWithLongFieldNames(CreatePetFunctionalTest.java:192)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+
+===============================================
+    Default test
+    Tests run: 5, Failures: 3, Skips: 0
+===============================================
+
+[JsonMessageSender] Sending message [SuiteMessage ==> suite:Default suite, ending, methodCount:7]
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+
+===============================================
+Default suite
+Total tests run: 5, Failures: 3, Skips: 0
+===============================================
+
+[BaseMessageSender] Admin message:>STOP
+Creating D:\mindtickleIntvWS\org.petstore.net\test-output\testng-failed.xml
+Creating D:\mindtickleIntvWS\org.petstore.net\test-output\Default suite\testng-failed.xml
+[TestNG] Time taken by [FailedReporter passed=0 failed=0 skipped=0]: 29 ms
+[TestNG] Time taken by org.testng.reporters.XMLReporter@2ca26d77: 30 ms
+Creating D:\mindtickleIntvWS\org.petstore.net\test-output\old\Default suite\toc.html
+Creating D:\mindtickleIntvWS\org.petstore.net\test-output\old\Default suite\Default test.properties
+Creating D:\mindtickleIntvWS\org.petstore.net\test-output\old\Default suite\index.html
+Creating D:\mindtickleIntvWS\org.petstore.net\test-output\old\Default suite\main.html
+Creating D:\mindtickleIntvWS\org.petstore.net\test-output\old\Default suite\groups.html
+Creating D:\mindtickleIntvWS\org.petstore.net\test-output\old\Default suite\classes.html
+Creating D:\mindtickleIntvWS\org.petstore.net\test-output\old\Default suite\reporter-output.html
+Creating D:\mindtickleIntvWS\org.petstore.net\test-output\old\Default suite\methods-not-run.html
+Creating D:\mindtickleIntvWS\org.petstore.net\test-output\old\Default suite\testng.xml.html
+Creating D:\mindtickleIntvWS\org.petstore.net\test-output\old\index.html
+[TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@4ef74c30: 32 ms
+[TestNG] Time taken by org.testng.reporters.EmailableReporter2@1787f2a0: 22 ms
+Creating D:\mindtickleIntvWS\org.petstore.net\test-output\junitreports\TEST-com.petStore.test.fuctional.CreatePetFunctionalTest.xml
+[TestNG] Time taken by org.testng.reporters.JUnitReportReporter@7905a0b8: 19 ms
+[TestNG] Time taken by org.testng.reporters.jq.Main@3f1d2e23: 53 ms
+[RemoteTestNG] revisions:
+	git.commit.id=bd89e41
+	git.build.version=1.4.0
+	git.branch=bd89e41e24abcef9744ecb0bcc85e3262ee54589
+[RemoteTestNG] loaded class org.testng.internal.Version at file:/C:/Users/vivek%20swarup/.m2/repository/org/testng/testng/6.9.9/testng-6.9.9.jar
+[RemoteTestNG] detected TestNG version 6.9.9
+[RemoteTestNG] Invoked with -serport 52061 -protocol json -d D:\mindtickleIntvWS\org.petstore.net\test-output C:\Users\VIVEKS~1\AppData\Local\Temp\testng-eclipse--231382299\testng-customsuite.xml 
+[BaseMessageSender] Waiting for Eclipse client on localhost:52061
+[BaseMessageSender] Received a connection from Eclipse on localhost:52061
+[BaseMessageSender] Connection established, starting reader thread
+[BaseMessageSender] ReaderThread waiting for an admin message
+[JsonMessageSender] Sending message [GenericMessage ==> suiteCount:1, testCount:1]
+[BaseMessageSender] ReaderThread received admin message:>ACK
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+[TestRunner] Running the tests in 'Default test' with parallel mode:none
+[RunInfo] Adding method selector: org.testng.internal.XmlMethodSelector@1130520d priority: 10
+[TestClass] Creating TestClass for [ClassImpl class=com.petStore.test.fuctional.CreatePetFunctionalTest]
+[TestClass] Adding method CreatePetFunctionalTest.test_creatPetWithInValidPhotoUrls()[pri:0, instance:null] on TestClass class com.petStore.test.fuctional.CreatePetFunctionalTest
+[TestClass] Adding method CreatePetFunctionalTest.test_creatPetWithInValidStatus()[pri:0, instance:null] on TestClass class com.petStore.test.fuctional.CreatePetFunctionalTest
+[TestClass] Adding method CreatePetFunctionalTest.test_creatPetWithInvalidPetIdPattern()[pri:0, instance:null] on TestClass class com.petStore.test.fuctional.CreatePetFunctionalTest
+[TestClass] Adding method CreatePetFunctionalTest.test_creatPetWithLongFieldNames()[pri:0, instance:null] on TestClass class com.petStore.test.fuctional.CreatePetFunctionalTest
+[TestClass] Adding method CreatePetFunctionalTest.test_creatPetWithValidFields()[pri:0, instance:null] on TestClass class com.petStore.test.fuctional.CreatePetFunctionalTest
+[XmlMethodSelector] Including method com.petStore.test.fuctional.beforeTest()
+[XmlMethodSelector] Including method com.petStore.test.fuctional.afterTest()
+[XmlMethodSelector] Including method com.petStore.test.fuctional.test_creatPetWithInValidPhotoUrls()
+[XmlMethodSelector] Including method com.petStore.test.fuctional.test_creatPetWithInValidStatus()
+[XmlMethodSelector] Including method com.petStore.test.fuctional.test_creatPetWithInvalidPetIdPattern()
+[XmlMethodSelector] Including method com.petStore.test.fuctional.test_creatPetWithLongFieldNames()
+[XmlMethodSelector] Including method com.petStore.test.fuctional.test_creatPetWithValidFields()
+[TestNG] Running:
+  C:\Users\vivek swarup\AppData\Local\Temp\testng-eclipse--231382299\testng-customsuite.xml
+
+[JsonMessageSender] Sending message [SuiteMessage ==> suite:Default suite, starting, methodCount:0]
+[SuiteRunner] Created 1 TestRunners
+[TestRunner] Running test Default test on 1  classes,  included groups:[] excluded groups:[]
+===== Test class
+com.petStore.test.fuctional.CreatePetFunctionalTest
+    @Test CreatePetFunctionalTest.test_creatPetWithInValidPhotoUrls()[pri:0, instance:com.petStore.test.fuctional.CreatePetFunctionalTest@5026735c]
+    @Test CreatePetFunctionalTest.test_creatPetWithInValidStatus()[pri:0, instance:com.petStore.test.fuctional.CreatePetFunctionalTest@5026735c]
+    @Test CreatePetFunctionalTest.test_creatPetWithInvalidPetIdPattern()[pri:0, instance:com.petStore.test.fuctional.CreatePetFunctionalTest@5026735c]
+    @Test CreatePetFunctionalTest.test_creatPetWithLongFieldNames()[pri:0, instance:com.petStore.test.fuctional.CreatePetFunctionalTest@5026735c]
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+    @Test CreatePetFunctionalTest.test_creatPetWithValidFields()[pri:0, instance:com.petStore.test.fuctional.CreatePetFunctionalTest@5026735c]
+======
+[JsonMessageSender] Sending message [TestMessage ==> suite:Default suite, testName:Default test, passed:0, failed:0]
+[Invoker 807328355] Keeping method CreatePetFunctionalTest.beforeTest()[pri:0, instance:com.petStore.test.fuctional.CreatePetFunctionalTest@5026735c] for class null
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+[Invoker 807328355] Invoking @BeforeTest CreatePetFunctionalTest.beforeTest()[pri:0, instance:com.petStore.test.fuctional.CreatePetFunctionalTest@5026735c]
+Calling  log("Calling  CreatePetFunctionalTest.beforeTest()");
+Creating RestTemplate object before tests
+[JsonMessageSender] Sending message [TestResultMessage ==> suite:Default suite, test:Default test, class:com.petStore.test.fuctional.CreatePetFunctionalTest, method:test_creatPetWithInValidPhotoUrls, parameters:]
+[Invoker 807328355] Invoking com.petStore.test.fuctional.CreatePetFunctionalTest.test_creatPetWithInValidPhotoUrls
+executing test_creatPetWithInValidPhotoUrls
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+calling URL :https://petstore.swagger.io/v2/pet
+rest api call type :POST
+body :
+{
+  "id": 1,
+  "category": {
+    "id": 21,
+    "name": "testCategory"
+  },
+  "name": "doggie",
+  "photoUrls": [
+    "wert_7343248_8347&^%$@"
+  ],
+  "tags": [
+    {
+      "id": 31,
+      "name": "testTags1"
+    }
+  ],
+  "status": "available"
+}
+responseBody --->;{"id":1,"category":{"id":21,"name":"testCategory"},"name":"doggie","photoUrls":["wert_7343248_8347&^%$@"],"tags":[{"id":31,"name":"testTags1"}],"status":"available"}
+Assert start
+[JsonMessageSender] Sending message [TestResultMessage ==> suite:Default suite, test:Default test, class:com.petStore.test.fuctional.CreatePetFunctionalTest, method:test_creatPetWithInValidPhotoUrls, parameters:]
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+[JsonMessageSender] Sending message [TestResultMessage ==> suite:Default suite, test:Default test, class:com.petStore.test.fuctional.CreatePetFunctionalTest, method:test_creatPetWithInValidStatus, parameters:]
+[Invoker 807328355] Invoking com.petStore.test.fuctional.CreatePetFunctionalTest.test_creatPetWithInValidStatus
+executing test_creatPetWithInValidStatus
+calling URL :https://petstore.swagger.io/v2/pet
+rest api call type :POST
+body :
+{
+  "id": 1,
+  "category": {
+    "id": 21,
+    "name": "testCategory"
+  },
+  "name": "doggie",
+  "photoUrls": [
+    "www.test.url/image"
+  ],
+  "tags": [
+    {
+      "id": 31,
+      "name": "testTags1"
+    }
+  ],
+  "status": "available1"
+}
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+responseBody --->;{"id":1,"category":{"id":21,"name":"testCategory"},"name":"doggie","photoUrls":["www.test.url/image"],"tags":[{"id":31,"name":"testTags1"}],"status":"available1"}
+Assert start
+[JsonMessageSender] Sending message [TestResultMessage ==> suite:Default suite, test:Default test, class:com.petStore.test.fuctional.CreatePetFunctionalTest, method:test_creatPetWithInValidStatus, parameters:]
+[JsonMessageSender] Sending message [TestResultMessage ==> suite:Default suite, test:Default test, class:com.petStore.test.fuctional.CreatePetFunctionalTest, method:test_creatPetWithInvalidPetIdPattern, parameters:]
+[Invoker 807328355] Invoking com.petStore.test.fuctional.CreatePetFunctionalTest.test_creatPetWithInvalidPetIdPattern
+executing test_creatPetWithInvalidPetIdPattern
+calling URL :https://petstore.swagger.io/v2/pet
+rest api call type :POST
+body :
+{
+  "id": 1@12&845_!@34,
+  "category": {
+    "id": 1@12&845_!@34,
+    "name": "TestCategory"
+  },
+  "name": "doggie",
+  "photoUrls": [
+    "www.testurl.com/image1"
+  ],
+  "tags": [
+    {
+      "id": 1@12&845_!@34,
+      "name": "testTag1"
+    }
+  ],
+  "status": "available"
+}
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+HTTP response code400
+responseBody --->;{"id":1,"category":{"id":21,"name":"testCategory"},"name":"doggie","photoUrls":["www.test.url/image"],"tags":[{"id":31,"name":"testTags1"}],"status":"available1"}
+Assert start
+Assert completed
+[JsonMessageSender] Sending message [TestResultMessage ==> suite:Default suite, test:Default test, class:com.petStore.test.fuctional.CreatePetFunctionalTest, method:test_creatPetWithInvalidPetIdPattern, parameters:]
+[JsonMessageSender] Sending message [TestResultMessage ==> suite:Default suite, test:Default test, class:com.petStore.test.fuctional.CreatePetFunctionalTest, method:test_creatPetWithLongFieldNames, parameters:]
+[Invoker 807328355] Invoking com.petStore.test.fuctional.CreatePetFunctionalTest.test_creatPetWithLongFieldNames
+executing test_creatPetWithLongFieldNames
+calling URL :https://petstore.swagger.io/v2/pet
+rest api call type :POST
+body :
+{
+  "id": 1,
+  "category": {
+    "id": 21,
+    "name": "TestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategory"
+  },
+  "name": "doggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggie",
+  "photoUrls": [
+    "www.testurltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltes.com/image1"
+  ],
+  "tags": [
+    {
+      "id": 31,
+      "name": "testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1"
+    }
+  ],
+  "status": "availableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailable"
+}
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+responseBody --->;{"id":1,"category":{"id":21,"name":"TestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategory"},"name":"doggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggie","photoUrls":["www.testurltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltes.com/image1"],"tags":[{"id":31,"name":"testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1"}],"status":"availableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailable"}
+Assert start
+[JsonMessageSender] Sending message [TestResultMessage ==> suite:Default suite, test:Default test, class:com.petStore.test.fuctional.CreatePetFunctionalTest, method:test_creatPetWithLongFieldNames, parameters:]
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+[JsonMessageSender] Sending message [TestResultMessage ==> suite:Default suite, test:Default test, class:com.petStore.test.fuctional.CreatePetFunctionalTest, method:test_creatPetWithValidFields, parameters:]
+[Invoker 807328355] Invoking com.petStore.test.fuctional.CreatePetFunctionalTest.test_creatPetWithValidFields
+executing test_creatPetWithValidFields
+calling URL :https://petstore.swagger.io/v2/pet
+rest api call type :POST
+body :
+{
+  "id": 1,
+  "category": {
+    "id": 21,
+    "name": "TestCategory"
+  },
+  "name": "doggie",
+  "photoUrls": [
+    "www.testurl.com/image1"
+  ],
+  "tags": [
+    {
+      "id": 31,
+      "name": "testTag1"
+    }
+  ],
+  "status": "available"
+}
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+responseBody --->;{"id":1,"category":{"id":21,"name":"TestCategory"},"name":"doggie","photoUrls":["www.testurl.com/image1"],"tags":[{"id":31,"name":"testTag1"}],"status":"available"}
+Assert start
+Assert completed
+[JsonMessageSender] Sending message [TestResultMessage ==> suite:Default suite, test:Default test, class:com.petStore.test.fuctional.CreatePetFunctionalTest, method:test_creatPetWithValidFields, parameters:]
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+[Invoker 807328355] Keeping method CreatePetFunctionalTest.afterTest()[pri:0, instance:com.petStore.test.fuctional.CreatePetFunctionalTest@5026735c] for class null
+[Invoker 807328355] Invoking @AfterTest CreatePetFunctionalTest.afterTest()[pri:0, instance:com.petStore.test.fuctional.CreatePetFunctionalTest@5026735c]
+Calling  CreatePetFunctionalTest.afterTest()
+Resetting response and responseBodyPOST object
+===== Invoked methods
+  CreatePetFunctionalTest.beforeTest()[pri:0, instance:com.petStore.test.fuctional.CreatePetFunctionalTest@5026735c] 1344697180
+    CreatePetFunctionalTest.test_creatPetWithInValidPhotoUrls()[pri:0, instance:com.petStore.test.fuctional.CreatePetFunctionalTest@5026735c] 1344697180
+    CreatePetFunctionalTest.test_creatPetWithInValidStatus()[pri:0, instance:com.petStore.test.fuctional.CreatePetFunctionalTest@5026735c] 1344697180
+    CreatePetFunctionalTest.test_creatPetWithInvalidPetIdPattern()[pri:0, instance:com.petStore.test.fuctional.CreatePetFunctionalTest@5026735c] 1344697180
+    CreatePetFunctionalTest.test_creatPetWithLongFieldNames()[pri:0, instance:com.petStore.test.fuctional.CreatePetFunctionalTest@5026735c] 1344697180
+    CreatePetFunctionalTest.test_creatPetWithValidFields()[pri:0, instance:com.petStore.test.fuctional.CreatePetFunctionalTest@5026735c] 1344697180
+  CreatePetFunctionalTest.afterTest()[pri:0, instance:com.petStore.test.fuctional.CreatePetFunctionalTest@5026735c] 1344697180
+=====
+Creating D:\mindtickleIntvWS\org.petstore.net\test-output\Default suite\Default test.html
+Creating D:\mindtickleIntvWS\org.petstore.net\test-output\Default suite\Default test.xml
+[JsonMessageSender] Sending message [TestMessage ==> suite:Default suite, testName:Default test, passed:2, failed:3]
+PASSED: test_creatPetWithInvalidPetIdPattern
+PASSED: test_creatPetWithValidFields
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+FAILED: test_creatPetWithInValidPhotoUrls
+java.lang.AssertionError: The processing should fail with actual Response Code 400 as payload has invlid photourls and is client error:  expected [400] but found [200]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:372)
+	at com.petStore.test.fuctional.CreatePetFunctionalTest.test_creatPetWithInValidPhotoUrls(CreatePetFunctionalTest.java:149)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+FAILED: test_creatPetWithInValidStatus
+java.lang.AssertionError: The processing should fail with actual Response Code 400 as payload has invlid status enum values and is client error:  expected [400] but found [200]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:372)
+	at com.petStore.test.fuctional.CreatePetFunctionalTest.test_creatPetWithInValidStatus(CreatePetFunctionalTest.java:286)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+FAILED: test_creatPetWithLongFieldNames
+java.lang.AssertionError: The processing should fail with actual Response Code 400 as payload has long field values and is client error:  expected [400] but found [200]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:372)
+	at com.petStore.test.fuctional.CreatePetFunctionalTest.test_creatPetWithLongFieldNames(CreatePetFunctionalTest.java:192)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+
+===============================================
+    Default test
+    Tests run: 5, Failures: 3, Skips: 0
+===============================================
+
+[JsonMessageSender] Sending message [SuiteMessage ==> suite:Default suite, ending, methodCount:7]
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+
+===============================================
+Default suite
+Total tests run: 5, Failures: 3, Skips: 0
+===============================================
+
+Creating D:\mindtickleIntvWS\org.petstore.net\test-output\testng-failed.xml
+Creating D:\mindtickleIntvWS\org.petstore.net\test-output\Default suite\testng-failed.xml
+[TestNG] Time taken by [FailedReporter passed=0 failed=0 skipped=0]: 35 ms
+[BaseMessageSender] Admin message:>STOP
+[TestNG] Time taken by org.testng.reporters.XMLReporter@2ca26d77: 32 ms
+Creating D:\mindtickleIntvWS\org.petstore.net\test-output\old\Default suite\toc.html
+Creating D:\mindtickleIntvWS\org.petstore.net\test-output\old\Default suite\Default test.properties
+Creating D:\mindtickleIntvWS\org.petstore.net\test-output\old\Default suite\index.html
+Creating D:\mindtickleIntvWS\org.petstore.net\test-output\old\Default suite\main.html
+Creating D:\mindtickleIntvWS\org.petstore.net\test-output\old\Default suite\groups.html
+Creating D:\mindtickleIntvWS\org.petstore.net\test-output\old\Default suite\classes.html
+Creating D:\mindtickleIntvWS\org.petstore.net\test-output\old\Default suite\reporter-output.html
+Creating D:\mindtickleIntvWS\org.petstore.net\test-output\old\Default suite\methods-not-run.html
+Creating D:\mindtickleIntvWS\org.petstore.net\test-output\old\Default suite\testng.xml.html
+Creating D:\mindtickleIntvWS\org.petstore.net\test-output\old\index.html
+[TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@4ef74c30: 31 ms
+[TestNG] Time taken by org.testng.reporters.EmailableReporter2@1787f2a0: 23 ms
+Creating D:\mindtickleIntvWS\org.petstore.net\test-output\junitreports\TEST-com.petStore.test.fuctional.CreatePetFunctionalTest.xml
+[TestNG] Time taken by org.testng.reporters.JUnitReportReporter@7905a0b8: 13 ms
+[TestNG] Time taken by org.testng.reporters.jq.Main@3f1d2e23: 48 ms
+[RemoteTestNG] revisions:
+	git.commit.id=bd89e41
+	git.build.version=1.4.0
+	git.branch=bd89e41e24abcef9744ecb0bcc85e3262ee54589
+[RemoteTestNG] loaded class org.testng.internal.Version at file:/C:/Users/vivek%20swarup/.m2/repository/org/testng/testng/6.9.9/testng-6.9.9.jar
+[RemoteTestNG] detected TestNG version 6.9.9
+[RemoteTestNG] Invoked with -serport 52065 -protocol json -d D:\mindtickleIntvWS\org.petstore.net\test-output C:\Users\VIVEKS~1\AppData\Local\Temp\testng-eclipse--533563428\testng-customsuite.xml 
+[BaseMessageSender] Waiting for Eclipse client on localhost:52065
+[BaseMessageSender] Received a connection from Eclipse on localhost:52065
+[BaseMessageSender] Connection established, starting reader thread
+[BaseMessageSender] ReaderThread waiting for an admin message
+[JsonMessageSender] Sending message [GenericMessage ==> suiteCount:1, testCount:1]
+[BaseMessageSender] ReaderThread received admin message:>ACK
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+[TestRunner] Running the tests in 'Default test' with parallel mode:none
+[RunInfo] Adding method selector: org.testng.internal.XmlMethodSelector@1130520d priority: 10
+[TestClass] Creating TestClass for [ClassImpl class=com.petStore.test.fuctional.CreatePetFunctionalTest]
+[TestClass] Adding method CreatePetFunctionalTest.test_creatPetWithInValidPhotoUrls()[pri:0, instance:null] on TestClass class com.petStore.test.fuctional.CreatePetFunctionalTest
+[TestClass] Adding method CreatePetFunctionalTest.test_creatPetWithInValidStatus()[pri:0, instance:null] on TestClass class com.petStore.test.fuctional.CreatePetFunctionalTest
+[TestClass] Adding method CreatePetFunctionalTest.test_creatPetWithInvalidPetIdPattern()[pri:0, instance:null] on TestClass class com.petStore.test.fuctional.CreatePetFunctionalTest
+[TestClass] Adding method CreatePetFunctionalTest.test_creatPetWithLongFieldNames()[pri:0, instance:null] on TestClass class com.petStore.test.fuctional.CreatePetFunctionalTest
+[TestClass] Adding method CreatePetFunctionalTest.test_creatPetWithValidFields()[pri:0, instance:null] on TestClass class com.petStore.test.fuctional.CreatePetFunctionalTest
+[XmlMethodSelector] Including method com.petStore.test.fuctional.beforeTest()
+[XmlMethodSelector] Including method com.petStore.test.fuctional.afterTest()
+[XmlMethodSelector] Including method com.petStore.test.fuctional.test_creatPetWithInValidPhotoUrls()
+[XmlMethodSelector] Including method com.petStore.test.fuctional.test_creatPetWithInValidStatus()
+[XmlMethodSelector] Including method com.petStore.test.fuctional.test_creatPetWithInvalidPetIdPattern()
+[XmlMethodSelector] Including method com.petStore.test.fuctional.test_creatPetWithLongFieldNames()
+[XmlMethodSelector] Including method com.petStore.test.fuctional.test_creatPetWithValidFields()
+[TestNG] Running:
+  C:\Users\vivek swarup\AppData\Local\Temp\testng-eclipse--533563428\testng-customsuite.xml
+
+[JsonMessageSender] Sending message [SuiteMessage ==> suite:Default suite, starting, methodCount:0]
+[SuiteRunner] Created 1 TestRunners
+[TestRunner] Running test Default test on 1  classes,  included groups:[] excluded groups:[]
+===== Test class
+com.petStore.test.fuctional.CreatePetFunctionalTest
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+    @Test CreatePetFunctionalTest.test_creatPetWithInValidPhotoUrls()[pri:0, instance:com.petStore.test.fuctional.CreatePetFunctionalTest@5026735c]
+    @Test CreatePetFunctionalTest.test_creatPetWithInValidStatus()[pri:0, instance:com.petStore.test.fuctional.CreatePetFunctionalTest@5026735c]
+    @Test CreatePetFunctionalTest.test_creatPetWithInvalidPetIdPattern()[pri:0, instance:com.petStore.test.fuctional.CreatePetFunctionalTest@5026735c]
+    @Test CreatePetFunctionalTest.test_creatPetWithLongFieldNames()[pri:0, instance:com.petStore.test.fuctional.CreatePetFunctionalTest@5026735c]
+    @Test CreatePetFunctionalTest.test_creatPetWithValidFields()[pri:0, instance:com.petStore.test.fuctional.CreatePetFunctionalTest@5026735c]
+======
+[JsonMessageSender] Sending message [TestMessage ==> suite:Default suite, testName:Default test, passed:0, failed:0]
+[Invoker 807328355] Keeping method CreatePetFunctionalTest.beforeTest()[pri:0, instance:com.petStore.test.fuctional.CreatePetFunctionalTest@5026735c] for class null
+[Invoker 807328355] Invoking @BeforeTest CreatePetFunctionalTest.beforeTest()[pri:0, instance:com.petStore.test.fuctional.CreatePetFunctionalTest@5026735c]
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+Calling  log("Calling  CreatePetFunctionalTest.beforeTest()");
+Creating RestTemplate object before tests
+[JsonMessageSender] Sending message [TestResultMessage ==> suite:Default suite, test:Default test, class:com.petStore.test.fuctional.CreatePetFunctionalTest, method:test_creatPetWithInValidPhotoUrls, parameters:]
+[Invoker 807328355] Invoking com.petStore.test.fuctional.CreatePetFunctionalTest.test_creatPetWithInValidPhotoUrls
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+executing test_creatPetWithInValidPhotoUrls
+calling URL :https://petstore.swagger.io/v2/pet
+rest api call type :POST
+body :
+{
+  "id": 1,
+  "category": {
+    "id": 21,
+    "name": "testCategory"
+  },
+  "name": "doggie",
+  "photoUrls": [
+    "wert_7343248_8347&^%$@"
+  ],
+  "tags": [
+    {
+      "id": 31,
+      "name": "testTags1"
+    }
+  ],
+  "status": "available"
+}
+responseBody --->;{"id":1,"category":{"id":21,"name":"testCategory"},"name":"doggie","photoUrls":["wert_7343248_8347&^%$@"],"tags":[{"id":31,"name":"testTags1"}],"status":"available"}
+Assert start
+[JsonMessageSender] Sending message [TestResultMessage ==> suite:Default suite, test:Default test, class:com.petStore.test.fuctional.CreatePetFunctionalTest, method:test_creatPetWithInValidPhotoUrls, parameters:]
+[JsonMessageSender] Sending message [TestResultMessage ==> suite:Default suite, test:Default test, class:com.petStore.test.fuctional.CreatePetFunctionalTest, method:test_creatPetWithInValidStatus, parameters:]
+[Invoker 807328355] Invoking com.petStore.test.fuctional.CreatePetFunctionalTest.test_creatPetWithInValidStatus
+executing test_creatPetWithInValidStatus
+calling URL :https://petstore.swagger.io/v2/pet
+rest api call type :POST
+body :
+{
+  "id": 1,
+  "category": {
+    "id": 21,
+    "name": "testCategory"
+  },
+  "name": "doggie",
+  "photoUrls": [
+    "www.test.url/image"
+  ],
+  "tags": [
+    {
+      "id": 31,
+      "name": "testTags1"
+    }
+  ],
+  "status": "available1"
+}
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+responseBody --->;{"id":1,"category":{"id":21,"name":"testCategory"},"name":"doggie","photoUrls":["www.test.url/image"],"tags":[{"id":31,"name":"testTags1"}],"status":"available1"}
+Assert start
+[JsonMessageSender] Sending message [TestResultMessage ==> suite:Default suite, test:Default test, class:com.petStore.test.fuctional.CreatePetFunctionalTest, method:test_creatPetWithInValidStatus, parameters:]
+[JsonMessageSender] Sending message [TestResultMessage ==> suite:Default suite, test:Default test, class:com.petStore.test.fuctional.CreatePetFunctionalTest, method:test_creatPetWithInvalidPetIdPattern, parameters:]
+[Invoker 807328355] Invoking com.petStore.test.fuctional.CreatePetFunctionalTest.test_creatPetWithInvalidPetIdPattern
+executing test_creatPetWithInvalidPetIdPattern
+calling URL :https://petstore.swagger.io/v2/pet
+rest api call type :POST
+body :
+{
+  "id": 1@12&845_!@34,
+  "category": {
+    "id": 1@12&845_!@34,
+    "name": "TestCategory"
+  },
+  "name": "doggie",
+  "photoUrls": [
+    "www.testurl.com/image1"
+  ],
+  "tags": [
+    {
+      "id": 1@12&845_!@34,
+      "name": "testTag1"
+    }
+  ],
+  "status": "available"
+}
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+HTTP response code400
+responseBody --->;{"id":1,"category":{"id":21,"name":"testCategory"},"name":"doggie","photoUrls":["www.test.url/image"],"tags":[{"id":31,"name":"testTags1"}],"status":"available1"}
+Assert start
+Assert completed
+[JsonMessageSender] Sending message [TestResultMessage ==> suite:Default suite, test:Default test, class:com.petStore.test.fuctional.CreatePetFunctionalTest, method:test_creatPetWithInvalidPetIdPattern, parameters:]
+[JsonMessageSender] Sending message [TestResultMessage ==> suite:Default suite, test:Default test, class:com.petStore.test.fuctional.CreatePetFunctionalTest, method:test_creatPetWithLongFieldNames, parameters:]
+[Invoker 807328355] Invoking com.petStore.test.fuctional.CreatePetFunctionalTest.test_creatPetWithLongFieldNames
+executing test_creatPetWithLongFieldNames
+calling URL :https://petstore.swagger.io/v2/pet
+rest api call type :POST
+body :
+{
+  "id": 1,
+  "category": {
+    "id": 21,
+    "name": "TestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategory"
+  },
+  "name": "doggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggie",
+  "photoUrls": [
+    "www.testurltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltes.com/image1"
+  ],
+  "tags": [
+    {
+      "id": 31,
+      "name": "testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1"
+    }
+  ],
+  "status": "availableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailable"
+}
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+responseBody --->;{"id":1,"category":{"id":21,"name":"TestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategory"},"name":"doggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggie","photoUrls":["www.testurltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltes.com/image1"],"tags":[{"id":31,"name":"testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1"}],"status":"availableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailable"}
+Assert start
+[JsonMessageSender] Sending message [TestResultMessage ==> suite:Default suite, test:Default test, class:com.petStore.test.fuctional.CreatePetFunctionalTest, method:test_creatPetWithLongFieldNames, parameters:]
+[JsonMessageSender] Sending message [TestResultMessage ==> suite:Default suite, test:Default test, class:com.petStore.test.fuctional.CreatePetFunctionalTest, method:test_creatPetWithValidFields, parameters:]
+[Invoker 807328355] Invoking com.petStore.test.fuctional.CreatePetFunctionalTest.test_creatPetWithValidFields
+executing test_creatPetWithValidFields
+calling URL :https://petstore.swagger.io/v2/pet
+rest api call type :POST
+body :
+{
+  "id": 1,
+  "category": {
+    "id": 21,
+    "name": "TestCategory"
+  },
+  "name": "doggie",
+  "photoUrls": [
+    "www.testurl.com/image1"
+  ],
+  "tags": [
+    {
+      "id": 31,
+      "name": "testTag1"
+    }
+  ],
+  "status": "available"
+}
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+responseBody --->;{"id":1,"category":{"id":21,"name":"TestCategory"},"name":"doggie","photoUrls":["www.testurl.com/image1"],"tags":[{"id":31,"name":"testTag1"}],"status":"available"}
+Assert start
+Assert completed
+[JsonMessageSender] Sending message [TestResultMessage ==> suite:Default suite, test:Default test, class:com.petStore.test.fuctional.CreatePetFunctionalTest, method:test_creatPetWithValidFields, parameters:]
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+[Invoker 807328355] Keeping method CreatePetFunctionalTest.afterTest()[pri:0, instance:com.petStore.test.fuctional.CreatePetFunctionalTest@5026735c] for class null
+[Invoker 807328355] Invoking @AfterTest CreatePetFunctionalTest.afterTest()[pri:0, instance:com.petStore.test.fuctional.CreatePetFunctionalTest@5026735c]
+Calling  CreatePetFunctionalTest.afterTest()
+Resetting response and responseBodyPOST object
+===== Invoked methods
+  CreatePetFunctionalTest.beforeTest()[pri:0, instance:com.petStore.test.fuctional.CreatePetFunctionalTest@5026735c] 1344697180
+    CreatePetFunctionalTest.test_creatPetWithInValidPhotoUrls()[pri:0, instance:com.petStore.test.fuctional.CreatePetFunctionalTest@5026735c] 1344697180
+    CreatePetFunctionalTest.test_creatPetWithInValidStatus()[pri:0, instance:com.petStore.test.fuctional.CreatePetFunctionalTest@5026735c] 1344697180
+    CreatePetFunctionalTest.test_creatPetWithInvalidPetIdPattern()[pri:0, instance:com.petStore.test.fuctional.CreatePetFunctionalTest@5026735c] 1344697180
+    CreatePetFunctionalTest.test_creatPetWithLongFieldNames()[pri:0, instance:com.petStore.test.fuctional.CreatePetFunctionalTest@5026735c] 1344697180
+    CreatePetFunctionalTest.test_creatPetWithValidFields()[pri:0, instance:com.petStore.test.fuctional.CreatePetFunctionalTest@5026735c] 1344697180
+  CreatePetFunctionalTest.afterTest()[pri:0, instance:com.petStore.test.fuctional.CreatePetFunctionalTest@5026735c] 1344697180
+=====
+Creating D:\mindtickleIntvWS\org.petstore.net\test-output\Default suite\Default test.html
+Creating D:\mindtickleIntvWS\org.petstore.net\test-output\Default suite\Default test.xml
+[JsonMessageSender] Sending message [TestMessage ==> suite:Default suite, testName:Default test, passed:2, failed:3]
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+PASSED: test_creatPetWithInvalidPetIdPattern
+PASSED: test_creatPetWithValidFields
+FAILED: test_creatPetWithInValidPhotoUrls
+java.lang.AssertionError: The processing should fail with actual Response Code 400 as payload has invlid photourls and is client error:  expected [400] but found [200]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:372)
+	at com.petStore.test.fuctional.CreatePetFunctionalTest.test_creatPetWithInValidPhotoUrls(CreatePetFunctionalTest.java:149)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+FAILED: test_creatPetWithInValidStatus
+java.lang.AssertionError: The processing should fail with actual Response Code 400 as payload has invlid status enum values and is client error:  expected [400] but found [200]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:372)
+	at com.petStore.test.fuctional.CreatePetFunctionalTest.test_creatPetWithInValidStatus(CreatePetFunctionalTest.java:286)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+FAILED: test_creatPetWithLongFieldNames
+java.lang.AssertionError: The processing should fail with actual Response Code 400 as payload has long field values and is client error:  expected [400] but found [200]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:372)
+	at com.petStore.test.fuctional.CreatePetFunctionalTest.test_creatPetWithLongFieldNames(CreatePetFunctionalTest.java:192)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+
+===============================================
+    Default test
+    Tests run: 5, Failures: 3, Skips: 0
+===============================================
+
+[JsonMessageSender] Sending message [SuiteMessage ==> suite:Default suite, ending, methodCount:7]
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+[BaseMessageSender] Admin message:>ACK
+[BaseMessageSender] Received ACK:>ACK
+[BaseMessageSender] Admin message:>STOP
+
+===============================================
+Default suite
+Total tests run: 5, Failures: 3, Skips: 0
+===============================================
+
+Creating D:\mindtickleIntvWS\org.petstore.net\test-output\testng-failed.xml
+Creating D:\mindtickleIntvWS\org.petstore.net\test-output\Default suite\testng-failed.xml
+[TestNG] Time taken by [FailedReporter passed=0 failed=0 skipped=0]: 20 ms
+[TestNG] Time taken by org.testng.reporters.XMLReporter@2ca26d77: 19 ms
+Creating D:\mindtickleIntvWS\org.petstore.net\test-output\old\Default suite\toc.html
+Creating D:\mindtickleIntvWS\org.petstore.net\test-output\old\Default suite\Default test.properties
+Creating D:\mindtickleIntvWS\org.petstore.net\test-output\old\Default suite\index.html
+Creating D:\mindtickleIntvWS\org.petstore.net\test-output\old\Default suite\main.html
+Creating D:\mindtickleIntvWS\org.petstore.net\test-output\old\Default suite\groups.html
+Creating D:\mindtickleIntvWS\org.petstore.net\test-output\old\Default suite\classes.html
+Creating D:\mindtickleIntvWS\org.petstore.net\test-output\old\Default suite\reporter-output.html
+Creating D:\mindtickleIntvWS\org.petstore.net\test-output\old\Default suite\methods-not-run.html
+Creating D:\mindtickleIntvWS\org.petstore.net\test-output\old\Default suite\testng.xml.html
+Creating D:\mindtickleIntvWS\org.petstore.net\test-output\old\index.html
+[TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@4ef74c30: 21 ms
+[TestNG] Time taken by org.testng.reporters.EmailableReporter2@1787f2a0: 14 ms
+Creating D:\mindtickleIntvWS\org.petstore.net\test-output\junitreports\TEST-com.petStore.test.fuctional.CreatePetFunctionalTest.xml
+[TestNG] Time taken by org.testng.reporters.JUnitReportReporter@7905a0b8: 12 ms
+[TestNG] Time taken by org.testng.reporters.jq.Main@3f1d2e23: 52 ms

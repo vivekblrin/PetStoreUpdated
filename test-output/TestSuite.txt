@@ -1,0 +1,106 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 36, Failures: 25, Errors: 0, Skipped: 0, Time elapsed: 8.51 s <<< FAILURE! - in TestSuite
+test_AddUserWithLongFieldValues(com.petStore.test.fuctional.CreateUserWithArrayFunctionalTest)  Time elapsed: 0.288 s  <<< FAILURE!
+java.lang.AssertionError: Actual Response Code should be 400 instead od success as payload has long field names and is client error: expected [400] but found [200]
+	at com.petStore.test.fuctional.CreateUserWithArrayFunctionalTest.test_AddUserWithLongFieldValues(CreateUserWithArrayFunctionalTest.java:158)
+
+test_addSingleUserWithInvalidPhoneNo(com.petStore.test.fuctional.CreateUserWithArrayFunctionalTest)  Time elapsed: 0.267 s  <<< FAILURE!
+java.lang.AssertionError: Actual Response Code should be 400 as payload has invalid phone and is client error :  expected [400] but found [200]
+	at com.petStore.test.fuctional.CreateUserWithArrayFunctionalTest.test_addSingleUserWithInvalidPhoneNo(CreateUserWithArrayFunctionalTest.java:517)
+
+test_addSingleUserWithInValidEmailPattern(com.petStore.test.fuctional.CreateUserWithArrayFunctionalTest)  Time elapsed: 0.24 s  <<< FAILURE!
+java.lang.AssertionError: Actual Response Code should be 400 as payload has invalid emailpattern and is client error: expected [400] but found [200]
+	at com.petStore.test.fuctional.CreateUserWithArrayFunctionalTest.test_addSingleUserWithInValidEmailPattern(CreateUserWithArrayFunctionalTest.java:190)
+
+test_creatPetWithInValidPhotoUrls(com.petStore.test.fuctional.CreatePetFunctionalTest)  Time elapsed: 0.016 s  <<< FAILURE!
+java.lang.AssertionError: The processing should fail with actual Response Code 400 as payload has invlid photourls and is client error:  expected [400] but found [200]
+	at com.petStore.test.fuctional.CreatePetFunctionalTest.test_creatPetWithInValidPhotoUrls(CreatePetFunctionalTest.java:135)
+
+test_creatPetWithLongFieldNames(com.petStore.test.fuctional.CreatePetFunctionalTest)  Time elapsed: 0.023 s  <<< FAILURE!
+java.lang.AssertionError: The processing should fail with actual Response Code 400 as payload has long field values and is client error:  expected [400] but found [200]
+	at com.petStore.test.fuctional.CreatePetFunctionalTest.test_creatPetWithLongFieldNames(CreatePetFunctionalTest.java:177)
+
+test_addSingleUserWithinvalidId(com.petStore.test.fuctional.CreateUserWithArrayFunctionalTest)  Time elapsed: 0.005 s  <<< FAILURE!
+java.lang.AssertionError: Actual Response Code should be 400 as payload has invalid userId and is client error: expected [400] but found [500]
+	at com.petStore.test.fuctional.CreateUserWithArrayFunctionalTest.test_addSingleUserWithinvalidId(CreateUserWithArrayFunctionalTest.java:561)
+
+test_addSinglleuserWihtInvalidUserStatus(com.petStore.test.fuctional.CreateUserWithArrayFunctionalTest)  Time elapsed: 0.172 s  <<< FAILURE!
+java.lang.AssertionError: The processing should fail with actual Response Code 400 as payload has invalid userstatus and is client error expected [400] but found [200]
+	at com.petStore.test.fuctional.CreateUserWithArrayFunctionalTest.test_addSinglleuserWihtInvalidUserStatus(CreateUserWithArrayFunctionalTest.java:594)
+
+test_getUserforDuplicateRecords(com.petStore.test.fuctional.GetUserByNameFunctionalTest)  Time elapsed: 0.064 s  <<< FAILURE!
+org.springframework.web.client.HttpClientErrorException$NotFound: 404 Not Found
+	at com.petStore.test.fuctional.GetUserByNameFunctionalTest.test_getUserforDuplicateRecords(GetUserByNameFunctionalTest.java:198)
+
+test_updatePetWithInValidStatus(com.petStore.test.fuctional.UpdatePetFunctionalTest)  Time elapsed: 0.022 s  <<< FAILURE!
+java.lang.AssertionError: The processing should fail with actual Response Code 400 instead of success as payload has invalid status and is client error:  expected [400] but found [200]
+	at com.petStore.test.fuctional.UpdatePetFunctionalTest.test_updatePetWithInValidStatus(UpdatePetFunctionalTest.java:182)
+
+test_updatePetWithInvalidIdsPattern(com.petStore.test.fuctional.UpdatePetFunctionalTest)  Time elapsed: 0.169 s  <<< FAILURE!
+java.lang.AssertionError: The processing  failure  Response Code should be 400 as payload has invalidIds and is client error:  expected [400] but found [500]
+	at com.petStore.test.fuctional.UpdatePetFunctionalTest.test_updatePetWithInvalidIdsPattern(UpdatePetFunctionalTest.java:231)
+
+test_updatePetWithLongFieldNames(com.petStore.test.fuctional.UpdatePetFunctionalTest)  Time elapsed: 0.265 s  <<< FAILURE!
+java.lang.AssertionError: Actual Response Code should be 400 as payload has long Field  names and is client error: expected [400] but found [200]
+	at com.petStore.test.fuctional.UpdatePetFunctionalTest.test_updatePetWithLongFieldNames(UpdatePetFunctionalTest.java:275)
+
+test_creatPetWithInValidStatus(com.petStore.test.fuctional.CreatePetFunctionalTest)  Time elapsed: 0.007 s  <<< FAILURE!
+java.lang.AssertionError: The processing should fail with actual Response Code 400 as payload has invlid status enum values and is client error:  expected [400] but found [200]
+	at com.petStore.test.fuctional.CreatePetFunctionalTest.test_creatPetWithInValidStatus(CreatePetFunctionalTest.java:269)
+
+test_updateUseWithinvalidUserStatus(com.petStore.test.fuctional.UpdateUserFunctionalTest)  Time elapsed: 0.012 s  <<< FAILURE!
+java.lang.AssertionError: Actual Response Code should be 400 as payload has invaldUserStatus Pattern and is client error: expected [400] but found [200]
+	at com.petStore.test.fuctional.UpdateUserFunctionalTest.test_updateUseWithinvalidUserStatus(UpdateUserFunctionalTest.java:282)
+
+test_updateUserWithinvalidPhonePattern(com.petStore.test.fuctional.UpdateUserFunctionalTest)  Time elapsed: 0.012 s  <<< FAILURE!
+java.lang.AssertionError: Actual Response Code should be 400 as payload has invaldPhone Pattern and is client error: expected [400] but found [200]
+	at com.petStore.test.fuctional.UpdateUserFunctionalTest.test_updateUserWithinvalidPhonePattern(UpdateUserFunctionalTest.java:248)
+
+test_updateUserWithLongfieldNames(com.petStore.test.fuctional.UpdateUserFunctionalTest)  Time elapsed: 0.01 s  <<< FAILURE!
+java.lang.AssertionError: Actual Response Code should be 400 as payload has verylong usernameupdate and is client error: expected [400] but found [200]
+	at com.petStore.test.fuctional.UpdateUserFunctionalTest.test_updateUserWithLongfieldNames(UpdateUserFunctionalTest.java:180)
+
+test_getPetsBasedOnFieldStatusAvailableWithsqlInjection(com.petStore.test.nonfuctional.GetPetBasedOnStatusNonFunctional)  Time elapsed: 0.07 s  <<< FAILURE!
+org.springframework.web.client.ResourceAccessException: I/O error on GET request for "https://petstore.swagger.iov2/pet/findByStatus": petstore.swagger.iov2; nested exception is java.net.UnknownHostException: petstore.swagger.iov2
+	at com.petStore.test.nonfuctional.GetPetBasedOnStatusNonFunctional.test_getPetsBasedOnFieldStatusAvailableWithsqlInjection(GetPetBasedOnStatusNonFunctional.java:66)
+Caused by: java.net.UnknownHostException: petstore.swagger.iov2
+	at com.petStore.test.nonfuctional.GetPetBasedOnStatusNonFunctional.test_getPetsBasedOnFieldStatusAvailableWithsqlInjection(GetPetBasedOnStatusNonFunctional.java:66)
+
+test_BulkUserCreation(com.petStore.test.fuctional.CreateUserWithArrayFunctionalTest)  Time elapsed: 0.125 s  <<< FAILURE!
+java.lang.AssertionError: Actual Response Code should be 413 as payload is too large and is client error : expected [413] but found [500]
+	at com.petStore.test.fuctional.CreateUserWithArrayFunctionalTest.test_BulkUserCreation(CreateUserWithArrayFunctionalTest.java:484)
+
+test_creatPetWithImproperJsonFormat(com.petStore.test.nonfuctional.CreatePetNonFunctional)  Time elapsed: 0.012 s  <<< FAILURE!
+java.lang.AssertionError: Processing should fail with Error Code 400 as Payload has as invalid comma in tag array : expected [400] but found [500]
+	at com.petStore.test.nonfuctional.CreatePetNonFunctional.test_creatPetWithImproperJsonFormat(CreatePetNonFunctional.java:141)
+
+test_creatPetWithNonExixtentFieldNameandValue(com.petStore.test.nonfuctional.CreatePetNonFunctional)  Time elapsed: 0.045 s  <<< FAILURE!
+java.lang.AssertionError: Processing should fail with Error Code 400 rather than success as invalid field shoudld throw schema validation error : expected [400] but found [200]
+	at com.petStore.test.nonfuctional.CreatePetNonFunctional.test_creatPetWithNonExixtentFieldNameandValue(CreatePetNonFunctional.java:94)
+
+test_createSingleUserWithMoreThanMaxIdSuported(com.petStore.test.nonfuctional.CreateUserWithArrayNonFunctinal)  Time elapsed: 0.046 s  <<< FAILURE!
+java.lang.AssertionError: Actual Response Code should be 400 as payload has invalid Id more than Integer.Max and is client error: expected [400] but found [500]
+	at com.petStore.test.nonfuctional.CreateUserWithArrayNonFunctinal.test_createSingleUserWithMoreThanMaxIdSuported(CreateUserWithArrayNonFunctinal.java:94)
+
+test_createSingleUserWithInvalidPayloadFormat(com.petStore.test.nonfuctional.CreateUserWithArrayNonFunctinal)  Time elapsed: 0.004 s  <<< FAILURE!
+java.lang.AssertionError: Actual Response Code should be 400 with schema validation error as it has comma after array: expected [400] but found [500]
+	at com.petStore.test.nonfuctional.CreateUserWithArrayNonFunctinal.test_createSingleUserWithInvalidPayloadFormat(CreateUserWithArrayNonFunctinal.java:137)
+
+test_getUserForNonExistentUserNameWithSqlInjection(com.petStore.test.nonfuctional.GetUserByNameNonFucntional)  Time elapsed: 0.189 s  <<< FAILURE!
+java.lang.AssertionError: Processing should fail with Error Code 400 as Payload rather than processing giving 404 not found search result as we had sql injection in query paramaters : expected [400] but found [404]
+	at com.petStore.test.nonfuctional.GetUserByNameNonFucntional.test_getUserForNonExistentUserNameWithSqlInjection(GetUserByNameNonFucntional.java:95)
+
+test_updateUserWithinvalidEmailPattern(com.petStore.test.fuctional.UpdateUserFunctionalTest)  Time elapsed: 0.196 s  <<< FAILURE!
+java.lang.AssertionError: Actual Response Code should be 400 as payload has invaldemail Pattern and is client error: expected [400] but found [200]
+	at com.petStore.test.fuctional.UpdateUserFunctionalTest.test_updateUserWithinvalidEmailPattern(UpdateUserFunctionalTest.java:214)
+
+test_updateUserWithNonExistingUserName(com.petStore.test.nonfuctional.UpdateUserNonFunctional)  Time elapsed: 0.275 s  <<< FAILURE!
+java.lang.AssertionError: Processing should fail with 404 instead of success as we are trying to update nonexistent object  : expected [404] but found [200]
+	at com.petStore.test.nonfuctional.UpdateUserNonFunctional.test_updateUserWithNonExistingUserName(UpdateUserNonFunctional.java:82)
+
+test_updateNonExistencePet(com.petStore.test.nonfuctional.UpdatePetStatusNonFunctional)  Time elapsed: 0.451 s  <<< FAILURE!
+java.lang.AssertionError: Processing should fail with Error Code 404 as Payload has an non existent object : expected [404] but found [200]
+	at com.petStore.test.nonfuctional.UpdatePetStatusNonFunctional.test_updateNonExistencePet(UpdatePetStatusNonFunctional.java:107)
+

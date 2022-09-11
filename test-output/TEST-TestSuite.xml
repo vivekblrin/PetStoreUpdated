@@ -1,0 +1,1083 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="8.51" tests="36" errors="0" skipped="0" failures="25">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\mindtickleIntvWS\PetStoreUpdated\target\test-classes;D:\mindtickleIntvWS\PetStoreUpdated\target\classes;C:\Users\vivek swarup\.m2\repository\com\googlecode\json-simple\json-simple\1.1\json-simple-1.1.jar;C:\Users\vivek swarup\.m2\repository\org\springframework\spring-beans\5.1.5.RELEASE\spring-beans-5.1.5.RELEASE.jar;C:\Users\vivek swarup\.m2\repository\org\springframework\spring-core\5.1.5.RELEASE\spring-core-5.1.5.RELEASE.jar;C:\Users\vivek swarup\.m2\repository\org\springframework\spring-jcl\5.1.5.RELEASE\spring-jcl-5.1.5.RELEASE.jar;C:\Users\vivek swarup\.m2\repository\org\springframework\spring-web\5.1.5.RELEASE\spring-web-5.1.5.RELEASE.jar;C:\Users\vivek swarup\.m2\repository\org\testng\testng\6.9.9\testng-6.9.9.jar;C:\Users\vivek swarup\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\vivek swarup\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\vivek swarup\.m2\repository\com\beust\jcommander\1.48\jcommander-1.48.jar;C:\Users\vivek swarup\.m2\repository\org\apache\ant\ant\1.7.0\ant-1.7.0.jar;C:\Users\vivek swarup\.m2\repository\org\apache\ant\ant-launcher\1.7.0\ant-launcher-1.7.0.jar;C:\Users\vivek swarup\.m2\repository\org\yaml\snakeyaml\1.15\snakeyaml-1.15.jar;C:\Users\vivek swarup\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;C:\Users\vivek swarup\.m2\repository\org\apache\logging\log4j\log4j-api\2.14.1\log4j-api-2.14.1.jar;C:\Users\vivek swarup\.m2\repository\org\apache\logging\log4j\log4j-core\2.14.1\log4j-core-2.14.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="D:\Java\jdk1.8.0_331\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\VIVEKS~1\AppData\Local\Temp\surefire312248181448143340\surefirebooter1181151616600818410.jar C:\Users\vivek swarup\AppData\Local\Temp\surefire312248181448143340 2022-09-12T02-08-11_483-jvmRun1 surefire1882855121603208554tmp surefire_04426082297820950787tmp"/>
+    <property name="surefire.test.class.path" value="D:\mindtickleIntvWS\PetStoreUpdated\target\test-classes;D:\mindtickleIntvWS\PetStoreUpdated\target\classes;C:\Users\vivek swarup\.m2\repository\com\googlecode\json-simple\json-simple\1.1\json-simple-1.1.jar;C:\Users\vivek swarup\.m2\repository\org\springframework\spring-beans\5.1.5.RELEASE\spring-beans-5.1.5.RELEASE.jar;C:\Users\vivek swarup\.m2\repository\org\springframework\spring-core\5.1.5.RELEASE\spring-core-5.1.5.RELEASE.jar;C:\Users\vivek swarup\.m2\repository\org\springframework\spring-jcl\5.1.5.RELEASE\spring-jcl-5.1.5.RELEASE.jar;C:\Users\vivek swarup\.m2\repository\org\springframework\spring-web\5.1.5.RELEASE\spring-web-5.1.5.RELEASE.jar;C:\Users\vivek swarup\.m2\repository\org\testng\testng\6.9.9\testng-6.9.9.jar;C:\Users\vivek swarup\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\vivek swarup\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\vivek swarup\.m2\repository\com\beust\jcommander\1.48\jcommander-1.48.jar;C:\Users\vivek swarup\.m2\repository\org\apache\ant\ant\1.7.0\ant-1.7.0.jar;C:\Users\vivek swarup\.m2\repository\org\apache\ant\ant-launcher\1.7.0\ant-launcher-1.7.0.jar;C:\Users\vivek swarup\.m2\repository\org\yaml\snakeyaml\1.15\snakeyaml-1.15.jar;C:\Users\vivek swarup\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;C:\Users\vivek swarup\.m2\repository\org\apache\logging\log4j\log4j-api\2.14.1\log4j-api-2.14.1.jar;C:\Users\vivek swarup\.m2\repository\org\apache\logging\log4j\log4j-core\2.14.1\log4j-core-2.14.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\vivek swarup"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="D:\Java\jdk1.8.0_331\jre"/>
+    <property name="basedir" value="D:\mindtickleIntvWS\PetStoreUpdated"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\VIVEKS~1\AppData\Local\Temp\surefire312248181448143340\surefirebooter1181151616600818410.jar"/>
+    <property name="sun.boot.class.path" value="D:\Java\jdk1.8.0_331\jre\lib\resources.jar;D:\Java\jdk1.8.0_331\jre\lib\rt.jar;D:\Java\jdk1.8.0_331\jre\lib\sunrsasign.jar;D:\Java\jdk1.8.0_331\jre\lib\jsse.jar;D:\Java\jdk1.8.0_331\jre\lib\jce.jar;D:\Java\jdk1.8.0_331\jre\lib\charsets.jar;D:\Java\jdk1.8.0_331\jre\lib\jfr.jar;D:\Java\jdk1.8.0_331\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
+    <property name="java.runtime.version" value="1.8.0_331-b09"/>
+    <property name="user.name" value="vivek swarup"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="D:\Java\jdk1.8.0_331\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
+    <property name="localRepository" value="C:\Users\vivek swarup\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\VIVEKS~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_331"/>
+    <property name="user.dir" value="D:\mindtickleIntvWS\PetStoreUpdated"/>
+    <property name="os.arch" value="x86"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="D:\Java\jdk1.8.0_331\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Python39\Scripts\;C:\Python39\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\Java\jdk1.8.0_331\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;D:\apache-maven-3.8.6\bin;C:\Users\vivek swarup\.m2\repository\org\apache\jmeter\ApacheJMeter_core\5.2.1\ApacheJMeter_core-5.2.1.jar;C:\Program Files\Git\cmd;C:\Program Files\Git\bin;C:\Users\vivek swarup\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk1.8.0_111\bin;C:\Users\vivek swarup\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\vivek swarup\AppData\Roaming\npm;C:\Users\vivek swarup\AppData\Local\GitHubDesktop\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.331-b09"/>
+    <property name="java.ext.dirs" value="D:\Java\jdk1.8.0_331\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="test_AddUserWithLongFieldValues" classname="com.petStore.test.fuctional.CreateUserWithArrayFunctionalTest" time="0.288">
+    <failure message="Actual Response Code should be 400 instead od success as payload has long field names and is client error: expected [400] but found [200]" type="java.lang.AssertionError">java.lang.AssertionError: Actual Response Code should be 400 instead od success as payload has long field names and is client error: expected [400] but found [200]
+	at com.petStore.test.fuctional.CreateUserWithArrayFunctionalTest.test_AddUserWithLongFieldValues(CreateUserWithArrayFunctionalTest.java:158)
+</failure>
+    <system-out><![CDATA[[INFO ] 2022-09-12 02:08:18.304 [main] PetStoreUtil - Calling  CreatePetFunctionalTest.loadProperties()
+[INFO ] 2022-09-12 02:08:18.319 [main] PetStoreUtil - Calling  PetStoreUtil Constructor
+[INFO ] 2022-09-12 02:08:18.320 [main] PetStoreUtil - Calling  CreatePetNonFunctional.loadProperties()
+[INFO ] 2022-09-12 02:08:18.321 [main] PetStoreUtil - Calling  CreateUserWithArrayFunctionalTest.loadProperties()
+[INFO ] 2022-09-12 02:08:18.321 [main] PetStoreUtil - Calling  CreateUserWithArrayNonFunctinal.loadProperties()
+[INFO ] 2022-09-12 02:08:18.321 [main] PetStoreUtil - Calling  GetPetBasedOnStatusFuctionalTest.loadProperties()
+[INFO ] 2022-09-12 02:08:18.322 [main] PetStoreUtil - Calling  GetPetBasedOnStatusNonFunctional.loadProperties()
+[INFO ] 2022-09-12 02:08:18.322 [main] PetStoreUtil - Calling  GetUserByNameFunctionalTest.loadProperties()
+[INFO ] 2022-09-12 02:08:18.324 [main] PetStoreUtil - Calling  GetUserByNameNonFucntional.loadProperties()
+[INFO ] 2022-09-12 02:08:18.324 [main] PetStoreUtil - Calling  CreatePetFunctionalTest.loadProperties()
+[INFO ] 2022-09-12 02:08:18.325 [main] PetStoreUtil - Calling  UpdatePetStatusNonFunctional.loadProperties()
+[INFO ] 2022-09-12 02:08:18.325 [main] PetStoreUtil - Calling  CreatePetFunctionalTest.loadProperties()
+[INFO ] 2022-09-12 02:08:18.325 [main] PetStoreUtil - Calling  UpdateUserNonFunctional.loadProperties()
+[INFO ] 2022-09-12 02:08:18.326 [main] PetStoreUtil - Calling  CreatePetFunctionalTest.beforeTest()
+[INFO ] 2022-09-12 02:08:18.326 [main] PetStoreUtil - Creating RestTemplate object before tests
+[INFO ] 2022-09-12 02:08:18.376 [main] PetStoreUtil - Calling  CreatePetNonFunctional.beforeTest()
+[INFO ] 2022-09-12 02:08:18.376 [main] PetStoreUtil - Creating RestTemplate object before tests
+[INFO ] 2022-09-12 02:08:18.378 [main] PetStoreUtil - Calling  CreateUserWithArrayFunctionalTest.beforeTest()
+[INFO ] 2022-09-12 02:08:18.378 [main] PetStoreUtil - Creating RestTemplate object before tests
+[INFO ] 2022-09-12 02:08:18.380 [main] PetStoreUtil - Calling  CreateUserWithArrayNonFunctinal.beforeTest()
+[INFO ] 2022-09-12 02:08:18.380 [main] PetStoreUtil - Creating RestTemplate object before tests
+[INFO ] 2022-09-12 02:08:18.381 [main] PetStoreUtil - Calling  GetPetBasedOnStatusFuctionalTest.beforeTest()
+[INFO ] 2022-09-12 02:08:18.382 [main] PetStoreUtil - Creating RestTemplate object before tests
+[INFO ] 2022-09-12 02:08:18.384 [main] PetStoreUtil - Calling  GetPetBasedOnStatusNonFunctional.beforeTest()
+[INFO ] 2022-09-12 02:08:18.384 [main] PetStoreUtil - Creating RestTemplate object before tests
+[INFO ] 2022-09-12 02:08:18.385 [main] PetStoreUtil - Calling  GetUserByNameFunctionalTest.beforeTest()
+[INFO ] 2022-09-12 02:08:18.386 [main] PetStoreUtil - Creating RestTemplate object before tests
+[INFO ] 2022-09-12 02:08:18.387 [main] PetStoreUtil - executing createDuplicateUserRecord
+[INFO ] 2022-09-12 02:08:18.408 [main] PetStoreUtil - calling URL :https://petstore.swagger.io/v2/user/createWithArray
+[INFO ] 2022-09-12 02:08:18.409 [main] PetStoreUtil - rest api call type :POST
+[INFO ] 2022-09-12 02:08:18.409 [main] PetStoreUtil - body :
+[
+  {
+    "id": 1,
+    "username": "Vivek",
+    "firstName": "Vivek",
+    "lastName": "swarup",
+    "email": "vivek@oracle1.com",
+    "password": "vivpwd",
+    "phone": "011",
+    "userStatus": 11
+  },
+  {
+    "id": 2,
+    "username": "Vivek",
+    "firstName": "Vivek",
+    "lastName": "swarup",
+    "email": "vivek@oracle.com",
+    "password": "vivpwd",
+    "phone": "011",
+    "userStatus": 11
+  }
+]
+[INFO ] 2022-09-12 02:08:19.739 [main] PetStoreUtil - responseBody --->;{"code":200,"type":"unknown","message":"ok"}
+[INFO ] 2022-09-12 02:08:19.741 [main] PetStoreUtil - executing createUser
+[INFO ] 2022-09-12 02:08:19.741 [main] PetStoreUtil - calling URL :https://petstore.swagger.io/v2/user/createWithArray
+[INFO ] 2022-09-12 02:08:19.741 [main] PetStoreUtil - rest api call type :POST
+[INFO ] 2022-09-12 02:08:19.741 [main] PetStoreUtil - body :
+[{"id": 123,"username": "Vivek", "firstName": "vivek","lastName": "swarup", "email": "sendmail.v22@gmail.com", "password": "pwd1","phone": "011", "userStatus": 12}]
+[INFO ] 2022-09-12 02:08:20.005 [main] PetStoreUtil - responseBody --->;{"code":200,"type":"unknown","message":"ok"}
+[INFO ] 2022-09-12 02:08:20.005 [main] PetStoreUtil - Calling  GetUserByNameNonFucntional.beforeTest()
+[INFO ] 2022-09-12 02:08:20.005 [main] PetStoreUtil - Creating RestTemplate object before tests
+[INFO ] 2022-09-12 02:08:20.038 [main] PetStoreUtil - Calling  UpdatePetFunctionalTest.beforeTest()
+[INFO ] 2022-09-12 02:08:20.038 [main] PetStoreUtil - Creating RestTemplate object before tests
+[INFO ] 2022-09-12 02:08:20.040 [main] PetStoreUtil - executing createPet
+[INFO ] 2022-09-12 02:08:20.040 [main] PetStoreUtil - calling URL :https://petstore.swagger.io/v2/pet
+[INFO ] 2022-09-12 02:08:20.040 [main] PetStoreUtil - rest api call type :POST
+[INFO ] 2022-09-12 02:08:20.041 [main] PetStoreUtil - body :
+{
+  "id": 1,
+  "category": {
+    "id": 21,
+    "name": "TestCategory"
+  },
+  "name": "doggie",
+  "photoUrls": [
+    "www.testurl.com/image1"
+  ],
+  "tags": [
+    {
+      "id": 31,
+      "name": "testTag1"
+    }
+  ],
+  "status": "available"
+}
+[INFO ] 2022-09-12 02:08:20.307 [main] PetStoreUtil - responseBody --->;{"id":1,"category":{"id":21,"name":"TestCategory"},"name":"doggie","photoUrls":["www.testurl.com/image1"],"tags":[{"id":31,"name":"testTag1"}],"status":"available"}
+[INFO ] 2022-09-12 02:08:20.307 [main] PetStoreUtil - Assert start
+[INFO ] 2022-09-12 02:08:20.307 [main] PetStoreUtil - Assert completed
+[INFO ] 2022-09-12 02:08:20.308 [main] PetStoreUtil - Calling  GetUserByNameNonFucntional.beforeTest()
+[INFO ] 2022-09-12 02:08:20.308 [main] PetStoreUtil - Creating RestTemplate object before tests
+[INFO ] 2022-09-12 02:08:20.311 [main] PetStoreUtil - Calling  UpdateUserFunctionalTest.beforeTest()
+[INFO ] 2022-09-12 02:08:20.311 [main] PetStoreUtil - Creating RestTemplate object before tests
+[INFO ] 2022-09-12 02:08:20.314 [main] PetStoreUtil - Calling  UpdateUserNonFunctional.beforeTest()
+[INFO ] 2022-09-12 02:08:20.314 [main] PetStoreUtil - Creating RestTemplate object before tests
+[INFO ] 2022-09-12 02:08:20.330 [pool-2-thread-6] PetStoreUtil - executing test_AddUserWithLongFieldValues
+[INFO ] 2022-09-12 02:08:20.332 [pool-2-thread-6] PetStoreUtil - calling URL :https://petstore.swagger.io/v2/user/createWithArray
+[INFO ] 2022-09-12 02:08:20.331 [pool-2-thread-9] PetStoreUtil - executing test_addOneUser
+[INFO ] 2022-09-12 02:08:20.333 [pool-2-thread-9] PetStoreUtil - calling URL :https://petstore.swagger.io/v2/user/createWithArray
+[INFO ] 2022-09-12 02:08:20.331 [pool-2-thread-5] PetStoreUtil - executing test_creatPetWithValidFields
+[INFO ] 2022-09-12 02:08:20.332 [pool-2-thread-7] PetStoreUtil - executing test_BulkUserCreation
+[INFO ] 2022-09-12 02:08:20.330 [pool-2-thread-1] PetStoreUtil - executing test_creatPetWithInValidPhotoUrls
+[INFO ] 2022-09-12 02:08:20.330 [pool-2-thread-2] PetStoreUtil - executing test_creatPetWithInValidStatus
+[INFO ] 2022-09-12 02:08:20.333 [pool-2-thread-1] PetStoreUtil - calling URL :https://petstore.swagger.io/v2/pet
+[INFO ] 2022-09-12 02:08:20.332 [pool-2-thread-6] PetStoreUtil - rest api call type :POST
+[INFO ] 2022-09-12 02:08:20.333 [pool-2-thread-5] PetStoreUtil - calling URL :https://petstore.swagger.io/v2/pet
+[INFO ] 2022-09-12 02:08:20.333 [pool-2-thread-7] PetStoreUtil - calling URL :https://petstore.swagger.io/v2/user/createWithArray
+[INFO ] 2022-09-12 02:08:20.333 [pool-2-thread-1] PetStoreUtil - rest api call type :POST
+[INFO ] 2022-09-12 02:08:20.333 [pool-2-thread-5] PetStoreUtil - rest api call type :POST
+[INFO ] 2022-09-12 02:08:20.333 [pool-2-thread-1] PetStoreUtil - body :
+{
+  "id": 1,
+  "category": {
+    "id": 21,
+    "name": "testCategory"
+  },
+  "name": "doggie",
+  "photoUrls": [
+    "wert_7343248_8347&^%$@"
+  ],
+  "tags": [
+    {
+      "id": 31,
+      "name": "testTags1"
+    }
+  ],
+  "status": "available"
+}
+[INFO ] 2022-09-12 02:08:20.333 [pool-2-thread-9] PetStoreUtil - rest api call type :POST
+[INFO ] 2022-09-12 02:08:20.332 [pool-2-thread-8] PetStoreUtil - executing test_addMultipleUser
+[INFO ] 2022-09-12 02:08:20.333 [pool-2-thread-6] PetStoreUtil - body :
+[
+  {
+    "id": 1,
+    "username": "Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1",
+    "firstName": "Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1Vivek1",
+    "lastName": "swarup1swarup1swarup1swarup1swarup1swarup1swarup1swarup1swarup1swarup1swarup1swarup1swarup1swarup1swarup1swarup1swarup1swarup1swarup1swarup1swarup1swarup1swarup1swarup1swarup1swarup1swarup1swarup1swarup1swarup1swarup1swarup1swarup1swarup1swarup1swarup1swarup1swarup1swarup1swarup1swarup1swarup1swarup1swarup1swarup1swarup1swarup1swarup1swarup1swarup1swarup1swarup1swarup1swarup1swarup1swarup1swarup1swarup1swarup1swarup1swarup1swarup1swarup1swarup1swarup1swarup1swarup1swarup1swarup1swarup1swarup1",
+    "email": "vivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivek@oracle1.com",
+    "password": "vivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekvivekpwd1",
+    "phone": "011",
+    "userStatus": 11
+  }
+]
+[INFO ] 2022-09-12 02:08:20.331 [pool-2-thread-10] PetStoreUtil - executing test_addSingleUserWithInValidEmailPattern
+[INFO ] 2022-09-12 02:08:20.334 [pool-2-thread-10] PetStoreUtil - Add URL :https://petstore.swagger.io/v2/user/createWithArray
+[INFO ] 2022-09-12 02:08:20.330 [pool-2-thread-4] PetStoreUtil - executing test_creatPetWithLongFieldNames
+[INFO ] 2022-09-12 02:08:20.331 [pool-2-thread-3] PetStoreUtil - executing test_creatPetWithInvalidPetIdPattern
+
+
+[
+  {
+    "id": 1,
+    "username": "Vivek1",
+    "firstName": "Vivek1",
+    "lastName": "swarup1",
+    "email": "test@@gmail.com",
+    "password": "vivpwd1",
+    "phone": "011",
+    "userStatus": 9
+  }
+]
+[INFO ] 2022-09-12 02:08:20.334 [pool-2-thread-3] PetStoreUtil - calling URL :https://petstore.swagger.io/v2/pet
+[INFO ] 2022-09-12 02:08:20.336 [pool-2-thread-3] PetStoreUtil - rest api call type :POST
+[INFO ] 2022-09-12 02:08:20.336 [pool-2-thread-3] PetStoreUtil - body :
+{
+  "id": 1@12&845_!@34,
+  "category": {
+    "id": 1@12&845_!@34,
+    "name": "TestCategory"
+  },
+  "name": "doggie",
+  "photoUrls": [
+    "www.testurl.com/image1"
+  ],
+  "tags": [
+    {
+      "id": 1@12&845_!@34,
+      "name": "testTag1"
+    }
+  ],
+  "status": "available"
+}
+[INFO ] 2022-09-12 02:08:20.334 [pool-2-thread-8] PetStoreUtil - calling URL :https://petstore.swagger.io/v2/user/createWithArray
+[INFO ] 2022-09-12 02:08:20.334 [pool-2-thread-9] PetStoreUtil - body :
+[{"id": 123,"username": "Vivek", "firstName": "vivek","lastName": "swarup", "email": "sendmail.v22@gmail.com", "password": "pwd1","phone": "011", "userStatus": 12}]
+[INFO ] 2022-09-12 02:08:20.333 [pool-2-thread-5] PetStoreUtil - body :
+{
+  "id": 1,
+  "category": {
+    "id": 21,
+    "name": "TestCategory"
+  },
+  "name": "doggie",
+  "photoUrls": [
+    "www.testurl.com/image1"
+  ],
+  "tags": [
+    {
+      "id": 31,
+      "name": "testTag1"
+    }
+  ],
+  "status": "available"
+}
+[INFO ] 2022-09-12 02:08:20.333 [pool-2-thread-2] PetStoreUtil - calling URL :https://petstore.swagger.io/v2/pet
+[INFO ] 2022-09-12 02:08:20.342 [pool-2-thread-2] PetStoreUtil - rest api call type :POST
+[INFO ] 2022-09-12 02:08:20.342 [pool-2-thread-7] PetStoreUtil - rest api call type :POST
+[INFO ] 2022-09-12 02:08:20.338 [pool-2-thread-8] PetStoreUtil - rest api call type :POST
+[INFO ] 2022-09-12 02:08:20.342 [pool-2-thread-2] PetStoreUtil - body :
+{
+  "id": 1,
+  "category": {
+    "id": 21,
+    "name": "testCategory"
+  },
+  "name": "doggie",
+  "photoUrls": [
+    "www.test.url/image"
+  ],
+  "tags": [
+    {
+      "id": 31,
+      "name": "testTags1"
+    }
+  ],
+  "status": "available1"
+}
+[INFO ] 2022-09-12 02:08:20.334 [pool-2-thread-4] PetStoreUtil - calling URL :https://petstore.swagger.io/v2/pet
+[INFO ] 2022-09-12 02:08:20.342 [pool-2-thread-4] PetStoreUtil - rest api call type :POST
+[INFO ] 2022-09-12 02:08:20.343 [pool-2-thread-4] PetStoreUtil - body :
+{
+  "id": 1,
+  "category": {
+    "id": 21,
+    "name": "TestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategory"
+  },
+  "name": "doggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggie",
+  "photoUrls": [
+    "www.testurltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltes.com/image1"
+  ],
+  "tags": [
+    {
+      "id": 31,
+      "name": "testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1"
+    }
+  ],
+  "status": "availableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailable"
+}
+[INFO ] 2022-09-12 02:08:20.342 [pool-2-thread-7] PetStoreUtil - body :
+[
+  {
+    "id": 1,
+    "username": "Vivek1",
+    "firstName": "Vivek1",
+    "lastName": "swarup1",
+    "email": "",
+    "password": "vivpwd1",
+    "phone": "011-74118710160845345309485038453",
+    "userStatus": 9
+  },
+  {
+    "id": 1,
+    "username": "Vivek1",
+    "firstName": "Vivek1",
+    "lastName": "swarup1",
+    "email": "",
+    "password": "vivpwd1",
+    "phone": "011-74118710160845345309485038453",
+    "userStatus": 9
+  },
+  {
+    "id": 1,
+    "username": "Vivek1",
+    "firstName": "Vivek1",
+    "lastName": "swarup1",
+    "email": "",
+    "password": "vivpwd1",
+    "phone": "011-74118710160845345309485038453",
+    "userStatus": 9
+  },
+  {
+    "id": 1,
+    "username": "Vivek1",
+    "firstName": "Vivek1",
+    "lastName": "swarup1",
+    "email": "",
+    "password": "vivpwd1",
+    "phone": "011-74118710160845345309485038453",
+    "userStatus": 9
+  },
+  {
+    "id": 1,
+    "username": "Vivek1",
+    "firstName": "Vivek1",
+    "lastName": "swarup1",
+    "email": "",
+    "password": "vivpwd1",
+    "phone": "011-74118710160845345309485038453",
+    "userStatus": 9
+  },
+  {
+    "id": 1,
+    "username": "Vivek1",
+    "firstName": "Vivek1",
+    "lastName": "swarup1",
+    "email": "",
+    "password": "vivpwd1",
+    "phone": "011-74118710160845345309485038453",
+    "userStatus": 9
+  },
+  {
+    "id": 1,
+    "username": "Vivek1",
+    "firstName": "Vivek1",
+    "lastName": "swarup1",
+    "email": "",
+    "password": "vivpwd1",
+    "phone": "011-74118710160845345309485038453",
+    "userStatus": 9
+  },
+  {
+    "id": 1,
+    "username": "Vivek1",
+    "firstName": "Vivek1",
+    "lastName": "swarup1",
+    "email": "",
+    "password": "vivpwd1",
+    "phone": "011-74118710160845345309485038453",
+    "userStatus": 9
+  },
+  {
+    "id": 1,
+    "username": "Vivek1",
+    "firstName": "Vivek1",
+    "lastName": "swarup1",
+    "email": "",
+    "password": "vivpwd1",
+    "phone": "011-74118710160845345309485038453",
+    "userStatus": 9
+  },
+  {
+    "id": 1,
+    "username": "Vivek1",
+    "firstName": "Vivek1",
+    "lastName": "swarup1",
+    "email": "",
+    "password": "vivpwd1",
+    "phone": "011-74118710160845345309485038453",
+    "userStatus": 9
+  },
+  {
+    "id": 1,
+    "username": "Vivek1",
+    "firstName": "Vivek1",
+    "lastName": "swarup1",
+    "email": "",
+    "password": "vivpwd1",
+    "phone": "011-74118710160845345309485038453",
+    "userStatus": 9
+  },
+  {
+    "id": 1,
+    "username": "Vivek1",
+    "firstName": "Vivek1",
+    "lastName": "swarup1",
+    "email": "",
+    "password": "vivpwd1",
+    "phone": "011-74118710160845345309485038453",
+    "userStatus": 9
+  },
+  {
+    "id": 1,
+    "username": "Vivek1",
+    "firstName": "Vivek1",
+    "lastName": "swarup1",
+    "email": "",
+    "password": "vivpwd1",
+    "phone": "011-74118710160845345309485038453",
+    "userStatus": 9
+  },
+  {
+    "id": 1,
+    "username": "Vivek1",
+    "firstName": "Vivek1",
+    "lastName": "swarup1",
+    "email": "",
+    "password": "vivpwd1",
+    "phone": "011-74118710160845345309485038453",
+    "userStatus": 9
+  },
+  {
+    "id": 1,
+    "username": "Vivek1",
+    "firstName": "Vivek1",
+    "lastName": "swarup1",
+    "email": "",
+    "password": "vivpwd1",
+    "phone": "011-74118710160845345309485038453",
+    "userStatus": 9
+  },
+  {
+    "id": 1,
+    "username": "Vivek1",
+    "firstName": "Vivek1",
+    "lastName": "swarup1",
+    "email": "",
+    "password": "vivpwd1",
+    "phone": "011-74118710160845345309485038453",
+    "userStatus": 9
+  },
+  {
+    "id": 1,
+    "username": "Vivek1",
+    "firstName": "Vivek1",
+    "lastName": "swarup1",
+    "email": "",
+    "password": "vivpwd1",
+    "phone": "011-74118710160845345309485038453",
+    "userStatus": 9
+  },
+  {
+    "id": 1,
+    "username": "Vivek1",
+    "firstName": "Vivek1",
+    "lastName": "swarup1",
+    "email": "",
+    "password": "vivpwd1",
+    "phone": "011-74118710160845345309485038453",
+    "userStatus": 9
+  },
+  {
+    "id": 1,
+    "username": "Vivek1",
+    "firstName": "Vivek1",
+    "lastName": "swarup1",
+    "email": "",
+    "password": "vivpwd1",
+    "phone": "011-74118710160845345309485038453",
+    "userStatus": 9
+  },
+  {
+    "id": 1,
+    "username": "Vivek1",
+    "firstName": "Vivek1",
+    "lastName": "swarup1",
+    "email": "",
+    "password": "vivpwd1",
+    "phone": "011-74118710160845345309485038453",
+    "userStatus": 9
+  },
+  {
+    "id": 1,
+    "username": "Vivek1",
+    "firstName": "Vivek1",
+    "lastName": "swarup1",
+    "email": "",
+    "password": "vivpwd1",
+    "phone": "011-74118710160845345309485038453",
+    "userStatus": 9
+  },
+v,
+  {
+    "id": 1,
+    "username": "Vivek1",
+    "firstName": "Vivek1",
+    "lastName": "swarup1",
+    "email": "",
+    "password": "vivpwd1",
+    "phone": "011-74118710160845345309485038453",
+    "userStatus": 9
+  },
+  {
+    "id": 1,
+    "username": "Vivek1",
+    "firstName": "Vivek1",
+    "lastName": "swarup1",
+    "email": "",
+    "password": "vivpwd1",
+    "phone": "011-74118710160845345309485038453",
+    "userStatus": 9
+  },
+  {
+    "id": 1,
+    "username": "Vivek1",
+    "firstName": "Vivek1",
+    "lastName": "swarup1",
+    "email": "",
+    "password": "vivpwd1",
+    "phone": "011-74118710160845345309485038453",
+    "userStatus": 9
+  },
+  {
+    "id": 1,
+    "username": "Vivek1",
+    "firstName": "Vivek1",
+    "lastName": "swarup1",
+    "email": "",
+    "password": "vivpwd1",
+    "phone": "011-74118710160845345309485038453",
+    "userStatus": 9
+  },
+  {
+    "id": 1,
+    "username": "Vivek1",
+    "firstName": "Vivek1",
+    "lastName": "swarup1",
+    "email": "",
+    "password": "vivpwd1",
+    "phone": "011-74118710160845345309485038453",
+    "userStatus": 9
+  }
+]
+[INFO ] 2022-09-12 02:08:20.342 [pool-2-thread-8] PetStoreUtil - body :
+[
+  {
+    "id": 1,
+    "username": "Vivek1",
+    "firstName": "Vivek1",
+    "lastName": "swarup1",
+    "email": "vivek@oracle1.com",
+    "password": "vivpwd1",
+    "phone": "011",
+    "userStatus": 11
+  },
+  {
+    "id": 2,
+    "username": "Vivek2",
+    "firstName": "Vivek2",
+    "lastName": "swarup2",
+    "email": "vivek2@oracle.com",
+    "password": "vivpwd2",
+    "phone": "012",
+    "userStatus": 12
+  }
+]
+[INFO ] 2022-09-12 02:08:20.608 [pool-2-thread-6] PetStoreUtil - responseBody --->;{"code":200,"type":"unknown","message":"ok"}
+[INFO ] 2022-09-12 02:08:20.608 [pool-2-thread-6] PetStoreUtil - Assert start
+]]></system-out>
+  </testcase>
+  <testcase name="test_addSingleUserWithInvalidPhoneNo" classname="com.petStore.test.fuctional.CreateUserWithArrayFunctionalTest" time="0.267">
+    <failure message="Actual Response Code should be 400 as payload has invalid phone and is client error :  expected [400] but found [200]" type="java.lang.AssertionError">java.lang.AssertionError: Actual Response Code should be 400 as payload has invalid phone and is client error :  expected [400] but found [200]
+	at com.petStore.test.fuctional.CreateUserWithArrayFunctionalTest.test_addSingleUserWithInvalidPhoneNo(CreateUserWithArrayFunctionalTest.java:517)
+</failure>
+    <system-out><![CDATA[[INFO ] 2022-09-12 02:08:20.620 [pool-2-thread-6] PetStoreUtil - executing test_addSingleUserWithInvalidPhoneNo
+[INFO ] 2022-09-12 02:08:20.620 [pool-2-thread-6] PetStoreUtil - calling URL :https://petstore.swagger.io/v2/user/createWithArray
+[INFO ] 2022-09-12 02:08:20.620 [pool-2-thread-6] PetStoreUtil - rest api call type :POST
+[INFO ] 2022-09-12 02:08:20.620 [pool-2-thread-6] PetStoreUtil - body :
+[
+  {
+    "id": 1,
+    "username": "Vivek1",
+    "firstName": "Vivek1",
+    "lastName": "swarup1",
+    "email": "",
+    "password": "vivpwd1",
+    "phone": "011-787686546666845345309485038453",
+    "userStatus": 9
+  }
+]
+[INFO ] 2022-09-12 02:08:20.885 [pool-2-thread-6] PetStoreUtil - responseBody --->;{"code":200,"type":"unknown","message":"ok"}
+[INFO ] 2022-09-12 02:08:20.886 [pool-2-thread-6] PetStoreUtil - Assert start
+]]></system-out>
+  </testcase>
+  <testcase name="test_addSingleUserWithInValidEmailPattern" classname="com.petStore.test.fuctional.CreateUserWithArrayFunctionalTest" time="0.24">
+    <failure message="Actual Response Code should be 400 as payload has invalid emailpattern and is client error: expected [400] but found [200]" type="java.lang.AssertionError">java.lang.AssertionError: Actual Response Code should be 400 as payload has invalid emailpattern and is client error: expected [400] but found [200]
+	at com.petStore.test.fuctional.CreateUserWithArrayFunctionalTest.test_addSingleUserWithInValidEmailPattern(CreateUserWithArrayFunctionalTest.java:190)
+</failure>
+    <system-out><![CDATA[[INFO ] 2022-09-12 02:08:20.887 [pool-2-thread-6] PetStoreUtil - executing test_addSingleUserWithinvalidId
+[INFO ] 2022-09-12 02:08:20.887 [pool-2-thread-6] PetStoreUtil - calling URL :https://petstore.swagger.io/v2/user/createWithArray
+[INFO ] 2022-09-12 02:08:20.887 [pool-2-thread-6] PetStoreUtil - rest api call type :POST
+[INFO ] 2022-09-12 02:08:20.887 [pool-2-thread-6] PetStoreUtil - body :
+[
+  {
+    "id": 1@23%342,
+    "username": "Vivek1",
+    "firstName": "Vivek1",
+    "lastName": "swarup1",
+    "email": "",
+    "password": "vivpwd1",
+    "phone": "011-74123422335",
+    "userStatus": 9
+  }
+
+]
+[INFO ] 2022-09-12 02:08:21.073 [pool-2-thread-10] PetStoreUtil - responseBody --->;{"code":200,"type":"unknown","message":"ok"}
+[INFO ] 2022-09-12 02:08:21.073 [pool-2-thread-10] PetStoreUtil - Assert start
+]]></system-out>
+  </testcase>
+  <testcase name="test_creatPetWithInValidPhotoUrls" classname="com.petStore.test.fuctional.CreatePetFunctionalTest" time="0.016">
+    <failure message="The processing should fail with actual Response Code 400 as payload has invlid photourls and is client error:  expected [400] but found [200]" type="java.lang.AssertionError">java.lang.AssertionError: The processing should fail with actual Response Code 400 as payload has invlid photourls and is client error:  expected [400] but found [200]
+	at com.petStore.test.fuctional.CreatePetFunctionalTest.test_creatPetWithInValidPhotoUrls(CreatePetFunctionalTest.java:135)
+</failure>
+    <system-out><![CDATA[[INFO ] 2022-09-12 02:08:21.075 [pool-2-thread-10] PetStoreUtil - executing test_addSinglleuserWihtInvalidUserStatus
+[INFO ] 2022-09-12 02:08:21.075 [pool-2-thread-10] PetStoreUtil - calling URL :https://petstore.swagger.io/v2/user/createWithArray
+[INFO ] 2022-09-12 02:08:21.076 [pool-2-thread-10] PetStoreUtil - rest api call type :POST
+
+
+[
+  {
+    "id": 123,
+    "username": "Vivek1",
+    "firstName": "Vivek1",
+    "lastName": "swarup1",
+    "email": "test@gmail.com",
+    "password": "vivpwd1",
+    "phone": "011-74123422335",
+    "userStatus": -1
+  }
+
+]
+[INFO ] 2022-09-12 02:08:21.089 [pool-2-thread-1] PetStoreUtil - responseBody --->;{"id":1,"category":{"id":21,"name":"testCategory"},"name":"doggie","photoUrls":["wert_7343248_8347&^%$@"],"tags":[{"id":31,"name":"testTags1"}],"status":"available"}
+[INFO ] 2022-09-12 02:08:21.089 [pool-2-thread-1] PetStoreUtil - Assert start
+]]></system-out>
+  </testcase>
+  <testcase name="test_addMultipleUser" classname="com.petStore.test.fuctional.CreateUserWithArrayFunctionalTest" time="0.02"/>
+  <testcase name="test_creatPetWithInvalidPetIdPattern" classname="com.petStore.test.fuctional.CreatePetFunctionalTest" time="0.021"/>
+  <testcase name="test_creatPetWithLongFieldNames" classname="com.petStore.test.fuctional.CreatePetFunctionalTest" time="0.023">
+    <failure message="The processing should fail with actual Response Code 400 as payload has long field values and is client error:  expected [400] but found [200]" type="java.lang.AssertionError">java.lang.AssertionError: The processing should fail with actual Response Code 400 as payload has long field values and is client error:  expected [400] but found [200]
+	at com.petStore.test.fuctional.CreatePetFunctionalTest.test_creatPetWithLongFieldNames(CreatePetFunctionalTest.java:177)
+</failure>
+    <system-out><![CDATA[[INFO ] 2022-09-12 02:08:21.131 [pool-2-thread-4] PetStoreUtil - responseBody --->;{"id":1,"category":{"id":21,"name":"TestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategoryTestCategory"},"name":"doggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggie","photoUrls":["www.testurltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltesturltes.com/image1"],"tags":[{"id":31,"name":"testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1testTag1"}],"status":"availableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailableavailable"}
+[INFO ] 2022-09-12 02:08:21.131 [pool-2-thread-4] PetStoreUtil - Assert start
+]]></system-out>
+  </testcase>
+  <testcase name="test_creatPetWithValidFields" classname="com.petStore.test.fuctional.CreatePetFunctionalTest" time="0.01"/>
+  <testcase name="test_addSingleUserWithinvalidId" classname="com.petStore.test.fuctional.CreateUserWithArrayFunctionalTest" time="0.005">
+    <failure message="Actual Response Code should be 400 as payload has invalid userId and is client error: expected [400] but found [500]" type="java.lang.AssertionError">java.lang.AssertionError: Actual Response Code should be 400 as payload has invalid userId and is client error: expected [400] but found [500]
+	at com.petStore.test.fuctional.CreateUserWithArrayFunctionalTest.test_addSingleUserWithinvalidId(CreateUserWithArrayFunctionalTest.java:561)
+</failure>
+    <system-out><![CDATA[[INFO ] 2022-09-12 02:08:21.137 [pool-2-thread-5] PetStoreUtil - executing test_getUserforDuplicateRecords
+[INFO ] 2022-09-12 02:08:21.138 [pool-2-thread-5] PetStoreUtil - calling URL :https://petstore.swagger.io/v2/user/Vivek
+[INFO ] 2022-09-12 02:08:21.138 [pool-2-thread-5] PetStoreUtil - rest api call type :GET
+Calling get User : GET :https://petstore.swagger.io/v2/user/Vivek
+[INFO ] 2022-09-12 02:08:21.138 [pool-2-thread-5] PetStoreUtil - URL :https://petstore.swagger.io/v2/user/Vivek
+[ERROR] 2022-09-12 02:08:21.157 [pool-2-thread-6] PetStoreUtil - User with invalid id no should not be added
+[INFO ] 2022-09-12 02:08:21.157 [pool-2-thread-6] PetStoreUtil - responseBody --->;{"code":200,"type":"unknown","message":"ok"}
+[INFO ] 2022-09-12 02:08:21.157 [pool-2-thread-6] PetStoreUtil - Assert start
+]]></system-out>
+  </testcase>
+  <testcase name="test_addSinglleuserWihtInvalidUserStatus" classname="com.petStore.test.fuctional.CreateUserWithArrayFunctionalTest" time="0.172">
+    <failure message="The processing should fail with actual Response Code 400 as payload has invalid userstatus and is client error expected [400] but found [200]" type="java.lang.AssertionError">java.lang.AssertionError: The processing should fail with actual Response Code 400 as payload has invalid userstatus and is client error expected [400] but found [200]
+	at com.petStore.test.fuctional.CreateUserWithArrayFunctionalTest.test_addSinglleuserWihtInvalidUserStatus(CreateUserWithArrayFunctionalTest.java:594)
+</failure>
+    <system-out><![CDATA[[INFO ] 2022-09-12 02:08:21.159 [pool-2-thread-6] PetStoreUtil - executing test_updatePetWithInValidStatus
+[INFO ] 2022-09-12 02:08:21.159 [pool-2-thread-6] PetStoreUtil - calling URL :https://petstore.swagger.io/v2/pet
+[INFO ] 2022-09-12 02:08:21.159 [pool-2-thread-6] PetStoreUtil - rest api call type :PUT
+[INFO ] 2022-09-12 02:08:21.159 [pool-2-thread-6] PetStoreUtil - body :
+{
+  "id": 1,
+  "category": {
+    "id": 21,
+    "name": "testCategory"
+  },
+  "name": "doggie",
+  "photoUrls": [
+    "ww.test.com/naupdated"
+  ],
+  "tags": [
+    {
+      "id": 31,
+      "name": "testTags1Updated"
+    }
+  ],
+  "status": "available1"
+}
+[INFO ] 2022-09-12 02:08:21.334 [pool-2-thread-10] PetStoreUtil - responseBody --->;{"code":200,"type":"unknown","message":"ok"}
+[INFO ] 2022-09-12 02:08:21.334 [pool-2-thread-10] PetStoreUtil - Assert start
+]]></system-out>
+  </testcase>
+  <testcase name="test_getUserforDuplicateRecords" classname="com.petStore.test.fuctional.GetUserByNameFunctionalTest" time="0.064">
+    <failure message="404 Not Found" type="org.springframework.web.client.HttpClientErrorException$NotFound">org.springframework.web.client.HttpClientErrorException$NotFound: 404 Not Found
+	at com.petStore.test.fuctional.GetUserByNameFunctionalTest.test_getUserforDuplicateRecords(GetUserByNameFunctionalTest.java:198)
+</failure>
+    <system-out><![CDATA[[INFO ] 2022-09-12 02:08:21.336 [pool-2-thread-10] PetStoreUtil - executing test_updatePetWithInvalidIdsPattern
+[INFO ] 2022-09-12 02:08:21.336 [pool-2-thread-10] PetStoreUtil - calling URL :https://petstore.swagger.io/v2/pet
+[INFO ] 2022-09-12 02:08:21.336 [pool-2-thread-10] PetStoreUtil - rest api call type :PUT
+[INFO ] 2022-09-12 02:08:21.336 [pool-2-thread-10] PetStoreUtil - body :
+{
+  "id": 1,
+  "category": {
+    "id": 21@123###,
+    "name": "testCategoryUpdated"
+  },
+  "name": "doggie",
+  "photoUrls": [
+    "ww.test.com/naupdated"
+  ],
+  "tags": [
+    {
+      "id": 31@#$,
+      "name": "testTags1Updated"
+    }
+  ],
+  "status": "available"
+}
+[INFO ] 2022-09-12 02:08:21.351 [pool-2-thread-1] PetStoreUtil - responseBody --->;{"id":1,"category":{"id":21,"name":"TestCategory"},"name":"doggie","photoUrls":["www.testurl.com/image1"],"tags":[{"id":31,"name":"testTag1"}],"status":"available"}
+[INFO ] 2022-09-12 02:08:21.351 [pool-2-thread-1] PetStoreUtil - body :
+{
+  "id": 2,
+  "category": {
+    "id": 21,
+    "name": "TestCategory"
+  },
+  "name": "doggie",
+  "photoUrls": [
+    "www.testurl.com/image1"
+  ],
+  "tags": [
+    {
+      "id": 31,
+      "name": "testTag1"
+    }
+  ],
+  "status": "pending"
+}
+[INFO ] 2022-09-12 02:08:21.394 [pool-2-thread-4] PetStoreUtil - responseBody --->;{"code":200,"type":"unknown","message":"1"}
+[INFO ] 2022-09-12 02:08:21.394 [pool-2-thread-4] PetStoreUtil - Assert start
+[INFO ] 2022-09-12 02:08:21.394 [pool-2-thread-4] PetStoreUtil - Assert completed
+[INFO ] 2022-09-12 02:08:21.394 [pool-2-thread-4] PetStoreUtil - calling URL :https://petstore.swagger.io/v2/user/vivekUpdated
+[INFO ] 2022-09-12 02:08:21.394 [pool-2-thread-4] PetStoreUtil - rest api call type :GET
+]]></system-out>
+  </testcase>
+  <testcase name="test_updatePetWithInValidStatus" classname="com.petStore.test.fuctional.UpdatePetFunctionalTest" time="0.022">
+    <failure message="The processing should fail with actual Response Code 400 instead of success as payload has invalid status and is client error:  expected [400] but found [200]" type="java.lang.AssertionError">java.lang.AssertionError: The processing should fail with actual Response Code 400 instead of success as payload has invalid status and is client error:  expected [400] but found [200]
+	at com.petStore.test.fuctional.UpdatePetFunctionalTest.test_updatePetWithInValidStatus(UpdatePetFunctionalTest.java:182)
+</failure>
+    <system-out><![CDATA[[INFO ] 2022-09-12 02:08:21.401 [pool-2-thread-5] PetStoreUtil - executing test_updatePetWithLongFieldNames
+[INFO ] 2022-09-12 02:08:21.402 [pool-2-thread-5] PetStoreUtil - calling URL :https://petstore.swagger.io/v2/pet
+[INFO ] 2022-09-12 02:08:21.402 [pool-2-thread-5] PetStoreUtil - rest api call type :PUT
+[INFO ] 2022-09-12 02:08:21.402 [pool-2-thread-5] PetStoreUtil - body :
+{
+  "id": 1,
+  "category": {
+    "id": 21,
+    "name": "testCategorytestCategorytestCategorytestCategorytestCategorytestCategorytestCategorytestCategorytestCategorytestCategorytestCategorytestCategorytestCategorytestCategorytestCategorytestCategorytestCategorytestCategorytestCategorytestCategorytestCategorytestCategorytestCategorytestCategory"
+  },
+  "name": "doggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggie",
+  "photoUrls": [
+    "www.testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttest.com/naupdated"
+  ],
+  "tags": [
+    {
+      "id": 31,
+      "name": "testTags1testTags1testTags1testTags1testTags1testTags1testTags1testTags1testTags1testTags1testTags1testTags1testTags1testTags1testTags1testTags1testTags1testTags1testTags1testTags1testTags1testTags1testTags1testTags1testTags1testTags1testTags1testTags1testTags1testTags1testTags1testTags1testTags1"
+    }
+  ],
+  "status": "available"
+}
+[INFO ] 2022-09-12 02:08:21.423 [pool-2-thread-6] PetStoreUtil - responseBody --->;{"id":1,"category":{"id":21,"name":"testCategory"},"name":"doggie","photoUrls":["ww.test.com/naupdated"],"tags":[{"id":31,"name":"testTags1Updated"}],"status":"available1"}
+[INFO ] 2022-09-12 02:08:21.423 [pool-2-thread-6] PetStoreUtil - Assert start
+]]></system-out>
+  </testcase>
+  <testcase name="test_updatePetWithInvalidIdsPattern" classname="com.petStore.test.fuctional.UpdatePetFunctionalTest" time="0.169">
+    <failure message="The processing  failure  Response Code should be 400 as payload has invalidIds and is client error:  expected [400] but found [500]" type="java.lang.AssertionError">java.lang.AssertionError: The processing  failure  Response Code should be 400 as payload has invalidIds and is client error:  expected [400] but found [500]
+	at com.petStore.test.fuctional.UpdatePetFunctionalTest.test_updatePetWithInvalidIdsPattern(UpdatePetFunctionalTest.java:231)
+</failure>
+    <system-out><![CDATA[[INFO ] 2022-09-12 02:08:21.424 [pool-2-thread-6] PetStoreUtil - executing test_updatePetWithValidFields
+[INFO ] 2022-09-12 02:08:21.424 [pool-2-thread-6] PetStoreUtil - calling URL :https://petstore.swagger.io/v2/pet
+[INFO ] 2022-09-12 02:08:21.425 [pool-2-thread-6] PetStoreUtil - rest api call type :PUT
+
+
+{
+  "id": 1,
+  "category": {
+    "id": 21,
+    "name": "testCategory"
+  },
+  "name": "doggie",
+  "photoUrls": [
+    "ww.test.com/naupdated"
+  ],
+  "tags": [
+    {
+      "id": 31,
+      "name": "testTags1Updated"
+    }
+  ],
+  "status": "pending"
+}
+[ERROR] 2022-09-12 02:08:21.580 [pool-2-thread-10] PetStoreUtil - Http Status Code:500 INTERNAL_SERVER_ERROR
+[INFO ] 2022-09-12 02:08:21.581 [pool-2-thread-10] PetStoreUtil - responseBody --->;{"id":1,"category":{"id":21,"name":"testCategory"},"name":"doggie","photoUrls":["ww.test.com/naupdated"],"tags":[{"id":31,"name":"testTags1Updated"}],"status":"available1"}
+[INFO ] 2022-09-12 02:08:21.581 [pool-2-thread-10] PetStoreUtil - Assert start
+]]></system-out>
+  </testcase>
+  <testcase name="test_getUserByUpdatedName" classname="com.petStore.test.fuctional.GetUserByNameFunctionalTest" time="0.248"/>
+  <testcase name="test_updatePetWithValidFields" classname="com.petStore.test.fuctional.UpdatePetFunctionalTest" time="0.26"/>
+  <testcase name="test_updatePetWithLongFieldNames" classname="com.petStore.test.fuctional.UpdatePetFunctionalTest" time="0.265">
+    <failure message="Actual Response Code should be 400 as payload has long Field  names and is client error: expected [400] but found [200]" type="java.lang.AssertionError">java.lang.AssertionError: Actual Response Code should be 400 as payload has long Field  names and is client error: expected [400] but found [200]
+	at com.petStore.test.fuctional.UpdatePetFunctionalTest.test_updatePetWithLongFieldNames(UpdatePetFunctionalTest.java:275)
+</failure>
+    <system-out><![CDATA[[INFO ] 2022-09-12 02:08:21.684 [pool-2-thread-5] PetStoreUtil - responseBody --->;{"id":1,"category":{"id":21,"name":"testCategorytestCategorytestCategorytestCategorytestCategorytestCategorytestCategorytestCategorytestCategorytestCategorytestCategorytestCategorytestCategorytestCategorytestCategorytestCategorytestCategorytestCategorytestCategorytestCategorytestCategorytestCategorytestCategorytestCategory"},"name":"doggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggiedoggie","photoUrls":["www.testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttest.com/naupdated"],"tags":[{"id":31,"name":"testTags1testTags1testTags1testTags1testTags1testTags1testTags1testTags1testTags1testTags1testTags1testTags1testTags1testTags1testTags1testTags1testTags1testTags1testTags1testTags1testTags1testTags1testTags1testTags1testTags1testTags1testTags1testTags1testTags1testTags1testTags1testTags1testTags1"}],"status":"available"}
+[INFO ] 2022-09-12 02:08:21.685 [pool-2-thread-5] PetStoreUtil - Assert start
+]]></system-out>
+  </testcase>
+  <testcase name="test_addOneUser" classname="com.petStore.test.fuctional.CreateUserWithArrayFunctionalTest" time="0.21"/>
+  <testcase name="test_creatPetWithInValidStatus" classname="com.petStore.test.fuctional.CreatePetFunctionalTest" time="0.007">
+    <failure message="The processing should fail with actual Response Code 400 as payload has invlid status enum values and is client error:  expected [400] but found [200]" type="java.lang.AssertionError">java.lang.AssertionError: The processing should fail with actual Response Code 400 as payload has invlid status enum values and is client error:  expected [400] but found [200]
+	at com.petStore.test.fuctional.CreatePetFunctionalTest.test_creatPetWithInValidStatus(CreatePetFunctionalTest.java:269)
+</failure>
+    <system-out><![CDATA[[INFO ] 2022-09-12 02:08:22.084 [pool-2-thread-9] PetStoreUtil - executing test_updateUsewithValidValues
+[INFO ] 2022-09-12 02:08:22.084 [pool-2-thread-9] PetStoreUtil - calling URL :https://petstore.swagger.io/v2/user/vivek
+[INFO ] 2022-09-12 02:08:22.085 [pool-2-thread-9] PetStoreUtil - rest api call type :PUT
+[INFO ] 2022-09-12 02:08:22.085 [pool-2-thread-9] PetStoreUtil - body :
+{
+    "id": 1234,
+    "username": "vivekUpdated",
+    "firstName": "vivekUpdated",
+    "lastName": "vivekUpdated",
+    "email": "test1@gmail.com",
+    "password": "pwd1",
+    "phone": "7564545644999",
+    "userStatus": 1234
+  }
+
+[INFO ] 2022-09-12 02:08:22.089 [pool-2-thread-2] PetStoreUtil - responseBody --->;{"id":1,"category":{"id":21,"name":"testCategory"},"name":"doggie","photoUrls":["www.test.url/image"],"tags":[{"id":31,"name":"testTags1"}],"status":"available1"}
+[INFO ] 2022-09-12 02:08:22.090 [pool-2-thread-2] PetStoreUtil - Assert start
+]]></system-out>
+  </testcase>
+  <testcase name="test_getPetsBasedOnFieldStatusPending" classname="com.petStore.test.fuctional.GetPetBasedOnStatusFuctionalTest" time="0.022"/>
+  <testcase name="test_updateUseWithinvalidUserStatus" classname="com.petStore.test.fuctional.UpdateUserFunctionalTest" time="0.012">
+    <failure message="Actual Response Code should be 400 as payload has invaldUserStatus Pattern and is client error: expected [400] but found [200]" type="java.lang.AssertionError">java.lang.AssertionError: Actual Response Code should be 400 as payload has invaldUserStatus Pattern and is client error: expected [400] but found [200]
+	at com.petStore.test.fuctional.UpdateUserFunctionalTest.test_updateUseWithinvalidUserStatus(UpdateUserFunctionalTest.java:282)
+</failure>
+    <system-out><![CDATA[[INFO ] 2022-09-12 02:08:22.119 [pool-2-thread-8] PetStoreUtil - executing test_creatPetWithNonExixtentFieldNameandValue
+[INFO ] 2022-09-12 02:08:22.120 [pool-2-thread-8] PetStoreUtil - calling URL :https://petstore.swagger.io/v2/pet
+[INFO ] 2022-09-12 02:08:22.120 [pool-2-thread-8] PetStoreUtil - rest api call type :POST
+[INFO ] 2022-09-12 02:08:22.120 [pool-2-thread-8] PetStoreUtil - body :
+{
+  "id": 1,
+  "Test": "Test",
+  "category": {
+    "id": 21,
+    "name": "TestCategory"
+  },
+  "name": "doggie",
+  "photoUrls": [
+    "www.testurl.com/image1"
+  ],
+  "tags": [
+    {
+      "id": 31,
+      "name": "testTag1"
+    }
+  ],
+  "status": "available"
+}
+[INFO ] 2022-09-12 02:08:22.129 [pool-2-thread-5] PetStoreUtil - responseBody --->;{"code":200,"type":"unknown","message":"1234"}
+[INFO ] 2022-09-12 02:08:22.129 [pool-2-thread-10] PetStoreUtil - responseBody --->;{"code":200,"type":"unknown","message":"1234"}
+[INFO ] 2022-09-12 02:08:22.130 [pool-2-thread-5] PetStoreUtil - Assert start
+[INFO ] 2022-09-12 02:08:22.130 [pool-2-thread-10] PetStoreUtil - Assert start
+]]></system-out>
+  </testcase>
+  <testcase name="test_updateUserWithinvalidPhonePattern" classname="com.petStore.test.fuctional.UpdateUserFunctionalTest" time="0.012">
+    <failure message="Actual Response Code should be 400 as payload has invaldPhone Pattern and is client error: expected [400] but found [200]" type="java.lang.AssertionError">java.lang.AssertionError: Actual Response Code should be 400 as payload has invaldPhone Pattern and is client error: expected [400] but found [200]
+	at com.petStore.test.fuctional.UpdateUserFunctionalTest.test_updateUserWithinvalidPhonePattern(UpdateUserFunctionalTest.java:248)
+</failure>
+  </testcase>
+  <testcase name="test_updateUserWithLongfieldNames" classname="com.petStore.test.fuctional.UpdateUserFunctionalTest" time="0.01">
+    <failure message="Actual Response Code should be 400 as payload has verylong usernameupdate and is client error: expected [400] but found [200]" type="java.lang.AssertionError">java.lang.AssertionError: Actual Response Code should be 400 as payload has verylong usernameupdate and is client error: expected [400] but found [200]
+	at com.petStore.test.fuctional.UpdateUserFunctionalTest.test_updateUserWithLongfieldNames(UpdateUserFunctionalTest.java:180)
+</failure>
+    <system-out><![CDATA[[INFO ] 2022-09-12 02:08:22.131 [pool-2-thread-10] PetStoreUtil - executing test_createSingleUserWithInvalidPayloadFormat
+[INFO ] 2022-09-12 02:08:22.131 [pool-2-thread-10] PetStoreUtil - calling URL :https://petstore.swagger.io/v2/user/createWithArray
+[INFO ] 2022-09-12 02:08:22.131 [pool-2-thread-4] PetStoreUtil - responseBody --->;{"code":200,"type":"unknown","message":"1234"}
+[INFO ] 2022-09-12 02:08:22.131 [pool-2-thread-5] PetStoreUtil - executing test_creatPetWithValidFields
+[INFO ] 2022-09-12 02:08:22.131 [pool-2-thread-10] PetStoreUtil - rest api call type :POST
+[INFO ] 2022-09-12 02:08:22.131 [pool-2-thread-5] PetStoreUtil - calling URL :https://petstore.swagger.io/v2/user/createWithArray
+[INFO ] 2022-09-12 02:08:22.131 [pool-2-thread-10] PetStoreUtil - body :
+[
+  {
+    "id": 9,
+    "username": "Vivek1",
+    "firstName": "Vivek1",
+    "lastName": "swarup1",
+    "email": "vivek@oracle1.com",
+    "password": "vivpwd1",
+    "phone": "011"
+    "userStatus": 11
+  },
+]
+[INFO ] 2022-09-12 02:08:22.131 [pool-2-thread-4] PetStoreUtil - Assert start
+[INFO ] 2022-09-12 02:08:22.131 [pool-2-thread-5] PetStoreUtil - rest api call type :POST
+[INFO ] 2022-09-12 02:08:22.131 [pool-2-thread-5] PetStoreUtil - body :
+[
+  {
+    "id": 99999999999999999999999,
+    "username": "Vivek1",
+    "firstName": "Vivek1",
+    "lastName": "swarup1",
+    "email": "vivek@oracle1.com",
+    "password": "vivpwd1",
+    "phone": "011",
+    "userStatus": 11
+  }
+]
+]]></system-out>
+  </testcase>
+  <testcase name="test_getPetsBasedOnFieldStatusAvailableWithsqlInjection" classname="com.petStore.test.nonfuctional.GetPetBasedOnStatusNonFunctional" time="0.07">
+    <failure message="I/O error on GET request for &quot;https://petstore.swagger.iov2/pet/findByStatus&quot;: petstore.swagger.iov2; nested exception is java.net.UnknownHostException: petstore.swagger.iov2" type="org.springframework.web.client.ResourceAccessException">org.springframework.web.client.ResourceAccessException: I/O error on GET request for "https://petstore.swagger.iov2/pet/findByStatus": petstore.swagger.iov2; nested exception is java.net.UnknownHostException: petstore.swagger.iov2
+	at com.petStore.test.nonfuctional.GetPetBasedOnStatusNonFunctional.test_getPetsBasedOnFieldStatusAvailableWithsqlInjection(GetPetBasedOnStatusNonFunctional.java:66)
+Caused by: java.net.UnknownHostException: petstore.swagger.iov2
+	at com.petStore.test.nonfuctional.GetPetBasedOnStatusNonFunctional.test_getPetsBasedOnFieldStatusAvailableWithsqlInjection(GetPetBasedOnStatusNonFunctional.java:66)
+</failure>
+    <system-out><![CDATA[[INFO ] 2022-09-12 02:08:22.132 [pool-2-thread-4] PetStoreUtil - executing test_getPetsBasedOnFieldStatusAvailableWithsqlInjection
+[INFO ] 2022-09-12 02:08:22.132 [pool-2-thread-4] PetStoreUtil - calling URL :https://petstore.swagger.iov2/pet/findByStatus?status=available OR 1=1
+[INFO ] 2022-09-12 02:08:22.133 [pool-2-thread-4] PetStoreUtil - rest api call type :GET
+]]></system-out>
+  </testcase>
+  <testcase name="test_BulkUserCreation" classname="com.petStore.test.fuctional.CreateUserWithArrayFunctionalTest" time="0.125">
+    <failure message="Actual Response Code should be 413 as payload is too large and is client error : expected [413] but found [500]" type="java.lang.AssertionError">java.lang.AssertionError: Actual Response Code should be 413 as payload is too large and is client error : expected [413] but found [500]
+	at com.petStore.test.fuctional.CreateUserWithArrayFunctionalTest.test_BulkUserCreation(CreateUserWithArrayFunctionalTest.java:484)
+</failure>
+    <system-out><![CDATA[[INFO ] 2022-09-12 02:08:22.214 [pool-2-thread-4] PetStoreUtil - executing test_getUserForNonExistentUserName
+[INFO ] 2022-09-12 02:08:22.215 [pool-2-thread-4] PetStoreUtil - calling URL :https://petstore.swagger.io/v2/user/vivekNonExistent
+[INFO ] 2022-09-12 02:08:22.215 [pool-2-thread-4] PetStoreUtil - rest api call type :GET
+[INFO ] 2022-09-12 02:08:22.330 [pool-2-thread-9] PetStoreUtil - responseBody --->;{"code":200,"type":"unknown","message":"1234"}
+[INFO ] 2022-09-12 02:08:22.331 [pool-2-thread-9] PetStoreUtil - Assert start
+[INFO ] 2022-09-12 02:08:22.331 [pool-2-thread-9] PetStoreUtil - Assert completed
+[INFO ] 2022-09-12 02:08:22.331 [pool-2-thread-9] PetStoreUtil - calling URL :https://petstore.swagger.io/v2/user/vivekUpdated
+[INFO ] 2022-09-12 02:08:22.331 [pool-2-thread-9] PetStoreUtil - rest api call type :GET
+[ERROR] 2022-09-12 02:08:22.338 [pool-2-thread-7] PetStoreUtil - HTTP response code :500
+[INFO ] 2022-09-12 02:08:22.338 [pool-2-thread-7] PetStoreUtil - responseBody --->;{"code":200,"type":"unknown","message":"ok"}
+]]></system-out>
+  </testcase>
+  <testcase name="test_creatPetWithImproperJsonFormat" classname="com.petStore.test.nonfuctional.CreatePetNonFunctional" time="0.012">
+    <failure message="Processing should fail with Error Code 400 as Payload has as invalid comma in tag array : expected [400] but found [500]" type="java.lang.AssertionError">java.lang.AssertionError: Processing should fail with Error Code 400 as Payload has as invalid comma in tag array : expected [400] but found [500]
+	at com.petStore.test.nonfuctional.CreatePetNonFunctional.test_creatPetWithImproperJsonFormat(CreatePetNonFunctional.java:141)
+</failure>
+    <system-out><![CDATA[[INFO ] 2022-09-12 02:08:22.339 [pool-2-thread-7] PetStoreUtil - executing test_getUserForNonExistentUserNameWithSqlInjection
+[INFO ] 2022-09-12 02:08:22.339 [pool-2-thread-7] PetStoreUtil - calling URL :https://petstore.swagger.io/v2/user/vivekUpdated OR 1=1
+[INFO ] 2022-09-12 02:08:22.339 [pool-2-thread-7] PetStoreUtil - rest api call type :GET
+[ERROR] 2022-09-12 02:08:22.349 [pool-2-thread-2] PetStoreUtil - Http error code500 INTERNAL_SERVER_ERROR
+[INFO ] 2022-09-12 02:08:22.350 [pool-2-thread-2] PetStoreUtil - responseBody --->;
+[INFO ] 2022-09-12 02:08:22.350 [pool-2-thread-2] PetStoreUtil - Assert start
+]]></system-out>
+  </testcase>
+  <testcase name="test_creatPetWithNonExixtentFieldNameandValue" classname="com.petStore.test.nonfuctional.CreatePetNonFunctional" time="0.045">
+    <failure message="Processing should fail with Error Code 400 rather than success as invalid field shoudld throw schema validation error : expected [400] but found [200]" type="java.lang.AssertionError">java.lang.AssertionError: Processing should fail with Error Code 400 rather than success as invalid field shoudld throw schema validation error : expected [400] but found [200]
+	at com.petStore.test.nonfuctional.CreatePetNonFunctional.test_creatPetWithNonExixtentFieldNameandValue(CreatePetNonFunctional.java:94)
+</failure>
+    <system-out><![CDATA[[INFO ] 2022-09-12 02:08:22.351 [pool-2-thread-2] PetStoreUtil - executing test_updateNonExistencePet
+[INFO ] 2022-09-12 02:08:22.351 [pool-2-thread-2] PetStoreUtil - calling URL :https://petstore.swagger.io/v2/pet/1122334455
+[INFO ] 2022-09-12 02:08:22.351 [pool-2-thread-2] PetStoreUtil - rest api call type :DELETE
+[INFO ] 2022-09-12 02:08:22.387 [pool-2-thread-8] PetStoreUtil - responseBody --->;{"id":1,"category":{"id":21,"name":"TestCategory"},"name":"doggie","photoUrls":["www.testurl.com/image1"],"tags":[{"id":31,"name":"testTag1"}],"status":"available"}
+[INFO ] 2022-09-12 02:08:22.387 [pool-2-thread-5] PetStoreUtil - HTT resposne code :500
+[INFO ] 2022-09-12 02:08:22.387 [pool-2-thread-8] PetStoreUtil - Assert start
+[INFO ] 2022-09-12 02:08:22.387 [pool-2-thread-5] PetStoreUtil - responseBody --->;
+[INFO ] 2022-09-12 02:08:22.388 [pool-2-thread-5] PetStoreUtil - Assert start
+]]></system-out>
+  </testcase>
+  <testcase name="test_createSingleUserWithMoreThanMaxIdSuported" classname="com.petStore.test.nonfuctional.CreateUserWithArrayNonFunctinal" time="0.046">
+    <failure message="Actual Response Code should be 400 as payload has invalid Id more than Integer.Max and is client error: expected [400] but found [500]" type="java.lang.AssertionError">java.lang.AssertionError: Actual Response Code should be 400 as payload has invalid Id more than Integer.Max and is client error: expected [400] but found [500]
+	at com.petStore.test.nonfuctional.CreateUserWithArrayNonFunctinal.test_createSingleUserWithMoreThanMaxIdSuported(CreateUserWithArrayNonFunctinal.java:94)
+</failure>
+  </testcase>
+  <testcase name="test_createSingleUserWithInvalidPayloadFormat" classname="com.petStore.test.nonfuctional.CreateUserWithArrayNonFunctinal" time="0.004">
+    <failure message="Actual Response Code should be 400 with schema validation error as it has comma after array: expected [400] but found [500]" type="java.lang.AssertionError">java.lang.AssertionError: Actual Response Code should be 400 with schema validation error as it has comma after array: expected [400] but found [500]
+	at com.petStore.test.nonfuctional.CreateUserWithArrayNonFunctinal.test_createSingleUserWithInvalidPayloadFormat(CreateUserWithArrayNonFunctinal.java:137)
+</failure>
+    <system-out><![CDATA[[INFO ] 2022-09-12 02:08:22.389 [pool-2-thread-8] PetStoreUtil - executing test_updateUserWithNonExistingUserName
+[INFO ] 2022-09-12 02:08:22.389 [pool-2-thread-8] PetStoreUtil - calling URL :https://petstore.swagger.io/v2/user/VivekDoesNotExists
+[INFO ] 2022-09-12 02:08:22.389 [pool-2-thread-8] PetStoreUtil - rest api call type :PUT
+[INFO ] 2022-09-12 02:08:22.389 [pool-2-thread-8] PetStoreUtil - body :
+{
+    "id": 1234,
+    "username": "VivekDoesNotExistsUpdated",
+    "firstName": "vivekUpdated",
+    "lastName": "vivekUpdated",
+    "email": "test1@gmail.com",
+    "password": "pwd1",
+    "phone": "7564545644999",
+    "userStatus": 1234
+  }
+
+[INFO ] 2022-09-12 02:08:22.396 [pool-2-thread-10] PetStoreUtil - HTT resposne code :500
+[INFO ] 2022-09-12 02:08:22.396 [pool-2-thread-10] PetStoreUtil - responseBody --->;
+[INFO ] 2022-09-12 02:08:22.396 [pool-2-thread-10] PetStoreUtil - Assert start
+]]></system-out>
+  </testcase>
+  <testcase name="test_getUserForNonExistentUserName" classname="com.petStore.test.nonfuctional.GetUserByNameNonFucntional" time="0.091"/>
+  <testcase name="test_updateUsewithValidValues" classname="com.petStore.test.fuctional.UpdateUserFunctionalTest" time="0.181"/>
+  <testcase name="test_getUserForNonExistentUserNameWithSqlInjection" classname="com.petStore.test.nonfuctional.GetUserByNameNonFucntional" time="0.189">
+    <failure message="Processing should fail with Error Code 400 as Payload rather than processing giving 404 not found search result as we had sql injection in query paramaters : expected [400] but found [404]" type="java.lang.AssertionError">java.lang.AssertionError: Processing should fail with Error Code 400 as Payload rather than processing giving 404 not found search result as we had sql injection in query paramaters : expected [400] but found [404]
+	at com.petStore.test.nonfuctional.GetUserByNameNonFucntional.test_getUserForNonExistentUserNameWithSqlInjection(GetUserByNameNonFucntional.java:95)
+</failure>
+    <system-out><![CDATA[[INFO ] 2022-09-12 02:08:22.584 [pool-2-thread-7] PetStoreUtil - HTTP resposne code :404
+[INFO ] 2022-09-12 02:08:22.584 [pool-2-thread-7] PetStoreUtil - responseBody --->;
+[INFO ] 2022-09-12 02:08:22.584 [pool-2-thread-7] PetStoreUtil - Assert start
+]]></system-out>
+  </testcase>
+  <testcase name="test_updateUserWithinvalidEmailPattern" classname="com.petStore.test.fuctional.UpdateUserFunctionalTest" time="0.196">
+    <failure message="Actual Response Code should be 400 as payload has invaldemail Pattern and is client error: expected [400] but found [200]" type="java.lang.AssertionError">java.lang.AssertionError: Actual Response Code should be 400 as payload has invaldemail Pattern and is client error: expected [400] but found [200]
+	at com.petStore.test.fuctional.UpdateUserFunctionalTest.test_updateUserWithinvalidEmailPattern(UpdateUserFunctionalTest.java:214)
+</failure>
+    <system-out><![CDATA[[INFO ] 2022-09-12 02:08:22.591 [pool-2-thread-6] PetStoreUtil - responseBody --->;{"code":200,"type":"unknown","message":"1234"}
+[INFO ] 2022-09-12 02:08:22.591 [pool-2-thread-6] PetStoreUtil - Assert start
+]]></system-out>
+  </testcase>
+  <testcase name="test_getPetsBasedOnFieldStatusSold" classname="com.petStore.test.fuctional.GetPetBasedOnStatusFuctionalTest" time="0.214"/>
+  <testcase name="test_updateUserWithNonExistingUserName" classname="com.petStore.test.nonfuctional.UpdateUserNonFunctional" time="0.275">
+    <failure message="Processing should fail with 404 instead of success as we are trying to update nonexistent object  : expected [404] but found [200]" type="java.lang.AssertionError">java.lang.AssertionError: Processing should fail with 404 instead of success as we are trying to update nonexistent object  : expected [404] but found [200]
+	at com.petStore.test.nonfuctional.UpdateUserNonFunctional.test_updateUserWithNonExistingUserName(UpdateUserNonFunctional.java:82)
+</failure>
+    <system-out><![CDATA[[INFO ] 2022-09-12 02:08:22.670 [pool-2-thread-8] PetStoreUtil - responseBody --->;{"code":200,"type":"unknown","message":"1234"}
+[INFO ] 2022-09-12 02:08:22.670 [pool-2-thread-8] PetStoreUtil - Assert start
+]]></system-out>
+  </testcase>
+  <testcase name="test_getPetsBasedOnFieldStatusAvailable" classname="com.petStore.test.fuctional.GetPetBasedOnStatusFuctionalTest" time="0.298"/>
+  <testcase name="test_updateNonExistencePet" classname="com.petStore.test.nonfuctional.UpdatePetStatusNonFunctional" time="0.451">
+    <failure message="Processing should fail with Error Code 404 as Payload has an non existent object : expected [404] but found [200]" type="java.lang.AssertionError">java.lang.AssertionError: Processing should fail with Error Code 404 as Payload has an non existent object : expected [404] but found [200]
+	at com.petStore.test.nonfuctional.UpdatePetStatusNonFunctional.test_updateNonExistencePet(UpdatePetStatusNonFunctional.java:107)
+</failure>
+    <system-out><![CDATA[[INFO ] 2022-09-12 02:08:22.845 [pool-2-thread-2] PetStoreUtil - responseBody --->;{"id":1122334455,"category":{"id":21,"name":"testCategoryUpdated"},"name":"NonExistingPet","photoUrls":["ww.test.com/naupdated"],"tags":[{"id":31,"name":"testTags1Updated"}],"status":"available"}
+[INFO ] 2022-09-12 02:08:22.845 [pool-2-thread-2] PetStoreUtil - Assert start
+]]></system-out>
+  </testcase>
+</testsuite>
