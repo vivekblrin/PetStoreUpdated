@@ -1,7 +1,11 @@
 The project uses test NG and rest template to test some of endpoint as per below swaggerurl  and generate  test covreage output as html reports
+
 ===========================================================================
+
 swagger api to test :- https://petstore.swagger.io/
+
 ============================================================================
+
 Install Java 1.8.0_331
 Intall apache-maven-3.8.6
 install Git and Git bash
@@ -20,7 +24,9 @@ will generate test-output/emailable-report.html
 and test-output/index.html
 
 or 
+
 ============================================================================
+
 Generate Report via command line
 got to the project  root folder example:- D:\mindtickleIntvWS\PetStoreUpdated\
 via command line run
@@ -29,7 +35,9 @@ will generate
 
 test-output/emailable-report.html
 test-output/index.html
+
 ============================================================================ 
+
 Generate Report via scripts
 alternatively we can run
  
