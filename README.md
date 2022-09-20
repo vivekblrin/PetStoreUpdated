@@ -1,4 +1,4 @@
-swagger api :- https://petstore.swagger.io/
+swagger api to test :- https://petstore.swagger.io/
 ============================================================================
 Install Java 1.8.0_331
 Intall apache-maven-3.8.6
