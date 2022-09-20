@@ -1,3 +1,5 @@
+The project uses test NG and rest template to test some of endpoint as per below swaggerurl  and generate  test covreage output as html reports
+===========================================================================
 swagger api to test :- https://petstore.swagger.io/
 ============================================================================
 Install Java 1.8.0_331
