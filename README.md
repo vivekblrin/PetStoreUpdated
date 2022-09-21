@@ -17,6 +17,7 @@ install Git an Git bash
 
 
 ============================================================================
+
 Generate Report via eclipse IDE
 import the project as maven project to Eclipse IDE and TestNG plugin to eclipse IDE.
 in Elipse Package Explorer view run the src/test/java as TestNg which
