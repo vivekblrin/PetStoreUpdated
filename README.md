@@ -1,4 +1,4 @@
-The project uses test NG and rest template to test some of endpoint as per below swaggerurl  and generate  test covreage output as html reports
+The project uses test NG and rest template to test some of endpoint in swagger api  and generate  test coverage output as html reports
 
 ===========================================================================
 
