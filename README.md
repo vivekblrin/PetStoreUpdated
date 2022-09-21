@@ -29,7 +29,7 @@ or
 ============================================================================
 
 Generate Report via command line
-got to the project  root folder example:- D:\mindtickleIntvWS\PetStoreUpdated\
+got to the project  root folder example:- D:\PetStoreUpdated\
 via command line run
 mvn clean install 
 will generate 
