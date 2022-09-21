@@ -35,6 +35,7 @@ mvn clean install
 will generate 
 
 test-output/emailable-report.html
+
 test-output/index.html
 
 ============================================================================ 
